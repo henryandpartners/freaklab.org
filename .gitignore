@@ -2,7 +2,16 @@
 node_modules/
 *.log
 
-# Exclude all images by default (too large for git)
+# Exclude all WordPress assets
+themes/
+plugins/
+wp-content/
+wp-includes/
+wp-admin/
+wp-json/
+freaklab.org/
+
+# Exclude all images (too large for git)
 images/
-# But include these specific ones that are critical
-!images/logo.png
+# But keep just the logo
+!images/cropped-FL-logo-w-2.png
