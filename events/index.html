@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events — FREAK Lab</title>
+<meta name="description" content="Events, workshops, and activities at FREAK Lab">
+<link rel="icon" type="image/png" href="/images/logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">
+      <img src="/images/logo.png" alt="FREAK Lab" height="40">
+      <span>FREAK Lab</span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/research/" >Research</a>
+      <a href="/projects/" >Projects</a>
+      <a href="/people/" >People</a>
+      <a href="/events/" class="active">Events</a>
+      <a href="/updates/" >Updates</a>
+      <a href="/join-us/" >Join Us</a>
+    </div>
+  </div>
+</nav>
+
+<section class="page-header">
+  <div class="container">
+    <h1>Events</h1>
+    <p>Events, workshops, and activities at FREAK Lab</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="events-timeline">
+      <div class="event-item">
+        <div class="event-date"><span>2024</span></div>
+        <div class="event-info"><h3>Preliminary Workshop Bio+Art+History</h3><span class="event-groups">Learning Futures · Special Project</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2024</span></div>
+        <div class="event-info"><h3>Mini-Symposium on Space Exploration, Biotechnology, Asian Culture</h3><span class="event-groups">Biodigital · Cat Space</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2023</span></div>
+        <div class="event-info"><h3>Hyperloop technical discussion first time in Thailand</h3><span class="event-groups">Special Project</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2022</span></div>
+        <div class="event-info"><h3>Freak to the Futures Exhibition at FREAK Lab HQ</h3><span class="event-groups">All Groups</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2021</span></div>
+        <div class="event-info"><h3>Hyperloop lecture at KMUTT by Dr.Andrea Santangelo</h3><span class="event-groups">Special Project</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2021</span></div>
+        <div class="event-info"><h3>Food Fiction Futures Fabrication (Casual Workshop)</h3><span class="event-groups">Fab Taste</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2018</span></div>
+        <div class="event-info"><h3>MRS 2018 Wearables in Smart Fabrics Fashion Show</h3><span class="event-groups">Functional Aesthetics</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2018</span></div>
+        <div class="event-info"><h3>Uncertainty Fashion Show 2018</h3><span class="event-groups">Functional Aesthetics</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2018</span></div>
+        <div class="event-info"><h3>ImmerSea: Subversive Submersibles — AR Exhibition</h3><span class="event-groups">Biodigital</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2018</span></div>
+        <div class="event-info"><h3>The Futures of Bio-Fabrication: Aesthetics, Beings, and Factories</h3><span class="event-groups">Functional Aesthetics</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2017</span></div>
+        <div class="event-info"><h3>IEEE TALE 2017 — Education and Technology</h3><span class="event-groups">Learning Futures</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2017</span></div>
+        <div class="event-info"><h3>Machine Learning on EEG Data Workshop</h3><span class="event-groups">Neuro Media</span></div>
+      </div>
+      <div class="event-item">
+        <div class="event-date"><span>2017</span></div>
+        <div class="event-info"><h3>ADM Symposium 2017: Innovation, Biodesign, Culture, and Technology</h3><span class="event-groups">All Groups</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+.page-header {{ padding: 140px 0 60px; background: var(--gray-900); color: var(--white); text-align: center; }}
+.page-header h1 {{ font-family: var(--font-display); font-weight: 700; font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 12px; }}
+.page-header p {{ color: var(--gray-400); font-size: 1.1rem; max-width: 600px; margin: 0 auto; }}
+.events-timeline {{ max-width: 700px; margin: 0 auto; }}
+.event-item {{ display: flex; gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--gray-200); }}
+.event-date {{ min-width: 80px; }}
+.event-date span {{ display: inline-block; padding: 4px 12px; border-radius: 100px; background: var(--accent); color: var(--white); font-size: 0.8rem; font-weight: 600; }}
+.event-info h3 {{ font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; margin-bottom: 4px; }}
+.event-groups {{ font-size: 0.8rem; color: var(--gray-500); }}
+@media (max-width: 768px) {{ .event-item {{ flex-direction: column; gap: 8px; }} }}
+</style>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="/images/logo.png" alt="FREAK Lab" height="32">
+        <p>Futuristic Research in Enigmatic + Aesthetic Knowledges</p>
+        <p class="footer-contact">✉ <a href="mailto:FuturisticResearch@gmail.com">FuturisticResearch@gmail.com</a></p>
+      </div>
+      <div class="footer-links">
+        <h4>Research</h4>
+        <a href="/research/biodigital/">Biodigital</a>
+        <a href="/research/fab-taste/">Fab Taste</a>
+        <a href="/research/neuro-media/">Neuro Media</a>
+        <a href="/research/cat-space/">C.A.T Space</a>
+        <a href="/research/experimental-society/">Experimental Society</a>
+        <a href="/research/functional-aesthetics/">Functional + Aesthetics</a>
+        <a href="/research/learningfutures/">Learning Futures</a>
+      </div>
+      <div class="footer-links">
+        <h4>Site</h4>
+        <a href="/projects/">Projects</a>
+        <a href="/people/">People</a>
+        <a href="/events/">Events</a>
+        <a href="/updates/">Updates</a>
+        <a href="/join-us/">Join Us</a>
+        <a href="/publications/">Publications</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 FREAK Lab — Futuristic Research in Enigmatic + Aesthetic Knowledges. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+<script>
+document.querySelector('.nav-toggle')?.addEventListener('click', function() { document.querySelector('.nav-links').classList.toggle('open'); });
+</script>
+</body>
+</html>
