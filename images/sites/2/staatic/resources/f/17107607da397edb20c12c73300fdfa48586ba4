@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Astrobiotechnology</title>
+	<atom:link href="https://astrobio.freaklab.org/feed/" rel="self" type="application/rss+xml" />
+	<link>https://astrobio.freaklab.org</link>
+	<description>BIT 667 : Biotechnology for Space Exploration</description>
+	<lastBuildDate>Mon, 16 Dec 2019 19:59:37 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.3.1</generator>
+	<item>
+		<title>Symposium</title>
+		<link>https://astrobio.freaklab.org/symposium/</link>
+					<comments>https://astrobio.freaklab.org/symposium/#respond</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Wed, 27 Nov 2019 07:56:01 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=334</guid>
+
+					<description><![CDATA[Mini-Symposium on Space Exploration, Biotechnology, and Asian Cultures 16th December, 2019 13:00 – 17:00 Future Tales Lab &#8211; 8th Floor of 101 True Digital Park Earth’s natural resources and environments are being deteriorated at unprecedented rates. One of the most viable option of solving this major problem is for humans to become a space faring [&#8230;]]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="334" class="elementor elementor-334">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-afe226d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="afe226d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c9553d4" data-id="c9553d4" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fa07813 elementor-widget elementor-widget-image" data-id="fa07813" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" fetchpriority="high" width="1920" height="1080" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/graphic-banner.jpg" class="attachment-full size-full wp-image-356" alt="" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/graphic-banner.jpg 1920w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/graphic-banner-300x169.jpg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/graphic-banner-768x432.jpg 768w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/graphic-banner-1024x576.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" />															</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-65387e3 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="65387e3" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-23114c5" data-id="23114c5" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d4123d8 elementor-widget elementor-widget-heading" data-id="d4123d8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Mini-Symposium on Space Exploration, Biotechnology, and Asian Cultures</h1>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-80de8ee elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="80de8ee" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d53d757" data-id="d53d757" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-e2b8c69 elementor-view-default elementor-widget elementor-widget-icon" data-id="e2b8c69" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-calendar-alt"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-783496a elementor-widget elementor-widget-text-editor" data-id="783496a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<center><h4>16th December, 2019</h4>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-b5494bf" data-id="b5494bf" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-78c5e51 elementor-view-default elementor-widget elementor-widget-icon" data-id="78c5e51" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-clock"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d34179d elementor-widget elementor-widget-text-editor" data-id="d34179d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<center><h4>13:00 – 17:00</h4>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-fcd4a2a" data-id="fcd4a2a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2fa5302 elementor-view-default elementor-widget elementor-widget-icon" data-id="2fa5302" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="fas fa-map-marker-alt"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-f8d49cd elementor-widget elementor-widget-text-editor" data-id="f8d49cd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<h4>Future Tales Lab &#8211; 8th Floor of 101 True Digital Park</h4>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-e582d4f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e582d4f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-207067f" data-id="207067f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-10f37fb elementor-widget elementor-widget-text-editor" data-id="10f37fb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p>Earth’s natural resources and environments are being deteriorated at unprecedented rates. One of the most viable option of solving this major problem is for humans to become a space faring civilization. However, Humans have their physiology developed to live on Earth; lack of gravity in space can affect said physiology and human mental health. Biotechnology including food, medicine, energy, and more are playing significant role in space colonization. This mini-symposium bring together leading interdisciplinary researchers in the area to discuss and present their research on space exploration, biotechnology, and asian cultures.</p>						</div>
+				</div>
+				<div class="elementor-element elementor-element-c1ce742 elementor-widget elementor-widget-heading" data-id="c1ce742" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Livestream from the Symposium</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-83aec5b elementor-widget elementor-widget-html" data-id="83aec5b" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fspaceth%2Fvideos%2F766933837116208%2F&show_text=1&width=560" width="560" height="533" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>		</div>
+				</div>
+				<div class="elementor-element elementor-element-375ecdb elementor-widget elementor-widget-heading" data-id="375ecdb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h4 class="elementor-heading-title elementor-size-default">Deadline for Registration - 13th December 2019</h4>		</div>
+				</div>
+				<div class="elementor-element elementor-element-44ba53e elementor-align-center elementor-widget elementor-widget-button" data-id="44ba53e" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-xl" href="https://forms.gle/g2qsicyAp9tfyrcw9">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">Registration</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-001d197 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="001d197" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f19033" data-id="5f19033" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a571f1f elementor-widget elementor-widget-heading" data-id="a571f1f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">Program</h1>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-a76827a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a76827a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d61a3d6" data-id="d61a3d6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-71bbd60 elementor-widget elementor-widget-text-editor" data-id="71bbd60" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p> </p><table><tbody><tr><td width="104"><h6><strong>Time</strong></h6></td><td width="497"><h6><strong>Presentation</strong></h6></td></tr><tr><td width="104"><h6>13:00 – 13:10</h6></td><td width="497"><h6><strong>Opening Remarks</strong> <br /><em>Dr. Karndee Leopairote, Chief Advisor, Future Tales Lab, Magnolia Quality Development Corporation Limited</em></h6></td></tr><tr><td width="104"><h6>13:10 – 13:20</h6></td><td width="497"><h6><strong>Opening Remarks</strong> <br /><em>Assoc. Prof. Werasak Surareungchai, Freak Lab’s Director, BIT667 Astrobiotechnology course coordinator, School of Bioresources and Technology, KMUTT</em></h6></td></tr><tr><td width="104"><h6>13:20 – 13:45</h6></td><td width="497"><h6><strong>Keynote 1:</strong> Wearable Biotech for Space Exploration <br /><em>Pat Pataranutaporn, Media Lab, MIT</em></h6></td></tr><tr><td width="104"><h6>13:45 – 14:00</h6></td><td width="497"><h6><strong>Student Presentation 1:</strong> Investigating Ant Species to Support Creating Robot Prototype for Building a Habitat Architecture in Mars</h6><h6><em>Bayu Hadi Permana, Muhammad Faiz</em></h6></td></tr><tr><td width="104"><h6>14:00 – 14:15</h6></td><td width="497"><h6><strong>Student Presentation 2:</strong> Medical Treatment Against Radiation Using Crystal Clear Protein Produced in Humans Body Called MnSOD (Manganese Superoxide Dismutase)</h6><h6><em>Jasmine Ainayassyifa, Sagita Cahyani Mawaddah</em></h6></td></tr><tr><td width="104"><h6>14:15 – 14:40</h6></td><td width="497"><h6><strong>Keynote 2:</strong> Space Food – Space Nham<br /><em>Suwimol Surareungchai, Solopreneur of System Development Consultant Co., Ltd. Lead Instructor of FSPCA Preventive Controls for Human Food and Animal Food BRC GS Approved Trainer for Food, Packaging Materials and Storage and Distribution</em></h6></td></tr><tr><td width="104"><h6>14:40 – 14:50</h6></td><td width="497"><h6>Break</h6></td></tr><tr><td width="104"><h6>14:50 – 15:05</h6></td><td width="497"><h6><strong>Student Presentation 3: </strong>Cultivation of Cyanobacteria and Green Algae in Mars Water for Chlorate Reduction and Hydrogen Production<br /><em>Natrawee Khetwunchai, Siraphatsorn Anusaraporn</em></h6><h6><em> </em></h6></td></tr><tr><td width="104"><h6>15:05 – 15:20</h6></td><td width="497"><h6><strong>Student Presentation 4:</strong> Building House on Mars by Bio-Polyethylene (Bio-PE) from Sugar Cane<br /><em>Apinya Hongsup</em></h6></td></tr><tr><td width="104"><h6>15:20 – 15:45</h6></td><td width="497"><h6><strong>Keynote 3: </strong>Space Exploration Learning Toolkit for Middle-School Student: A JSTP Camp <br /><em>Dr. Sukrit Sucharitakul, Department of Physics and Materials Science, Faculty of Science, Chiang Mai University</em></h6></td></tr><tr><td width="104"><h6>15:45 – 16:00</h6></td><td width="497"><h6><strong>Student Presentation 5:</strong> Bionano Laced Spacesuits: Green Synthesized AgNPs in Space Suit<br /><em>Zubaida Daudzai</em></h6></td></tr><tr><td width="104"><h6>16:00 – 16:25</h6></td><td width="497"><h6><strong>Keynote 4:</strong> Economic of Space Moon, Mars, Beyond<br /><em>Khun Nattanon Dungsunenarn, Co-founder, Editor-in-Chief, SPACETH.CO</em></h6></td></tr><tr><td width="104"><h6>16:25 – 16:50</h6></td><td width="497"><h6><strong>Closing Remarks:</strong> From Class to Cash <br /><em>Dr. Wares Chancharoen, Co-founder, Space Zab</em></h6></td></tr></tbody></table>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/symposium/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Class 11 &#8211;  Commercializing Space Biotechnology</title>
+		<link>https://astrobio.freaklab.org/class-11/</link>
+					<comments>https://astrobio.freaklab.org/class-11/#respond</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Mon, 11 Nov 2019 00:56:24 +0000</pubDate>
+				<category><![CDATA[ClassMaterials]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=321</guid>
+
+					<description><![CDATA[Class Outlines HW review Presentation on &#8220;Space Commercialization&#8221; by Wares Chancharoen : https://drive.google.com/file/d/1VfjQIUcCn-DophkykfXqbfNrgS_S1tlO/view?fbclid=IwAR221rUa7eo81x24lwGU1t7NksneMzsu2DIHqAT3kU_3tXDmEbtYKMbQY0U Special Talk on &#8220;Space Medicine Market&#8221; by Anthony Yuen Homeworks No HW – Please focus on your final project&#160;🙂]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image is-resized"><img decoding="async" src="http://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/spacex.jpg" alt="" class="wp-image-322" width="1024" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/spacex.jpg 800w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/spacex-300x169.jpg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/spacex-768x432.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>HW review</li><li>Presentation on &#8220;Space Commercialization&#8221; by Wares Chancharoen : <a href="https://drive.google.com/file/d/1VfjQIUcCn-DophkykfXqbfNrgS_S1tlO/view?fbclid=IwAR221rUa7eo81x24lwGU1t7NksneMzsu2DIHqAT3kU_3tXDmEbtYKMbQY0U">https://drive.google.com/file/d/1VfjQIUcCn-DophkykfXqbfNrgS_S1tlO/view?fbclid=IwAR221rUa7eo81x24lwGU1t7NksneMzsu2DIHqAT3kU_3tXDmEbtYKMbQY0U</a></li><li>Special Talk on &#8220;Space Medicine Market&#8221; by Anthony Yuen</li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<p>No HW – Please focus on your final project&nbsp;<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/class-11/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Class 10 &#8211;  Terraforming planet with Biotechnology</title>
+		<link>https://astrobio.freaklab.org/class-10/</link>
+					<comments>https://astrobio.freaklab.org/class-10/#respond</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Mon, 11 Nov 2019 00:49:09 +0000</pubDate>
+				<category><![CDATA[ClassMaterials]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=315</guid>
+
+					<description><![CDATA[Class Outlines Learning about Mars Terraforming through card game Homeworks No HW – Please focus on your final project 🙂]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img decoding="async" width="720" height="960" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/74156064_2510155759063131_1474149057931771904_n.jpg" alt="" class="wp-image-317" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/74156064_2510155759063131_1474149057931771904_n.jpg 720w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/74156064_2510155759063131_1474149057931771904_n-225x300.jpg 225w" sizes="(max-width: 720px) 100vw, 720px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>Learning about Mars Terraforming through card game</li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<p>No HW – Please focus on your final project <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/class-10/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Class 9 &#8211;  Designing Experiments in Space</title>
+		<link>https://astrobio.freaklab.org/class-9/</link>
+					<comments>https://astrobio.freaklab.org/class-9/#comments</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Mon, 11 Nov 2019 00:38:33 +0000</pubDate>
+				<category><![CDATA[ClassMaterials]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=307</guid>
+
+					<description><![CDATA[Class Outlines Presentation on &#8220;Designing Experiment in Space&#8221; by Dr. Wares Chancharoen : https://drive.google.com/file/d/16yDEGlqjKN_qz3rF5b2M2a3t8K26lWTE/view?fbclid=IwAR1-HY50c4469wiqd_hfpG-exMItQ7yncjY1i-1kheynN2zYAvel1bB8K4Y Homeworks Design how to make Krathong and do Loi Krathong in ISS : • Design your own experiment to investigate this project. • Krathong has to be an environmental friendly design Answer the following questions : What kinds of experiment are [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image is-resized"><img decoding="async" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/ISS.jpg" alt="" class="wp-image-309" width="1024" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/ISS.jpg 640w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/ISS-300x202.jpg 300w" sizes="(max-width: 640px) 100vw, 640px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>Presentation on &#8220;Designing Experiment in Space&#8221; by Dr. Wares Chancharoen : <a href="https://drive.google.com/file/d/16yDEGlqjKN_qz3rF5b2M2a3t8K26lWTE/view?fbclid=IwAR1-HY50c4469wiqd_hfpG-exMItQ7yncjY1i-1kheynN2zYAvel1bB8K4Y">https://drive.google.com/file/d/16yDEGlqjKN_qz3rF5b2M2a3t8K26lWTE/view?fbclid=IwAR1-HY50c4469wiqd_hfpG-exMItQ7yncjY1i-1kheynN2zYAvel1bB8K4Y</a></li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<figure class="wp-block-image"><img decoding="async" loading="lazy" width="1024" height="320" src="http://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/krathong-1024x320.jpg" alt="" class="wp-image-308" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/krathong-1024x320.jpg 1024w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/krathong-300x94.jpg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/krathong-768x240.jpg 768w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/krathong.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p style="text-align:left">Design how to make Krathong and do Loi Krathong in ISS :<br> • Design your own experiment to investigate this project.<br> • Krathong has to be an environmental friendly design</p>
+
+
+
+<p><strong>Answer the following questions :</strong></p>
+
+
+
+<ol><li>What kinds of experiment are necessary to investigate the process of  Loi Krathong  in space?</li><li>What is your plan for experimental design?</li></ol>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/class-9/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Class 8 &#8211;  Workshop on Futuristic Storytelling</title>
+		<link>https://astrobio.freaklab.org/class-8/</link>
+					<comments>https://astrobio.freaklab.org/class-8/#respond</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Sun, 03 Nov 2019 03:34:36 +0000</pubDate>
+				<category><![CDATA[ClassMaterials]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=289</guid>
+
+					<description><![CDATA[Class Outlines Progress Report #2https://docs.google.com/presentation/d/1FxJ3z18PXsBwv1ejcncik-6qJggz1lpjyIe0rxjpNjM/edit?usp=sharing Workshop on Futuristic Presentation (Pat &#38; Werasak) https://drive.google.com/open?id=1nc4HxVJtiOXPHE5Lkws2ViHDLpSaVPv5 Homeworks No HW &#8211; Please focus on your final project 🙂]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image is-resized"><img decoding="async" loading="lazy" src="http://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/11/space-pictures-first-days-exploration-feelings-4.jpg" alt="" class="wp-image-292" width="800" height="384"/></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>Progress Report #2<br><a href="https://docs.google.com/presentation/d/1FxJ3z18PXsBwv1ejcncik-6qJggz1lpjyIe0rxjpNjM/edit?usp=sharing">https://docs.google.com/presentation/d/1FxJ3z18PXsBwv1ejcncik-6qJggz1lpjyIe0rxjpNjM/edit?usp=sharing</a></li><li>Workshop on Futuristic Presentation (Pat &amp; Werasak) <a href="https://drive.google.com/open?id=1nc4HxVJtiOXPHE5Lkws2ViHDLpSaVPv5">https://drive.google.com/open?id=1nc4HxVJtiOXPHE5Lkws2ViHDLpSaVPv5</a></li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<p>No HW &#8211; Please focus on your final project <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/class-8/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Class 7 &#8211;  Medicine and Healthcare in Space</title>
+		<link>https://astrobio.freaklab.org/class-7/</link>
+					<comments>https://astrobio.freaklab.org/class-7/#comments</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Mon, 30 Sep 2019 06:30:31 +0000</pubDate>
+				<category><![CDATA[ClassMaterials]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=277</guid>
+
+					<description><![CDATA[Class Outlines Homework Review Presentation on Medicine and Healthcare in Space by Dr. Paskorn Lecture Materials Medicine and Healthcare in Space https://drive.google.com/open?id=1Di7nvd5Yyr32HBrzZG_rbunKYEp99bzj Homeworks You are assigned to be the leader of “Aqua” mission on a Mars-liked planet. Following the aquaculture system and greenhouse you designed during the past 2 weeks, your task this time is [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img decoding="async" loading="lazy" width="800" height="533" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg" alt="" class="wp-image-279" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg 800w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized-300x200.jpg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>Homework Review</li><li>Presentation on Medicine and Healthcare in Space by Dr. Paskorn</li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Lecture Materials</strong></h2>
+
+
+
+<ul><li>Medicine and Healthcare in Space <a href="https://drive.google.com/open?id=1Di7nvd5Yyr32HBrzZG_rbunKYEp99bzj">https://drive.google.com/open?id=1Di7nvd5Yyr32HBrzZG_rbunKYEp99bzj</a></li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<p>You are assigned to be the leader
+of “Aqua” mission on a Mars-liked planet. Following the aquaculture system and
+greenhouse you designed during the past 2 weeks, your task this time is to
+design the one-stop service area that can support your crews’ health during
+your mission.</p>
+
+
+
+<p>Extra question: How cat can help astronauts in space? (Optional assignment)</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" loading="lazy" width="500" height="450" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/giphy.gif" alt="" class="wp-image-278"/></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/class-7/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Class 6 &#8211;  Space Food &#038; Space Agriculture</title>
+		<link>https://astrobio.freaklab.org/class-6/</link>
+					<comments>https://astrobio.freaklab.org/class-6/#comments</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Mon, 23 Sep 2019 02:31:29 +0000</pubDate>
+				<category><![CDATA[ClassMaterials]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=240</guid>
+
+					<description><![CDATA[Class Outlines Homework Review Presentation on Space Food and Agriculture by Dr. Chairat Lecture Materials Space Food and Agriculture https://drive.google.com/open?id=1fsg-bFDGTyUkPJEcAqRpQMYMFZKuxgqM Homeworks Design a greenhouse to grow plants on ISS, Moon, or Mars Identify the application of carbon and/or nutrient balance to maintain ISS, Moon or Mars greenhouse]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img decoding="async" loading="lazy" width="1024" height="724" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/jay-wong-space-farm-on-moon-accomplished-1024x724.jpg" alt="" class="wp-image-242" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/jay-wong-space-farm-on-moon-accomplished-1024x724.jpg 1024w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/jay-wong-space-farm-on-moon-accomplished-300x212.jpg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/jay-wong-space-farm-on-moon-accomplished-768x543.jpg 768w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/jay-wong-space-farm-on-moon-accomplished.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>Homework Review</li><li>Presentation on Space Food and Agriculture by Dr. Chairat</li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Lecture Materials</strong></h2>
+
+
+
+<ul><li>Space Food and Agriculture <a href="https://drive.google.com/open?id=1fsg-bFDGTyUkPJEcAqRpQMYMFZKuxgqM">https://drive.google.com/open?id=1fsg-bFDGTyUkPJEcAqRpQMYMFZKuxgqM</a></li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<ul><li>Design a greenhouse to grow plants on ISS, Moon, or Mars </li><li>Identify the application of carbon and/or nutrient balance to maintain ISS, Moon or Mars greenhouse </li></ul>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/class-6/feed/</wfw:commentRss>
+			<slash:comments>8</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Class 5 &#8211;  Technology for Supporting Life in Space</title>
+		<link>https://astrobio.freaklab.org/class-5/</link>
+					<comments>https://astrobio.freaklab.org/class-5/#comments</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Mon, 16 Sep 2019 02:21:32 +0000</pubDate>
+				<category><![CDATA[ClassMaterials]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=235</guid>
+
+					<description><![CDATA[Class Outlines Progress Report #1&#160;https://docs.google.com/presentation/d/1T-VptTieCN9qhvK-9ILpRhhOJlEiT6Qd719e35v1AKM/edit?usp=sharing Presentation by Dr. Tatpong https://drive.google.com/open?id=1saN3XljR0lpDR9SCBMO4hvg_Rc-L7aDJ Lecture Materials Technology for Supporting Life in Space by Tatpong Tulyananda, Ph.D. https://drive.google.com/open?id=1saN3XljR0lpDR9SCBMO4hvg_Rc-L7aDJ Homeworks You are a scientist in a brand-new branch of European Space Agency (ESA) called “Aqua”. Their mission is to design a sustained life-supporting system for aquaculture applications. Your task is to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img decoding="async" loading="lazy" width="1024" height="683" src="http://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/ISS-ROSCOSMOS-1-1024x683.jpg" alt="" class="wp-image-237" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/ISS-ROSCOSMOS-1.jpg 1024w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/ISS-ROSCOSMOS-1-300x200.jpg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/ISS-ROSCOSMOS-1-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>Progress Report #1&nbsp;<br><a href="https://docs.google.com/presentation/d/1T-VptTieCN9qhvK-9ILpRhhOJlEiT6Qd719e35v1AKM/edit?usp=sharing">https://docs.google.com/presentation/d/1T-VptTieCN9qhvK-9ILpRhhOJlEiT6Qd719e35v1AKM/edit?usp=sharing</a></li><li>Presentation by Dr. Tatpong</li><li><a href="https://drive.google.com/open?id=1saN3XljR0lpDR9SCBMO4hvg_Rc-L7aDJ">https://drive.google.com/open?id=1saN3XljR0lpDR9SCBMO4hvg_Rc-L7aDJ</a></li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Lecture Materials</strong></h2>
+
+
+
+<ul><li>Technology for Supporting Life in Space by Tatpong Tulyananda, Ph.D. <a href="https://drive.google.com/open?id=1saN3XljR0lpDR9SCBMO4hvg_Rc-L7aDJ">https://drive.google.com/open?id=1saN3XljR0lpDR9SCBMO4hvg_Rc-L7aDJ</a></li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<p>You are a scientist in a brand-new branch of European Space Agency (ESA) called “Aqua”. Their mission is to design a sustained life-supporting system for aquaculture applications. Your task is to propose a prototype of a system for any kind of aquaculture you are interested in, with some specific requirements.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/class-5/feed/</wfw:commentRss>
+			<slash:comments>7</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Class 4 &#8211; Workshop on Rapid Prototyping for the Space Futures</title>
+		<link>https://astrobio.freaklab.org/class-4/</link>
+					<comments>https://astrobio.freaklab.org/class-4/#comments</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Mon, 09 Sep 2019 17:41:44 +0000</pubDate>
+				<category><![CDATA[ClassMaterials]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=214</guid>
+
+					<description><![CDATA[Class Outlines Homework Review 1 (Peerapong) Homework Review 2 (Puey) Workshop on 3D printing and Rapid Prototyping (Nitipon) Lecture Materials Introduction to Rapid Prototyping for Space Exploration (Pat) https://drive.google.com/open?id=1jBGBO_EA9RN5XmrTQo0QO33bd3ZfyTG8 Workshop on Rapid Prototyping for the Space Futures (Nitipon) https://drive.google.com/open?id=1skvlTM_GdQxtCnrFDEcW5IT8s3JtxszD Homeworks Imagine that if you are in space. What’s kind of an object/model/thing or etc. (related [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img decoding="async" loading="lazy" width="1000" height="653" src="http://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/3d-printing.jpg" alt="" class="wp-image-217" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/3d-printing.jpg 1000w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/3d-printing-300x196.jpg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/3d-printing-768x502.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>Homework Review 1 (Peerapong)</li><li>Homework Review 2 (Puey)</li><li>Workshop on 3D printing and Rapid Prototyping (Nitipon)</li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Lecture Materials</strong></h2>
+
+
+
+<ul><li>Introduction to Rapid Prototyping for Space Exploration (Pat) <a href="https://drive.google.com/open?id=1jBGBO_EA9RN5XmrTQo0QO33bd3ZfyTG8">https://drive.google.com/open?id=1jBGBO_EA9RN5XmrTQo0QO33bd3ZfyTG8</a></li><li>Workshop on Rapid Prototyping for the Space Futures (Nitipon) <a href="https://drive.google.com/open?id=1skvlTM_GdQxtCnrFDEcW5IT8s3JtxszD">https://drive.google.com/open?id=1skvlTM_GdQxtCnrFDEcW5IT8s3JtxszD</a></li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<p>Imagine that if you are in space. What’s kind of an object/model/thing or etc. (related to this course) that you would like to print from 3D printer?Please make a drawing for 3D printing within an area of 50 mm x 50 mm with 10 mm tall, print it using the facility of the FREAK Lab (optional, but it is very fun!!!), and post the picture on this website.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/class-4/feed/</wfw:commentRss>
+			<slash:comments>11</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Class 3 &#8211; Biomimicry, Biodesign, Bio-digital</title>
+		<link>https://astrobio.freaklab.org/class-3/</link>
+					<comments>https://astrobio.freaklab.org/class-3/#comments</comments>
+		
+		<dc:creator><![CDATA[Pat Pataranutaporn]]></dc:creator>
+		<pubDate>Sun, 01 Sep 2019 01:51:17 +0000</pubDate>
+				<category><![CDATA[ClassMaterials]]></category>
+		<guid isPermaLink="false">http://astrobio.freaklab.org/?p=192</guid>
+
+					<description><![CDATA[Class Outlines Homework Review (Paskorn &#8211; move to the next class) Presentation on Biomimicry, Biodesign, Bio-digital (Puey) Lecture Materials Presentation by Dr. Puey Ounjai : https://drive.google.com/open?id=1mNyua7rIdAfC21KnKhoavzW2nVg9Sdq0 Related Resources Hack Biodesign: An Integrative STEAM Education Platform for Biology, Engineering, and Design https://ieeexplore.ieee.org/abstract/document/8615404 Humans are still evolving—and we can watch it happen https://www.sciencemag.org/news/2016/05/humans-are-still-evolving-and-we-can-watch-it-happen Biomimicry Institue https://biomimicry.org/ Production [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image"><img decoding="async" loading="lazy" width="1024" height="974" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/Screen-Shot-2019-09-01-at-10.38.24-PM-1024x974.png" alt="" class="wp-image-205" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/Screen-Shot-2019-09-01-at-10.38.24-PM-1024x974.png 1024w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/Screen-Shot-2019-09-01-at-10.38.24-PM-300x285.png 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/Screen-Shot-2019-09-01-at-10.38.24-PM-768x730.png 768w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/Screen-Shot-2019-09-01-at-10.38.24-PM.png 1548w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>Homework Review (Paskorn &#8211; move to the next class)</li><li>Presentation on Biomimicry, Biodesign, Bio-digital (Puey)</li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Lecture Materials</strong></h2>
+
+
+
+<ul><li>Presentation by Dr. Puey Ounjai  : <a href="https://drive.google.com/open?id=1mNyua7rIdAfC21KnKhoavzW2nVg9Sdq0">https://drive.google.com/open?id=1mNyua7rIdAfC21KnKhoavzW2nVg9Sdq0</a></li></ul>
+
+
+
+<p></p>
+
+
+
+<ul><li><strong>Related Resources</strong><ul><li>Hack Biodesign: An Integrative STEAM Education Platform for Biology, Engineering, and Design <a href="https://ieeexplore.ieee.org/abstract/document/8615404">https://ieeexplore.ieee.org/abstract/document/8615404</a></li><li>Humans are still evolving—and we can watch it happen <a href="https://www.sciencemag.org/news/2016/05/humans-are-still-evolving-and-we-can-watch-it-happen">https://www.sciencemag.org/news/2016/05/humans-are-still-evolving-and-we-can-watch-it-happen</a></li><li>Biomimicry Institue <a href="https://biomimicry.org/">https://biomimicry.org/</a></li><li>Production of healthy cloned mice from bodies frozen at −20°C for 16 years <a href="https://www.pnas.org/content/105/45/17318">https://www.pnas.org/content/105/45/17318</a></li><li>Sequence-programmable covalent bonding of designed DNA assemblies <a href="https://advances.sciencemag.org/content/4/8/eaau1157">https://advances.sciencemag.org/content/4/8/eaau1157</a></li><li>Fold it <a href="https://fold.it/portal/">https://fold.it/portal/</a></li><li>Customizing cell signaling using engineered genetic logic circuits <a href="https://www.cell.com/trends/microbiology/fulltext/S0966-842X(12)00082-0">https://www.cell.com/trends/microbiology/fulltext/S0966-842X(12)00082-0</a></li><li>Biodesign Challenge <a href="https://biodesignchallenge.org/">https://biodesignchallenge.org/</a></li><li>Backyard Brains  <a href="https://backyardbrains.com/">https://backyardbrains.com/</a></li></ul></li></ul>
+
+
+
+<figure class="wp-block-image is-resized"><img decoding="async" src="http://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/69363915_2121742104797092_440698171811692544_n.png" alt="" class="wp-image-196" width="1024" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/69363915_2121742104797092_440698171811692544_n.png 1000w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/69363915_2121742104797092_440698171811692544_n-300x230.png 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/69363915_2121742104797092_440698171811692544_n-768x588.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<p>Create a 2 minutes video pitch for Mars Colonization using Biomimicry, Synthetic Biology, Biodesign, and Bio-digital. In the video, please describe how do you plan to tackle the &#8220;Grand Challenges&#8221; using biotechnology using images, diagram, animation, and other digital media. Please post the video on youtube, and post the link down below.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" loading="lazy" width="1374" height="1630" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/grand-bio.jpg" alt="" class="wp-image-208" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/grand-bio.jpg 1374w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/grand-bio-253x300.jpg 253w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/grand-bio-768x911.jpg 768w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/grand-bio-863x1024.jpg 863w" sizes="(max-width: 1374px) 100vw, 1374px" /><figcaption><strong>Grand challenges in space synthetic biology</strong><br><a href="https://royalsocietypublishing.org/doi/full/10.1098/rsif.2015.0803">shing.org/doi/full/10.1098/rsif.2015.0803</a></figcaption></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://astrobio.freaklab.org/class-3/feed/</wfw:commentRss>
+			<slash:comments>14</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

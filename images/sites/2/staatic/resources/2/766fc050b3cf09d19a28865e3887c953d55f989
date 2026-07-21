@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<?xml encoding="UTF-8"><html lang="en-US" itemscope itemtype="https://schema.org/BlogPosting">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Class 7 &ndash;  Medicine and Healthcare in Space &ndash; Astrobiotechnology</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="alternate" type="application/rss+xml" title="Astrobiotechnology &raquo; Feed" href="https://astrobio.freaklab.org/feed/">
+<link rel="alternate" type="application/rss+xml" title="Astrobiotechnology &raquo; Comments Feed" href="https://astrobio.freaklab.org/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Astrobiotechnology &raquo; Class 7 &ndash;  Medicine and Healthcare in Space Comments Feed" href="https://astrobio.freaklab.org/class-7/feed/">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/astrobio.freaklab.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel="stylesheet" id="elementskit-nav-menu-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/nav-menu/assets/css/style.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://astrobio.freaklab.org/wp-includes/css/dist/block-library/style.min.css?ver=6.3.1" media="all">
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="hello-elementor-css" href="https://astrobio.freaklab.org/wp-content/themes/hello-elementor/style.min.css?ver=2.8.1" media="all">
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="https://astrobio.freaklab.org/wp-content/themes/hello-elementor/theme.min.css?ver=2.8.1" media="all">
+<link rel="stylesheet" id="elementskit-framework-css-frontend-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/libs/framework/assets/css/frontend-style.css?ver=6.3.1" media="all">
+<link rel="stylesheet" id="elementskit-parallax-style-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/modules/parallax/assets/css/style.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="dco-comment-attachment-css" href="https://astrobio.freaklab.org/wp-content/plugins/dco-comment-attachment/assets/dco-comment-attachment.css?ver=2.4.0" media="all">
+<link rel="stylesheet" id="elementskit-fonts-css" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C300%2C400%2C700%2C900%7CPlayfair+Display%3A400%2C700%2C700i%2C900%2C900i&amp;ver=1.1.6" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0" media="all">
+<link rel="stylesheet" id="ekiticons-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/ekiticons.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="animate-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/animate.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="magnific-popup-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/magnific-popup.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="grid-loading-animation-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/grid-loading-animation.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="twentytwenty-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/twentytwenty.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="flatpickr-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?ver=4.1.4" media="all">
+<link rel="stylesheet" id="swiper-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6" media="all">
+<link rel="stylesheet" id="plugins-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/plugins.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="slick-css-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/slick.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="slick-theme-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/slick-theme.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="elementskit-style-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/style.css?ver=1.1.6" media="all">
+<link rel="stylesheet" id="elementskit-responsive-css" href="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/css/responsive.css?ver=1.1.6" media="all">
+<script src="https://astrobio.freaklab.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
+<script src="https://astrobio.freaklab.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/libs/framework/assets/js/frontend-script.js?ver=1" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">
+//console.log(window.elementskit);
+
+		var elementskit = {
+            resturl: 'https://astrobio.freaklab.org/wp-json/elementskit/v1/',
+        }
+
+        //console.log(window.elementskit);
+		
+</script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/modules/parallax/assets/js/jarallax.js?ver=1.1.6" id="jarallax-js"></script>
+<script id="wpstg-global-js-extra">
+var wpstg = {"nonce":"437e2bb8b2"};
+</script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/wp-staging/assets/js/dist/wpstg-blank-loader.js?ver=6.3.1" id="wpstg-global-js"></script>
+
+<!-- OG: 3.2.3 --><link rel="image_src" href="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg"><meta name="msapplication-TileImage" content="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg">
+<meta property="og:image" content="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg"><meta property="og:image:secure_url" content="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg"><meta property="og:image:width" content="800"><meta property="og:image:height" content="533"><meta property="og:image:alt" content="STRATUS-NASA-Resized"><meta property="og:image:type" content="image/jpeg"><meta property="og:description" content="Class Outlines Homework ReviewPresentation on Medicine and Healthcare in Space by Dr. Paskorn Lecture Materials Medicine and Healthcare in Space https://drive.google.com/open?id=1Di7nvd5Yyr32HBrzZG_rbunKYEp99bzj Homeworks You are assigned to be the leader of &ldquo;Aqua&rdquo; mission on a Mars-liked planet. Following the aquaculture system and greenhouse you designed during the past 2 weeks, your task this time is to..."><meta property="og:type" content="article"><meta property="og:locale" content="en_US"><meta property="og:site_name" content="Astrobiotechnology"><meta property="og:title" content="Class 7 &ndash; Medicine and Healthcare in Space"><meta property="og:url" content="https://astrobio.freaklab.org/class-7/"><meta property="og:updated_time" content="2019-09-30T06:32:10+00:00">
+<meta property="article:published_time" content="2019-09-30T06:30:31+00:00"><meta property="article:modified_time" content="2019-09-30T06:32:10+00:00"><meta property="article:section" content="ClassMaterials"><meta property="article:author:first_name" content="Pat"><meta property="article:author:last_name" content="Pataranutaporn"><meta property="article:author:username" content="Pat Pataranutaporn">
+<meta property="twitter:partner" content="ogwp"><meta property="twitter:card" content="summary_large_image"><meta property="twitter:image" content="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg"><meta property="twitter:image:alt" content="STRATUS-NASA-Resized"><meta property="twitter:title" content="Class 7 &ndash; Medicine and Healthcare in Space"><meta property="twitter:description" content="Class Outlines Homework ReviewPresentation on Medicine and Healthcare in Space by Dr. Paskorn Lecture Materials Medicine and Healthcare in Space..."><meta property="twitter:url" content="https://astrobio.freaklab.org/class-7/">
+<meta itemprop="image" content="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg"><meta itemprop="name" content="Class 7 &ndash; Medicine and Healthcare in Space"><meta itemprop="description" content="Class Outlines Homework ReviewPresentation on Medicine and Healthcare in Space by Dr. Paskorn Lecture Materials Medicine and Healthcare in Space https://drive.google.com/open?id=1Di7nvd5Yyr32HBrzZG_rbunKYEp99bzj Homeworks You are assigned to be the leader of &ldquo;Aqua&rdquo; mission on a Mars-liked planet. Following the aquaculture system and greenhouse you designed during the past 2 weeks, your task this time is to..."><meta itemprop="datePublished" content="2019-09-30"><meta itemprop="dateModified" content="2019-09-30T06:32:10+00:00"><meta itemprop="author" content="Pat Pataranutaporn"><meta itemprop="tagline" content="BIT 667 : Biotechnology for Space Exploration">
+<meta property="profile:first_name" content="Pat"><meta property="profile:last_name" content="Pataranutaporn"><meta property="profile:username" content="Pat Pataranutaporn">
+<!-- /OG -->
+
+<link rel="https://api.w.org/" href="https://astrobio.freaklab.org/wp-json/"><link rel="alternate" type="application/json" href="https://astrobio.freaklab.org/wp-json/wp/v2/posts/277"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://astrobio.freaklab.org/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.3.1">
+<link rel="canonical" href="https://astrobio.freaklab.org/class-7/">
+<link rel="shortlink" href="https://astrobio.freaklab.org/?p=277">
+<meta name="bmi-version" content="1.3.0"><meta name="generator" content="Elementor 3.16.3; features: e_dom_optimization, e_optimized_assets_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+
+			<script type="text/javascript">
+				var elementskit_section_parallax_data = {};
+				var elementskit_module_parallax_url = "https://astrobio.freaklab.org/wp-content/plugins/elementkit/modules/parallax/"
+			</script>
+		</head>
+<body data-rsssl="1" class="post-template-default single single-post postid-277 single-format-standard elementor-default elementor-kit-">
+
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+
+<header id="site-header" class="site-header" role="banner">
+
+	<div class="site-branding">
+					<h1 class="site-title">
+				<a href="https://astrobio.freaklab.org/" title="Home" rel="home">
+					Astrobiotechnology				</a>
+			</h1>
+			<p class="site-description">
+				BIT 667 : Biotechnology for Space Exploration			</p>
+			</div>
+
+	</header>
+
+<main id="content" class="site-main post-277 post type-post status-publish format-standard has-post-thumbnail hentry category-classmaterials">
+
+			<header class="page-header">
+			<h1 class="entry-title">Class 7 &ndash;  Medicine and Healthcare in Space</h1>		</header>
+	
+	<div class="page-content">
+		
+<figure class="wp-block-image"><img decoding="async" fetchpriority="high" width="800" height="533" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg" alt="" class="wp-image-279" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized.jpg 800w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized-300x200.jpg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/STRATUS-NASA-Resized-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px"></figure>
+
+
+
+<h2 class="wp-block-heading"><strong>Class Outlines</strong></h2>
+
+
+
+<ul><li>Homework Review</li><li>Presentation on Medicine and Healthcare in Space by Dr. Paskorn</li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Lecture Materials</strong></h2>
+
+
+
+<ul><li>Medicine and Healthcare in Space <a href="https://drive.google.com/open?id=1Di7nvd5Yyr32HBrzZG_rbunKYEp99bzj">https://drive.google.com/open?id=1Di7nvd5Yyr32HBrzZG_rbunKYEp99bzj</a></li></ul>
+
+
+
+<h2 class="wp-block-heading"><strong>Homeworks</strong></h2>
+
+
+
+<p>You are assigned to be the leader
+of &ldquo;Aqua&rdquo; mission on a Mars-liked planet. Following the aquaculture system and
+greenhouse you designed during the past 2 weeks, your task this time is to
+design the one-stop service area that can support your crews&rsquo; health during
+your mission.</p>
+
+
+
+<p>Extra question: How cat can help astronauts in space? (Optional assignment)</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" width="500" height="450" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/giphy.gif" alt="" class="wp-image-278"></figure>
+
+
+
+<p></p>
+		<div class="post-tags">
+					</div>
+			</div>
+
+	<section id="comments" class="comments-area">
+
+			<h3 class="title-comments">
+			8 Responses		</h3>
+
+		
+	<ol class="comment-list">
+				<li id="comment-65" class="comment even thread-even depth-1">
+			<article id="div-comment-65" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="https://secure.gravatar.com/avatar/9a8e416e5e90e81d994465188574e4f3?s=42&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/9a8e416e5e90e81d994465188574e4f3?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" height="42" width="42" loading="lazy" decoding="async">						<b class="fn">Bayu Hadi Permana (62110800501)</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://astrobio.freaklab.org/class-7/#comment-65"><time datetime="2019-10-19T03:15:14+00:00">October 19, 2019 at 3:15 am</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>My design for stop-service in the attached file.</p>
+<p>Extra question: How cat can help astronauts in space?<br>
+The scientist has been realized how the cat reflex and they experimented with the cat in Zero Gravity. They found the technique to rotate the body by looking cat reflex to flip its body and to balance while floating in the weightless conditions.</p>
+<p class="dco-attachment dco-image-attachment"><img width="300" height="212" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/One-stop-service-area-300x212.jpg" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/One-stop-service-area-300x212.jpg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/One-stop-service-area-768x543.jpg 768w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/One-stop-service-area-1024x724.jpg 1024w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/One-stop-service-area.jpg 1754w" sizes="(max-width: 300px) 100vw, 300px"></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://astrobio.freaklab.org/class-7/?replytocom=65#respond" data-commentid="65" data-postid="277" data-belowelement="div-comment-65" data-respondelement="respond" data-replyto="Reply to Bayu Hadi Permana (62110800501)" aria-label="Reply to Bayu Hadi Permana (62110800501)">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-66" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-66" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="https://secure.gravatar.com/avatar/7d06fbe084f66e5fbbc5d034a79d9d24?s=42&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/7d06fbe084f66e5fbbc5d034a79d9d24?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" height="42" width="42" loading="lazy" decoding="async">						<b class="fn">Muhammad Faiz</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://astrobio.freaklab.org/class-7/#comment-66"><time datetime="2019-10-20T15:57:54+00:00">October 20, 2019 at 3:57 pm</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>One-Stop Service design on mars</p>
+<p>How cat can help astronauts in space?<br>
+in my opinion, cat can helps to maintain astronauts mental health by pet them and consider the cat as a friend, they can pet the cat inside space station. so the astronauts doesn&rsquo;t feel lonely anymore.</p>
+<p class="dco-attachment dco-misc-attachment"><a href="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/One-Stop-Service-Design.pdf">One-Stop Service Design</a></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://astrobio.freaklab.org/class-7/?replytocom=66#respond" data-commentid="66" data-postid="277" data-belowelement="div-comment-66" data-respondelement="respond" data-replyto="Reply to Muhammad Faiz" aria-label="Reply to Muhammad Faiz">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-67" class="comment even thread-even depth-1">
+			<article id="div-comment-67" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="https://secure.gravatar.com/avatar/97c611762f574bd9ea366a8496d6de04?s=42&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/97c611762f574bd9ea366a8496d6de04?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" height="42" width="42" loading="lazy" decoding="async">						<b class="fn">Natrawee Khetwunchai</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://astrobio.freaklab.org/class-7/#comment-67"><time datetime="2019-10-21T02:10:27+00:00">October 21, 2019 at 2:10 am</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>one stop-service design is in the pdf file.</p>
+<p>Extra question: How cat can help astronauts in space?<br>
+The cat can be used in bioastronautics experiments, especially weightlessness experiments due to it has particularity as a vestibular apparatus (vestibular system), that makes it a unique capability in orienting itself. In addition, the cat can be used to produce wastes, which they are substrates for plant and algae cultivation.</p>
+<p class="dco-attachment dco-misc-attachment"><a href="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/One-stop-service.pdf">One stop service</a></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://astrobio.freaklab.org/class-7/?replytocom=67#respond" data-commentid="67" data-postid="277" data-belowelement="div-comment-67" data-respondelement="respond" data-replyto="Reply to Natrawee Khetwunchai" aria-label="Reply to Natrawee Khetwunchai">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-68" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-68" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="https://secure.gravatar.com/avatar/906d762aea0017cc539fae14b13e21ee?s=42&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/906d762aea0017cc539fae14b13e21ee?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" height="42" width="42" loading="lazy" decoding="async">						<b class="fn">Zubaida</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://astrobio.freaklab.org/class-7/#comment-68"><time datetime="2019-11-01T04:58:49+00:00">November 1, 2019 at 4:58 am</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Below is the file of week 7th homework</p>
+<p class="dco-attachment dco-misc-attachment"><a href="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/Astrobiotech-homework-week-7.pdf">Astrobiotech homework week 7</a></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://astrobio.freaklab.org/class-7/?replytocom=68#respond" data-commentid="68" data-postid="277" data-belowelement="div-comment-68" data-respondelement="respond" data-replyto="Reply to Zubaida" aria-label="Reply to Zubaida">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-69" class="comment even thread-even depth-1">
+			<article id="div-comment-69" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="https://secure.gravatar.com/avatar/bd4daae7427780865e2a156288f82742?s=42&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/bd4daae7427780865e2a156288f82742?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" height="42" width="42" loading="lazy" decoding="async">						<b class="fn">Siraphatsorn Anusaraporn</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://astrobio.freaklab.org/class-7/#comment-69"><time datetime="2019-11-06T22:48:43+00:00">November 6, 2019 at 10:48 pm</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>one stop-service design in the attached file.</p>
+<p>Extra Question: How cat can help astronauts in space?<br>
+The cat can help maintain mental health of astronauts because it is user friendly. In addition, It can be used in weightless experiment for predicting movement under weightless condition.</p>
+<p class="dco-attachment dco-misc-attachment"><a href="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/one-stop-service-area-design-1-copy.pdf">one-stop service area design 1 copy</a></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://astrobio.freaklab.org/class-7/?replytocom=69#respond" data-commentid="69" data-postid="277" data-belowelement="div-comment-69" data-respondelement="respond" data-replyto="Reply to Siraphatsorn Anusaraporn" aria-label="Reply to Siraphatsorn Anusaraporn">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-70" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-70" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="https://secure.gravatar.com/avatar/70d7a3b98d795310cd2ce25a9f98bc48?s=42&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/70d7a3b98d795310cd2ce25a9f98bc48?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" height="42" width="42" loading="lazy" decoding="async">						<b class="fn">Sagita Cahyani Mawaddah</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://astrobio.freaklab.org/class-7/#comment-70"><time datetime="2019-11-10T16:23:33+00:00">November 10, 2019 at 4:23 pm</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>One-stop service design in the attached file</p>
+<p>Extra question : How cat can help astronauts in space ?<br>
+In my opinion, cat can help astronauts mental health, because cat can be friends with astronauts.</p>
+<p class="dco-attachment dco-misc-attachment"><a href="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/One-stop-service-design.pdf">One-stop service design</a></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://astrobio.freaklab.org/class-7/?replytocom=70#respond" data-commentid="70" data-postid="277" data-belowelement="div-comment-70" data-respondelement="respond" data-replyto="Reply to Sagita Cahyani Mawaddah" aria-label="Reply to Sagita Cahyani Mawaddah">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-71" class="comment even thread-even depth-1">
+			<article id="div-comment-71" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="https://secure.gravatar.com/avatar/1c4d6c81f54cfa33e7d2d8c53ab1364e?s=42&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/1c4d6c81f54cfa33e7d2d8c53ab1364e?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" height="42" width="42" loading="lazy" decoding="async">						<b class="fn">Jasmine Ainayassyifa</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://astrobio.freaklab.org/class-7/#comment-71"><time datetime="2019-11-10T19:29:52+00:00">November 10, 2019 at 7:29 pm</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>My design for one-stop service is in the attached file below.</p>
+<p>Extra question : how cat can help astronauts in space?</p>
+<p>cat can be used as a model or example by seeing their way in handling zero gravity conditions, how their ability to always land on it&rsquo;s feet. also by having a cat in space , it could entertain the astronauts,  since cats are friendly and by that mean the astronauts could have &lsquo;petting time&rsquo;, it would also maintain astronauts mental health.</p>
+<p class="dco-attachment dco-misc-attachment"><a href="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/Presentation2.pdf">Presentation2</a></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://astrobio.freaklab.org/class-7/?replytocom=71#respond" data-commentid="71" data-postid="277" data-belowelement="div-comment-71" data-respondelement="respond" data-replyto="Reply to Jasmine Ainayassyifa" aria-label="Reply to Jasmine Ainayassyifa">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+		<li id="comment-72" class="comment odd alt thread-odd thread-alt depth-1">
+			<article id="div-comment-72" class="comment-body">
+				<footer class="comment-meta">
+					<div class="comment-author vcard">
+						<img alt="" src="https://secure.gravatar.com/avatar/b63675ed6365171ca2d80b912def9bc0?s=42&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/b63675ed6365171ca2d80b912def9bc0?s=84&amp;d=mm&amp;r=g 2x" class="avatar avatar-42 photo" height="42" width="42" loading="lazy" decoding="async">						<b class="fn">Apinya Hongsup</b> <span class="says">says:</span>					</div><!-- .comment-author -->
+
+					<div class="comment-metadata">
+						<a href="https://astrobio.freaklab.org/class-7/#comment-72"><time datetime="2019-11-11T04:51:51+00:00">November 11, 2019 at 4:51 am</time></a>					</div><!-- .comment-metadata -->
+
+									</footer><!-- .comment-meta -->
+
+				<div class="comment-content">
+					<p>Extra question: How cat can help astronauts in space? </p>
+<p>for study how to cat can balance itself when they jump from high place . astronauts want to know if cat stay in low gravity. How cat balance itself? That is help astronauts to mimic the movement like a cat on space low gravity for balance body movement.</p>
+<p class="dco-attachment dco-image-attachment"><img width="300" height="206" src="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/12B4AA12-5F1D-494D-B525-2E37C71489FC-300x206.jpeg" class="attachment-medium size-medium" alt="" decoding="async" loading="lazy" srcset="https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/12B4AA12-5F1D-494D-B525-2E37C71489FC-300x206.jpeg 300w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/12B4AA12-5F1D-494D-B525-2E37C71489FC-768x528.jpeg 768w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/12B4AA12-5F1D-494D-B525-2E37C71489FC-1024x704.jpeg 1024w, https://astrobio.freaklab.org/wp-content/uploads/sites/2/2019/09/12B4AA12-5F1D-494D-B525-2E37C71489FC.jpeg 1637w" sizes="(max-width: 300px) 100vw, 300px"></p>
+				</div><!-- .comment-content -->
+
+				<div class="reply"><a rel="nofollow" class="comment-reply-link" href="https://astrobio.freaklab.org/class-7/?replytocom=72#respond" data-commentid="72" data-postid="277" data-belowelement="div-comment-72" data-respondelement="respond" data-replyto="Reply to Apinya Hongsup" aria-label="Reply to Apinya Hongsup">Reply</a></div>			</article><!-- .comment-body -->
+		</li><!-- #comment-## -->
+	</ol><!-- .comment-list -->
+
+		
+
+	<div id="respond" class="comment-respond">
+		<h2 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://astrobio.freaklab.org/class-7/#respond" style="display:none;">Cancel reply</a></small></h2><form action="https://astrobio.freaklab.org/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url"></p>
+		<p class="comment-form-attachment">
+							<label class="comment-form-attachment__label" for="attachment">
+					Attachment				</label>
+								<input class="comment-form-attachment__input" id="attachment" name="attachment" type="file" accept=".jpg,.jpeg,.jpe,.png,.gif,.mov,.qt,.avi,.mpeg,.mpg,.mpe,.3gp,.3gpp,.3g2,.3gp2,.mid,.midi,.pdf,.doc,.docx,.docm,.pot,.pps,.ppt,.pptx,.pptm,.odt,.ppsx,.ppsm,.xla,.xls,.xlt,.xlw,.xlsx,.xlsm,.xlsb,.key,.mp3,.m4a,.m4b,.ogg,.oga,.flac,.wav,.mp4,.m4v,.webm,.ogv,.flv">
+								<span class="comment-form-attachment__file-size-notice">
+					The maximum upload file size: 1 MB.				</span>
+								<span class="comment-form-attachment__file-types-notice">
+					You can upload: <abbr title="jpg, jpeg, jpe, png, gif">image</abbr>, <abbr title="mp3, m4a, m4b, ogg, oga, flac, wav">audio</abbr>, <abbr title="mov, qt, avi, mpeg, mpg, 3gp, 3gpp, 3g2, mp4, m4v, ogv, flv">video</abbr>, <abbr title="pdf, doc, docx, docm, odt">document</abbr>, <abbr title="xls, xlsx, xlsm, xlsb">spreadsheet</abbr>, <abbr title="pps, ppt, pptx, pptm, ppsx, ppsm, key">interactive</abbr>, <abbr title="mpe, 3gp2, mid, midi, pot, xla, xlt, xlw, webm">other</abbr>.				</span>
+									<span class="comment-form-attachment__autoembed-links-notice">
+						Links to YouTube, Facebook, Twitter and other services inserted in the comment text will be automatically embedded.					</span>
+									<span class="comment-form-attachment__drop-area">
+					<span class="comment-form-attachment__drop-area-inner">
+						Drop file here					</span>
+				</span>
+						</p>
+		<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="277" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p></form>	</div><!-- #respond -->
+	
+</section><!-- .comments-area -->
+
+</main>
+
+	<footer id="site-footer" class="site-footer" role="contentinfo">
+	</footer>
+
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/nav-menu/assets/js/script.js?ver=6.3.1" id="elementskit-nav-menu-js"></script>
+<script id="mail-chimp-script-js-extra">
+var ekit_site_url = {"siteurl":"https:\/\/astrobio.freaklab.org"};
+</script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/mail-chimp/assets/js/mail-chimp.js?ver=1.0" id="mail-chimp-script-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/chart/assets/js/chart.js?ver=6.3.1" id="chart-kit-js-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/plugins.js?ver=1.1.6" id="plugins-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/Popper.js?ver=6.3.1" id="Popper-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/bootstrap.min.js?ver=6.3.1" id="bootstrap-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/jquery.magnific-popup.min.js?ver=6.3.1" id="jquery-magnific-popup-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/owl.carousel.min.js?ver=6.3.1" id="owl-carousel-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/imagesloaded.pkgd.min.js?ver=6.3.1" id="imagesloaded-pkgd-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/isotope.pkgd.min.js?ver=6.3.1" id="isotope-pkgd-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/masonry.pkgd.min.js?ver=6.3.1" id="masonry-pkgd-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/anime.min.js?ver=6.3.1" id="anime-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/jquery.waypoints.min.js?ver=6.3.1" id="jquery-waypoints-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/jquery.easypiechart.min.js?ver=6.3.1" id="jquery-easypiechart-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/jquery.event.move.js?ver=6.3.1" id="jquery-event-move-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/jquery.twentytwenty.js?ver=6.3.1" id="jquery-twentytwenty-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/jquery.countdown.min.js?ver=6.3.1" id="final-countdown-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js?ver=4.1.4" id="flatpickr-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/swiper.min.js?ver=6.3.1" id="swiper-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/jquery.ajaxchimp.min.js?ver=6.3.1" id="jquery-ajaxchimp-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/tilt.jquery.min.js?ver=6.3.1" id="tilt.jquery.min-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/slick.min.js?ver=6.3.1" id="slick-min-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/goodshare.min.js?ver=6.3.1" id="goodshare-min-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/main.js?ver=1.1.6" id="main-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/widgets/init/assets/js/nav-tools.js?ver=1.0" id="nav-tools-js-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/modules/parallax/assets/js/TweenMax.min.js?ver=1.1.6" id="tweenmax-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/modules/parallax/assets/js/jquery.easing.1.3.js?ver=1.1.6" id="jquery-easing-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/modules/parallax/assets/js/tilt.jquery.min.js?ver=1.1.6" id="tilt-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/modules/parallax/assets/js/anime.js?ver=1.1.6" id="animejs-js"></script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/elementkit/modules/parallax/assets/js/magician.js?ver=1.1.6" id="magicianjs-js"></script>
+<script id="dco-comment-attachment-js-extra">
+var dco_ca = {"commenting_form_not_found":"The commenting form not found."};
+</script>
+<script src="https://astrobio.freaklab.org/wp-content/plugins/dco-comment-attachment/assets/dco-comment-attachment.js?ver=2.4.0" id="dco-comment-attachment-js"></script>
+<script src="https://astrobio.freaklab.org/wp-includes/js/comment-reply.min.js?ver=6.3.1" id="comment-reply-js"></script>
+
+</body>
+</html>
+<!-- Powered by Staatic (https://staatic.com/) -->

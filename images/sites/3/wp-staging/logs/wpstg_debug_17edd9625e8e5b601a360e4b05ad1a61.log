@@ -1,0 +1,1332 @@
+[WP STAGING Shutdown Function][E_ERROR][2023-07-26 10:17:15] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-26 10:17:15] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-26 10:17:16] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-26 10:17:49] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_NOTICE][2023-07-26 10:17:50] iconv(): Detected an illegal character in input string - File: /var/www/html/wp-content/plugins/wp-staging/vendor_wpstg/symfony/polyfill-mbstring/Mbstring.php Line: 337 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-07-26 10:40:33] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-26 18:28:33] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-27 04:32:34] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-27 06:23:23] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-27 14:36:41] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-27 18:29:42] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-28 06:17:41] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-28 18:54:50] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_NOTICE][2023-07-28 20:11:03] iconv(): Detected an illegal character in input string - File: /var/www/html/wp-content/plugins/wp-staging/vendor_wpstg/symfony/polyfill-mbstring/Mbstring.php Line: 337 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_NOTICE][2023-07-28 20:14:40] iconv(): Detected an illegal character in input string - File: /var/www/html/wp-content/plugins/wp-staging/vendor_wpstg/symfony/polyfill-mbstring/Mbstring.php Line: 337 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_NOTICE][2023-07-29 02:42:11] iconv(): Detected an illegal character in input string - File: /var/www/html/wp-content/plugins/wp-staging/vendor_wpstg/symfony/polyfill-mbstring/Mbstring.php Line: 337 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_NOTICE][2023-07-29 02:47:32] iconv(): Detected an illegal character in input string - File: /var/www/html/wp-content/plugins/wp-staging/vendor_wpstg/symfony/polyfill-mbstring/Mbstring.php Line: 337 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-07-29 07:34:42] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-29 09:59:45] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-29 19:08:56] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-30 06:19:17] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-30 06:31:25] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-30 08:12:03] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-30 18:58:15] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-30 18:58:16] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-30 19:01:23] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-30 21:11:25] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-31 06:24:48] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-31 06:24:48] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-31 14:22:04] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-31 16:15:12] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-07-31 18:32:24] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-01 06:34:21] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-01 08:06:10] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-01 11:38:35] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-01 16:15:45] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-01 19:03:31] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-01 20:49:37] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-01 21:46:44] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-02 06:49:37] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-02 19:08:29] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-03 03:03:53] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-03 06:36:01] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-03 09:32:16] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-03 18:27:09] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-03 18:58:42] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 04:40:50] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 06:20:23] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-04 18:28:39] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 01:03:35] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 06:20:10] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 06:57:17] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 18:59:26] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 22:02:20] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 22:02:21] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 22:02:21] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 22:02:22] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 22:02:23] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 22:03:36] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 22:03:37] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 22:03:37] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-05 22:47:58] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-06 06:22:45] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-06 10:17:16] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-06 18:07:37] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-06 18:23:15] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-07 06:32:54] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-07 06:32:54] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-07 08:38:32] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-07 18:20:09] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-07 20:24:14] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-07 23:48:33] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-08 05:30:16] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-08 07:05:58] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-08 19:33:42] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-08 19:33:52] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-09 02:02:59] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-09 02:03:00] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-09 03:47:00] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-09 04:10:56] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-09 07:55:56] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-09 11:31:37] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-09 18:21:29] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-10 02:35:14] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-10 07:51:16] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-10 14:52:09] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-10 18:25:44] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-10 22:17:35] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-10 22:17:36] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-11 06:18:33] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-11 07:04:39] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-11 07:05:55] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-11 13:09:31] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-11 18:18:58] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_NOTICE][2023-08-11 20:18:39] iconv(): Detected an illegal character in input string - File: /var/www/html/wp-content/plugins/wp-staging/vendor_wpstg/symfony/polyfill-mbstring/Mbstring.php Line: 337 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_NOTICE][2023-08-11 20:24:03] iconv(): Detected an illegal character in input string - File: /var/www/html/wp-content/plugins/wp-staging/vendor_wpstg/symfony/polyfill-mbstring/Mbstring.php Line: 337 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_NOTICE][2023-08-12 03:39:58] iconv(): Detected an illegal character in input string - File: /var/www/html/wp-content/plugins/wp-staging/vendor_wpstg/symfony/polyfill-mbstring/Mbstring.php Line: 337 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_NOTICE][2023-08-12 03:45:27] iconv(): Detected an illegal character in input string - File: /var/www/html/wp-content/plugins/wp-staging/vendor_wpstg/symfony/polyfill-mbstring/Mbstring.php Line: 337 | Is it Fatal Error? No | Is it Thrown by WP STAGING? Yes
+[WP STAGING Shutdown Function][E_ERROR][2023-08-12 06:18:42] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-12 18:18:22] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-12 18:45:17] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-13 00:33:32] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-13 06:20:45] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-13 10:22:59] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-13 13:23:27] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-13 18:18:57] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-14 06:17:40] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-14 06:17:40] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-14 08:33:18] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-14 15:40:39] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-14 19:15:20] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-15 06:18:54] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-15 08:51:16] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-15 12:36:52] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-15 13:05:49] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-15 17:59:47] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-15 18:26:41] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-16 06:23:42] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-16 09:09:01] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-17 09:42:42] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-17 20:00:09] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-18 01:48:33] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-18 06:22:49] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-18 07:10:35] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-18 18:29:35] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-18 19:15:01] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-19 06:17:57] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-19 18:43:49] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 06:43:52] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 09:32:29] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 09:51:34] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 09:51:37] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 09:51:41] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 09:51:44] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 09:51:48] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 09:51:51] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 12:08:40] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 12:08:41] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 18:05:38] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-20 18:22:32] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-21 06:20:02] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-21 06:20:02] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-21 06:58:53] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-21 18:37:46] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-21 20:23:41] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-22 00:06:04] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-22 03:42:20] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-22 06:19:38] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-22 15:41:11] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-08-22 15:46:04] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-09-15 08:11:54] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-09-15 08:11:58] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-09-15 08:18:34] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-09-15 13:52:38] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-09-15 18:48:27] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
+[WP STAGING Shutdown Function][E_ERROR][2023-09-16 06:44:53] Uncaught Error: Class 'Elementor\Scheme_Color' not found in /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php:1342
+Stack trace:
+#0 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(2327): Elementor\Elementskit_Widget_Blog_Posts->_register_controls()
+#1 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /var/www/html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /var/www/html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /var/www/html/wp-content/plugins/elementor/core/files/css/global-css.php(66): Elementor\Core\Files\CSS\Global_CSS->render_schemes_and_globals_css()
+#6 /var/www/html/wp-content/plugins/elementor/core/files/css/base.php(659): Ele - File: /var/www/html/wp-content/plugins/elementkit/widgets/blog-posts/blog-posts.php Line: 1342 | Is it Fatal Error? Yes | Is it Thrown by WP STAGING? No
