@@ -276,6 +276,15 @@ padding-bottom: 0px;
 /*# sourceURL=global-styles-inline-css */
 </style>
 <link rel="stylesheet" href="../../style-combined.css">
+<style>
+/* Hero section fallback when image is missing */
+.has-image-bg[style*="background-image"]:not([style*="url("]) {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%) !important;
+}
+.slider-wrapper .img[style*="background-image"]:not([style*="url("]) {
+  background: linear-gradient(135deg, #0a0a0a, #1a1a2e) !important;
+}
+</style>
 </head>
 <body>
 <header id="header" class="header transparent has-transparent has-sticky sticky-shrink">
@@ -508,6 +517,15 @@ font-display: swap;
 src: url(../fonts/dancing-script/font) format('woff');
 unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }</style><link rel="stylesheet" href="../../style-combined.css">
+<style>
+/* Hero section fallback when image is missing */
+.has-image-bg[style*="background-image"]:not([style*="url("]) {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%) !important;
+}
+.slider-wrapper .img[style*="background-image"]:not([style*="url("]) {
+  background: linear-gradient(135deg, #0a0a0a, #1a1a2e) !important;
+}
+</style>
 </head>
 <body data-rsssl=1 class="archive post-type-archive post-type-archive-blog full-width lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border elementor-default elementor-kit-">
 <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
@@ -625,6 +643,41 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 
 
+
+<script>
+// Replace broken images with styled placeholders on GitHub Pages
+document.addEventListener('DOMContentLoaded', function() {
+  var imgs = document.querySelectorAll('img');
+  imgs.forEach(function(img) {
+    img.addEventListener('error', function() {
+      if (!this.hasAttribute('data-placeholder')) {
+        this.setAttribute('data-placeholder', 'true');
+        this.style.display = 'inline-flex';
+        this.style.alignItems = 'center';
+        this.style.justifyContent = 'center';
+        this.style.minWidth = '120px';
+        this.style.minHeight = '80px';
+        this.style.background = 'linear-gradient(135deg, #1a1a2e, #16213e)';
+        this.style.border = '1px dashed #6c5ce7';
+        this.style.borderRadius = '8px';
+        this.style.padding = '16px';
+        this.style.color = '#6c5ce7';
+        this.style.fontSize = '14px';
+        this.style.fontFamily = 'sans-serif';
+        this.style.textAlign = 'center';
+        this.alt = this.alt || 'Image';
+        // Replace src with inline SVG placeholder
+        this.src = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22180%22%3E%3Crect fill=%22%231a1a2e%22 width=%22300%22 height=%22180%22/%3E%3Ctext x=%22150%22 y=%2290%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%236c5ce7%22 font-family=%22sans-serif%22 font-size=%2216%22%3E' + encodeURIComponent(this.alt || 'Image') + '%3C/text%3E%3Ctext x=%22150%22 y=%22115%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23525252%22 font-family=%22sans-serif%22 font-size=%2211%22%3E(local%20build%20has%20images)%3C/text%3E%3C/svg%3E';
+      }
+    });
+    // Force error check if image is already broken
+    if (img.complete && img.naturalWidth === 0) {
+      img.dispatchEvent(new Event('error'));
+    }
+  });
+});
+</script>
+
 </body>
 </html><!-- WP Fastest Cache file was created in 1.0893921852112 seconds, on 14-03-24 22:55:49 -->
 
@@ -641,5 +694,40 @@ Freak Lab at King Mongkut’s University of Technology Thonburi + Research Netwo
 </div>
 <a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link" aria-label="Go to top"><i class="icon-angle-up" ></i></a>
 </footer>
+
+<script>
+// Replace broken images with styled placeholders on GitHub Pages
+document.addEventListener('DOMContentLoaded', function() {
+  var imgs = document.querySelectorAll('img');
+  imgs.forEach(function(img) {
+    img.addEventListener('error', function() {
+      if (!this.hasAttribute('data-placeholder')) {
+        this.setAttribute('data-placeholder', 'true');
+        this.style.display = 'inline-flex';
+        this.style.alignItems = 'center';
+        this.style.justifyContent = 'center';
+        this.style.minWidth = '120px';
+        this.style.minHeight = '80px';
+        this.style.background = 'linear-gradient(135deg, #1a1a2e, #16213e)';
+        this.style.border = '1px dashed #6c5ce7';
+        this.style.borderRadius = '8px';
+        this.style.padding = '16px';
+        this.style.color = '#6c5ce7';
+        this.style.fontSize = '14px';
+        this.style.fontFamily = 'sans-serif';
+        this.style.textAlign = 'center';
+        this.alt = this.alt || 'Image';
+        // Replace src with inline SVG placeholder
+        this.src = 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22180%22%3E%3Crect fill=%22%231a1a2e%22 width=%22300%22 height=%22180%22/%3E%3Ctext x=%22150%22 y=%2290%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%236c5ce7%22 font-family=%22sans-serif%22 font-size=%2216%22%3E' + encodeURIComponent(this.alt || 'Image') + '%3C/text%3E%3Ctext x=%22150%22 y=%22115%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23525252%22 font-family=%22sans-serif%22 font-size=%2211%22%3E(local%20build%20has%20images)%3C/text%3E%3C/svg%3E';
+      }
+    });
+    // Force error check if image is already broken
+    if (img.complete && img.naturalWidth === 0) {
+      img.dispatchEvent(new Event('error'));
+    }
+  });
+});
+</script>
+
 </body>
 </html>
