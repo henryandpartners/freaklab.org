@@ -11,7 +11,7 @@ p,li,span,.text{color:#ccc}
 .banner{background:#111!important}
 .page-title{background:#111!important;color:#fff!important}
 footer,.absolute-footer{background:#111!important;color:#888!important}
-.esg-grid>ul>li,.eg-project-content{background:#1a1a1a!important}
+.esg-grid>ul>li,.eg-project-content{display:block!important;visibility:visible!important;background:#1a1a1a!important}
 .esg-grid>ul>li .esg-entry-content .esg-content:first-child a{color:#eee!important}
 .esg-filterbutton{background:#222!important;color:#aaa!important}
 .esg-filterbutton:hover{background:#333!important;color:#fff!important}
@@ -23,7 +23,7 @@ input,textarea,select{background:#1a1a1a!important;color:#eee!important;border-c
 <!-- esg-grid fix: responsive card layout + filter -->
 <style id="esg-grid-fix">
 .esg-grid > ul{display:grid!important;grid-template-columns:repeat(3,1fr);gap:18px;list-style:none!important;margin:0!important;padding:0!important}
-.esg-grid > ul > li{list-style:none!important;margin:0!important;padding:0!important;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);transition:transform .2s,box-shadow .2s}
+.esg-grid > ul > li{display:block!important;visibility:visible!important;list-style:none!important;margin:0!important;padding:0!important;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);transition:transform .2s,box-shadow .2s}
 .esg-grid > ul > li:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.12)}
 .esg-grid > ul > li .esg-media-cover-wrapper{display:flex;flex-direction:column;height:100%}
 .esg-grid > ul > li .esg-entry-media{position:relative;overflow:hidden;aspect-ratio:16/10;background:#f5f5f5}
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded',function(){document.querySelectorAl
 <title>Research Groups — FREAK Lab</title>
 <link rel='stylesheet' id='elementskit-nav-menu-css' href='../plugins/elementkit/widgets/nav-menu/assets/css/style.css?ver=1.1.6' media='all' />
 
-<link rel='stylesheet' id='essential-grid-plugin-settings-css' href='../plugins/Archive/public/assets/css/settings.css?ver=2.2.4' media='all' />
+<!-- <link rel='stylesheet' id='essential-grid-plugin-settings-css' href='../plugins/Archive/public/assets/css/settings.css?ver=2.2.4' media='all' /> -->
 
 <link rel='stylesheet' id='tp-open-sans-css' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&#038;ver=7.0.2' media='all' />
 <link rel='stylesheet' id='tp-raleway-css' href='https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&#038;ver=7.0.2' media='all' />
