@@ -291,6 +291,29 @@ padding-bottom: 0px;
 document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.esg-filterbutton').forEach(function(t){t.addEventListener('click',function(){var e=t.closest('.esg-filter-wrapper');if(!e)return;e.querySelectorAll('.esg-filterbutton').forEach(function(t){t.classList.remove('selected')}),t.classList.add('selected');var r=t.getAttribute('data-filter')||'filterall',l=t.closest('.esg-grid')||t.closest('.myportfolio-container');if(!l)return;l.querySelectorAll('ul>li.eg-project-wrapper,ul>li.eg-people-wrapper').forEach(function(t){'filterall'===r?t.classList.remove('filter-hidden'):t.classList.contains(r)?t.classList.remove('filter-hidden'):t.classList.add('filter-hidden')})})})});
 </script>
 
+<style id="dark-theme">
+html,body{background:#000!important;color:#e0e0e0}
+#wrapper{background:#000}
+.content-area,.page-wrapper,.entry-content,.row,.col,.section,.container{background:transparent!important;color:#e0e0e0}
+h1,h2,h3,h4,h5,h6,.heading-font{color:#fff!important}
+a{color:#aaa!important}a:hover{color:#fff!important}
+p,li,span,.text{color:#ccc}
+.banner{background:#111!important}
+.page-title{background:#111!important;color:#fff!important}
+footer,.absolute-footer{background:#111!important;color:#888!important}
+/* Keep esg cards white */
+.esg-grid>ul>li,.eg-project-content{background:#1a1a1a!important}
+.esg-grid>ul>li .esg-entry-content .esg-content:first-child a{color:#eee!important}
+/* Filter buttons */
+.esg-filterbutton{background:#222!important;color:#aaa!important}
+.esg-filterbutton:hover{background:#333!important;color:#fff!important}
+.esg-filterbutton.selected{background:#fff!important;color:#000!important}
+/* Search input */
+input,textarea,select{background:#1a1a1a!important;color:#eee!important;border-color:#333!important}
+/* Nav dropdown */
+.sub-menu{background:#1a1a1a!important}
+.sub-menu a{color:#ccc!important}
+</style>
 </head>
 <body>
 <header id="header" class="header transparent has-transparent has-sticky sticky-shrink">
