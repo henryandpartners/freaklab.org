@@ -330,22 +330,19 @@ t--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--pre
 </style>
 
 <script id="esg-grid-filter">
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.esg-filterbutton').forEach(function(btn) {
     btn.addEventListener('click', function() {
       var wrapper = btn.closest('.esg-filter-wrapper');
       if (!wrapper) return;
       
-      // Update selected state
       wrapper.querySelectorAll('.esg-filterbutton').forEach(function(b) {
         b.classList.remove('selected');
       });
       btn.classList.add('selected');
       
-      // Get the filter value
       var filter = btn.getAttribute('data-filter') || 'filterall';
       
-      // Find the grid ul
       var grid = btn.closest('.esg-grid');
       if (!grid) grid = btn.closest('.myportfolio-container');
       if (!grid) return;
@@ -365,7 +362,7 @@ t--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--pre
       });
     });
   });
-})();
+});
 </script>
 
 </head>

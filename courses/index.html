@@ -26,7 +26,7 @@
 .eg-clearfix{display:none}
 </style>
 <script id="esg-grid-filter">
-!function(){document.querySelectorAll('.esg-filterbutton').forEach(function(t){t.addEventListener('click',function(){var e=t.closest('.esg-filter-wrapper');if(!e)return;e.querySelectorAll('.esg-filterbutton').forEach(function(t){t.classList.remove('selected')}),t.classList.add('selected');var r=t.getAttribute('data-filter')||'filterall',l=t.closest('.esg-grid')||t.closest('.myportfolio-container');if(!l)return;l.querySelectorAll('ul>li.eg-project-wrapper,ul>li.eg-people-wrapper').forEach(function(t){'filterall'===r?t.classList.remove('filter-hidden'):t.classList.contains(r)?t.classList.remove('filter-hidden'):t.classList.add('filter-hidden')})})})}();
+document.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.esg-filterbutton').forEach(function(t){t.addEventListener('click',function(){var e=t.closest('.esg-filter-wrapper');if(!e)return;e.querySelectorAll('.esg-filterbutton').forEach(function(t){t.classList.remove('selected')}),t.classList.add('selected');var r=t.getAttribute('data-filter')||'filterall',l=t.closest('.esg-grid')||t.closest('.myportfolio-container');if(!l)return;l.querySelectorAll('ul>li.eg-project-wrapper,ul>li.eg-people-wrapper').forEach(function(t){'filterall'===r?t.classList.remove('filter-hidden'):t.classList.contains(r)?t.classList.remove('filter-hidden'):t.classList.add('filter-hidden')})})})});
 </script>
 
 <meta charset="UTF-8">
