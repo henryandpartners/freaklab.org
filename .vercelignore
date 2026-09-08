@@ -1,5 +1,6 @@
+*.py
 .git
 .gitignore
-README.md
 .venv-r2/
+README.md
 move-menu-items.py
