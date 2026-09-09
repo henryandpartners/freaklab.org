@@ -121,6 +121,64 @@
     .slide{display:flex!important;position:relative;page-break-after:always;height:1080px}
     #hud,#dots{display:none}
   }
+
+  /* ---------- tablet & mobile: reflow to stacked scroll ---------- */
+  @media (max-width:880px){
+    html,body{overflow:auto!important;height:auto!important}
+    #stage{position:static!important;display:block!important}
+    #deck{width:100%!important;height:auto!important;transform:none!important}
+    .slide{display:flex!important;position:relative!important;inset:auto;height:auto;min-height:0;
+      padding:54px 26px 34px!important;overflow:visible!important}
+    .slide+.slide{border-top:1px solid var(--line)}
+    .slide.divider{min-height:72vh;justify-content:center}
+    .kicker{font-size:12px;letter-spacing:.22em;margin-bottom:16px}
+    h1,h2{font-size:clamp(30px,8.5vw,52px)!important;line-height:1.1!important;margin-bottom:18px}
+    h2{margin-bottom:18px!important}
+    .sub{font-size:16.5px!important;max-width:100%!important;line-height:1.55!important}
+    .rule{margin:22px 0!important}
+    .footer{position:static!important;left:auto;right:auto;margin-top:34px;flex-wrap:wrap;
+      gap:6px 20px;font-size:10.5px;letter-spacing:.12em}
+    .two-col,.trio,.duo,.stack-imgs{grid-template-columns:1fr!important;gap:20px!important}
+    .img-col{height:auto!important;justify-content:flex-start}
+    .frame{height:auto!important;padding:8px}
+    .frame img{width:100%;height:auto;aspect-ratio:4/3}
+    .cap{font-size:12px!important;margin-top:10px}
+    ul.learn{font-size:16.5px!important}
+    ul.learn li{padding-left:28px;margin-bottom:14px}
+    ul.learn li::before{font-size:13px;top:1px}
+    .meta-row{flex-wrap:wrap;gap:22px;margin-top:26px;font-size:14px}
+    .meta-row b{font-size:16px;margin-bottom:4px}
+    .timeline{grid-template-columns:1fr;gap:10px}
+    .t-item{padding:24px 0 0!important}
+    .t-item h3{font-size:24px;margin:14px 0 6px}
+    .t-item p{font-size:15.5px;padding-right:0}
+    .prog table{font-size:15.5px}
+    .prog tr{display:block;border-bottom:1px solid var(--line);padding:14px 0}
+    .prog td{display:block;padding:0;border-bottom:none;font-size:15.5px;line-height:1.5}
+    .prog td.time{width:auto!important;font-size:13px;padding-top:0;margin-bottom:4px}
+    .prog td .who{font-size:13.5px;margin-top:4px}
+    .prog td .who[style]{font-size:15px!important;line-height:1.6!important}
+    .spk-grid{grid-template-columns:1fr!important;gap:22px!important}
+    .spk{gap:16px;align-items:center}
+    .spk img,.spk .ava{width:76px!important;height:76px!important;font-size:28px}
+    .spk h4{font-size:20px}
+    .spk p{font-size:13.5px}
+    .divider .place{font-size:20px!important}
+    div[style*="max-width:1150px"],div[style*="max-width:1050px"]{max-width:100%!important}
+    div[style*="repeat(5,1fr)"],div[style*="repeat(3,1fr)"]{grid-template-columns:repeat(2,1fr)!important;gap:12px!important}
+    div[style*="1.55fr"]{grid-template-columns:1fr!important;gap:34px 0!important}
+    img[style*="width:158px"]{width:86px!important;height:86px!important;margin-bottom:8px!important}
+    .full-bleed{opacity:.4}
+    #dots{display:none!important}
+    #hud button,#hud #counter{display:none}
+    #hud{bottom:12px;right:12px}
+  }
+  @media (max-width:480px){
+    .slide{padding:42px 18px 28px!important}
+    h1,h2{font-size:clamp(26px,9vw,40px)!important}
+    .sub{font-size:15.5px!important}
+    div[style*="repeat(5,1fr)"]{grid-template-columns:1fr 1fr!important}
+  }
 </style>
 </head>
 <body>
@@ -156,7 +214,7 @@
       <div class="cap">Colorful salad with Agrobacterium — BioArt Workshop, Singapore 2023</div>
     </div>
   </div>
-  <div class="footer"><span>The Question</span><span>02 / 19</span></div>
+  <div class="footer"><span>The Question</span><span>02 / 21</span></div>
 </section>
 
 <!-- 03 · FREAK LAB -->
@@ -174,7 +232,7 @@
       <p class="sub" style="margin-top:26px;color:var(--moss)">It travels across continents to find new encounters in different natural environments.</p>
     </div>
   </div>
-  <div class="footer"><span>FREAK Lab</span><span>03 / 19</span></div>
+  <div class="footer"><span>FREAK Lab</span><span>03 / 21</span></div>
 </section>
 
 <!-- 04 · TIMELINE -->
@@ -203,7 +261,7 @@
     <div class="frame" style="height:230px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s24_4.jpg" alt="Singapore Botanic Garden"></div>
     <div class="frame" style="height:230px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/nhm_hero.webp" alt="Natural History Museum, Chulalongkorn University"></div>
   </div>
-  <div class="footer"><span>The Journey</span><span>04 / 19</span></div>
+  <div class="footer"><span>The Journey</span><span>04 / 21</span></div>
 </section>
 
 <!-- 05 · PHASE 1 DIVIDER -->
@@ -215,7 +273,7 @@
   <div class="place">Naresuan University · Phitsanulok, Thailand</div>
   <hr class="rule">
   <p class="sub">Co-hosted by Prof. Pakpoom Subsoontorn and the Bangkok International Performing Arts Meeting (BIPAM), the first iteration of Intimacy with Nature brought seven artists in residence into a working research university — with a one-week public workshop alongside.</p>
-  <div class="footer"><span>Phase 1 · Thailand 2022</span><span>05 / 19</span></div>
+  <div class="footer"><span>Phase 1 · Thailand 2022</span><span>05 / 21</span></div>
 </section>
 
 <!-- 06 · PHASE 1 ACTIVITIES I -->
@@ -233,7 +291,7 @@
       <p class="sub" style="margin-top:26px;font-size:29px;color:var(--moss)">What was learned: the materiality of biotechnology — that DNA is a substance you can hold, amplify, and read.</p>
     </div>
   </div>
-  <div class="footer"><span>Phase 1 · Thailand 2022</span><span>06 / 19</span></div>
+  <div class="footer"><span>Phase 1 · Thailand 2022</span><span>06 / 21</span></div>
 </section>
 
 <!-- 07 · PHASE 1 ACTIVITIES II -->
@@ -255,7 +313,7 @@
     </div>
   </div>
   <p class="sub" style="font-size:27px;max-width:100%">From fungal dyes to research rice fields to village fermentation — <span style="color:var(--moss)">what was learned: biotechnology already lives in farms, kitchens and local crafts.</span></p>
-  <div class="footer"><span>Phase 1 · Thailand 2022</span><span>07 / 19</span></div>
+  <div class="footer"><span>Phase 1 · Thailand 2022</span><span>07 / 21</span></div>
 </section>
 
 <!-- 08 · PHASE 1 CLOSE -->
@@ -277,7 +335,7 @@
       <div class="cap">Slime mold workshop — Hanna Saito</div>
     </div>
   </div>
-  <div class="footer"><span>Phase 1 · Thailand 2022</span><span>08 / 19</span></div>
+  <div class="footer"><span>Phase 1 · Thailand 2022</span><span>08 / 21</span></div>
 </section>
 
 
@@ -303,7 +361,7 @@
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_15.jpg" alt=""></div>
   </div>
   <p class="cap" style="margin-top:18px">BioArt Residency Phitsanulok 2022 — Naresuan University · 17–23 July 2022</p>
-  <div class="footer"><span>Phase 1 · Phitsanulok 2022</span><span>09 / 19</span></div>
+  <div class="footer"><span>Phase 1 · Phitsanulok 2022</span><span>09 / 21</span></div>
 </section>
 <!-- 09 · PHASE 2 DIVIDER -->
 <section class="slide divider" id="s9">
@@ -314,7 +372,7 @@
   <div class="place">Singapore Art Museum · Tanjong Pagar Distripark</div>
   <hr class="rule">
   <p class="sub">A five-day BioArt workshop, open to the public, hosted by SAM Residencies as part of FREAK Lab's EX-SITU residency — lectures, hands-on seminars and off-site tours, connecting participants with local Singaporean practitioners and initiatives.</p>
-  <div class="footer"><span>Phase 2 · Singapore 2023</span><span>10 / 19</span></div>
+  <div class="footer"><span>Phase 2 · Singapore 2023</span><span>10 / 21</span></div>
 </section>
 
 <!-- 10 · PHASE 2 ACTIVITIES I -->
@@ -335,7 +393,7 @@
     </div>
   </div>
   <p class="sub" style="font-size:27px;max-width:100%;margin-top:20px"><span style="color:var(--moss)">What was learned: genetic transformation on a salad plate — and the herbal knowledge woven through the modern city.</span></p>
-  <div class="footer"><span>Phase 2 · Singapore 2023</span><span>11 / 19</span></div>
+  <div class="footer"><span>Phase 2 · Singapore 2023</span><span>11 / 21</span></div>
 </section>
 
 <!-- 11 · PHASE 2 ACTIVITIES II -->
@@ -357,7 +415,7 @@
     </div>
   </div>
   <p class="sub" style="font-size:27px;max-width:100%"><span style="color:var(--moss)">What was learned: a community lab movement across Southeast Asia — biotechnology democratized, in farms, kitchens and maker spaces.</span></p>
-  <div class="footer"><span>Phase 2 · Singapore 2023</span><span>12 / 19</span></div>
+  <div class="footer"><span>Phase 2 · Singapore 2023</span><span>12 / 21</span></div>
 </section>
 
 
@@ -383,7 +441,7 @@
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/sg_15.jpg" alt=""></div>
       </div>
   <p class="cap" style="margin-top:18px">BioArt Workshop Singapore 2023 — Singapore Art Museum · 15–19 March 2023</p>
-  <div class="footer"><span>Phase 2 · Singapore 2023</span><span>13 / 19</span></div>
+  <div class="footer"><span>Phase 2 · Singapore 2023</span><span>13 / 21</span></div>
 </section>
 <!-- 12 · THE THREAD -->
 <section class="slide" id="s12">
@@ -400,7 +458,7 @@
       <p class="sub" style="margin-top:26px;color:var(--amber)">The question that remains: what should this network become? Where does the conversation go next?</p>
     </div>
   </div>
-  <div class="footer"><span>The Thread</span><span>14 / 19</span></div>
+  <div class="footer"><span>The Thread</span><span>14 / 21</span></div>
 </section>
 
 <!-- 13 · PHASE 3 DIVIDER -->
@@ -413,7 +471,7 @@
     <p class="sub" style="color:var(--bone)">Intimacy with Nature: Biology, Art &amp; the Technological Drift — arrival March 4, then three days of talks, panels, workshops, tours and PechaKucha that bring the two phases of practice into public discourse, in the country where the journey began.</p>
     <p class="sub" style="margin-top:26px;color:var(--bone-dim)">Organized by FREAK Lab Thailand × BACC</p>
   </div>
-  <div class="footer"><span>Phase 3 · Bangkok 2027</span><span>15 / 19</span></div>
+  <div class="footer"><span>Phase 3 · Bangkok 2027</span><span>15 / 21</span></div>
 </section>
 
 <!-- 14 · DAY 1 -->
@@ -429,7 +487,7 @@
       <tr><td class="time">15:00</td><td>[TALK] Pursuit to Understand Life and Bioaesthetic — metaPhorest to SymbioticA<div class="who">Hideo Iwasaki × Oron Catts — <em>Moderator: Shawn Chua</em></div></td></tr>
     </table>
   </div>
-  <div class="footer"><span>Phase 3 · Program v2.2 · BACC or Chulalongkorn University</span><span>16 / 19</span></div>
+  <div class="footer"><span>Phase 3 · Program v2.2 · BACC or Chulalongkorn University</span><span>16 / 21</span></div>
 </section>
 
 <!-- 15 · DAY 2 -->
@@ -449,7 +507,7 @@
           <b style="color:var(--bone);font-weight:400">3 · Mycelium Culture</b> — Republic Lab</div></td></tr>
     </table>
   </div>
-  <div class="footer"><span>Phase 3 · Program v2.2 · Afternoon at Chulalongkorn Natural History Museum</span><span>17 / 19</span></div>
+  <div class="footer"><span>Phase 3 · Program v2.2 · Afternoon at Chulalongkorn Natural History Museum</span><span>17 / 21</span></div>
 </section>
 
 <!-- 16 · DAY 3 -->
@@ -468,12 +526,58 @@
       <tr><td class="time">14:00</td><td>PechaKucha — 12 artists / curators / scientists</td></tr>
     </table>
   </div>
-  <div class="footer"><span>Phase 3 · Program v2.2 · BACC or Chulalongkorn University</span><span>18 / 19</span></div>
+  <div class="footer"><span>Phase 3 · Program v2.2 · BACC or Chulalongkorn University</span><span>18 / 21</span></div>
 </section>
 
-<!-- 17 · SPEAKERS -->
+<!-- 19 · LIVE FOREVER? -->
+<section class="slide" id="s19">
+  <div class="kicker"><span class="num">19</span>Beyond the Symposium · FREAK Lab Thailand</div>
+  <h2>Live Forever? — Spiritual Drug Discovery</h2>
+  <p class="sub" style="margin-bottom:8px">From molecule to mind: what the spiritual doctor, the local herbalist and the synthetic biologist share when discovering a new drug — the ritual of processing, and of delivery.</p>
+  <div class="trio" style="flex:1;align-items:center">
+    <div>
+      <div class="frame" style="height:400px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s22_0.jpg" alt="Palm wine brewery"></div>
+      <div class="cap" style="font-size:19px">The spiritual doctor — diagnosis and delivery as ritual</div>
+    </div>
+    <div>
+      <div class="frame" style="height:400px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s21_0.jpg" alt="Mushroom color extraction"></div>
+      <div class="cap" style="font-size:19px">The local herbalist — ethnobotanical knowledge of preparation</div>
+    </div>
+    <div>
+      <div class="frame" style="height:400px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s25_4.jpg" alt="Colorful salad with Agrobacterium"></div>
+      <div class="cap" style="font-size:19px">The synthetic biologist — molecular docking &amp; screening</div>
+    </div>
+  </div>
+  <p class="sub" style="font-size:27px;max-width:100%"><span style="color:var(--moss)">Join us on a 3-day trip into the discovery of the elixir of life — by FREAK Lab Thailand.</span></p>
+  <div class="footer"><span>Live Forever? · Spiritual Drug Discovery</span><span>19 / 21</span></div>
+</section>
+
+<!-- 20 · BOTANICAL GARDEN RESIDENCY -->
+<section class="slide" id="s20">
+  <div class="two-col">
+    <div class="img-col">
+      <div class="frame" style="height:640px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s24_4.jpg" alt="Botanical garden"></div>
+      <div class="cap">Botanical garden — living collection as field site</div>
+    </div>
+    <div>
+      <div class="kicker"><span class="num">20</span>Beyond the Symposium · Open Call</div>
+      <h2>Art Residency at the Botanical Garden Network, Thailand</h2>
+      <p class="sub">How does local ecology adapt to changing environments — shifting climate, industrial expansion, the pressure of growth?</p>
+      <p class="sub" style="margin-top:26px">This residency invites artists and researchers to work across Thailand's botanical garden network: to explore the pace of change, and to revisit the idea — and the ideal — of nature.</p>
+      <ul class="learn" style="margin-top:34px;font-size:26px">
+        <li>Fieldwork inside living collections across Thailand</li>
+        <li>Artists and researchers in shared residence</li>
+        <li>Revisiting what "nature" means under anthropogenic change</li>
+      </ul>
+      <p class="sub" style="margin-top:30px;color:var(--amber)">Organized by FREAK Lab Thailand</p>
+    </div>
+  </div>
+  <div class="footer"><span>Botanical Garden Network Residency</span><span>20 / 21</span></div>
+</section>
+
+<!-- 21 · SPEAKERS -->
 <section class="slide" id="s17">
-  <div class="kicker"><span class="num">19</span>Voices · Program v2.2</div>
+  <div class="kicker"><span class="num">21</span>Voices · Program v2.2</div>
   <h2 style="margin-bottom:20px">Speakers</h2>
   <div style="display:grid;grid-template-columns:1.55fr 1fr;gap:0 56px;flex:1;min-height:0">
     <div style="display:flex;flex-direction:column;justify-content:center">
@@ -536,7 +640,7 @@
       <div style="font-family:var(--mono);font-size:14px;color:var(--bone-dim);margin-top:14px">PechaKucha · 12 artists / curators / scientists — open call</div>
     </div>
   </div>
-  <div class="footer"><span>Join us in Bangkok — March 4–7, 2027 · freaklab.org</span><span>19 / 19</span></div>
+  <div class="footer"><span>Join us in Bangkok — March 4–7, 2027 · freaklab.org</span><span>21 / 21</span></div>
 </section>
 
 
@@ -546,7 +650,7 @@
 <div id="hud">
   <a href="../" style="color:rgba(236,231,218,.55);text-decoration:none;border:1px solid rgba(236,231,218,.18);padding:8px 14px;border-radius:4px">← FREAK Lab</a>
   <button onclick="nav(-1)">←</button>
-  <span id="counter">1 / 19</span>
+  <span id="counter">1 / 21</span>
   <button onclick="nav(1)">→</button>
 </div>
 
