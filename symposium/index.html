@@ -529,55 +529,51 @@
   <div class="footer"><span>Phase 3 · Program v2.2 · BACC or Chulalongkorn University</span><span>18 / 21</span></div>
 </section>
 
-<!-- 19 · LIVE FOREVER? -->
-<section class="slide" id="s19">
-  <div class="kicker"><span class="num">19</span>Beyond the Symposium · FREAK Lab Thailand</div>
-  <h2>Live Forever? — Spiritual Drug Discovery</h2>
-  <p class="sub" style="margin-bottom:8px">From molecule to mind: what the spiritual doctor, the local herbalist and the synthetic biologist share when discovering a new drug — the ritual of processing, and of delivery.</p>
-  <div class="trio" style="flex:1;align-items:center">
-    <div>
-      <div class="frame" style="height:400px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s22_0.jpg" alt="Palm wine brewery"></div>
-      <div class="cap" style="font-size:19px">The spiritual doctor — diagnosis and delivery as ritual</div>
-    </div>
-    <div>
-      <div class="frame" style="height:400px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s21_0.jpg" alt="Mushroom color extraction"></div>
-      <div class="cap" style="font-size:19px">The local herbalist — ethnobotanical knowledge of preparation</div>
-    </div>
-    <div>
-      <div class="frame" style="height:400px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s25_4.jpg" alt="Colorful salad with Agrobacterium"></div>
-      <div class="cap" style="font-size:19px">The synthetic biologist — molecular docking &amp; screening</div>
-    </div>
-  </div>
-  <p class="sub" style="font-size:27px;max-width:100%"><span style="color:var(--moss)">Join us on a 3-day trip into the discovery of the elixir of life — by FREAK Lab Thailand.</span></p>
-  <div class="footer"><span>Live Forever? · Spiritual Drug Discovery</span><span>19 / 21</span></div>
-</section>
 
-<!-- 20 · BOTANICAL GARDEN RESIDENCY -->
-<section class="slide" id="s20">
-  <div class="two-col">
-    <div class="img-col">
-      <div class="frame" style="height:640px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s24_4.jpg" alt="Botanical garden"></div>
-      <div class="cap">Botanical garden — living collection as field site</div>
-    </div>
-    <div>
-      <div class="kicker"><span class="num">20</span>Beyond the Symposium · Open Call</div>
-      <h2>Art Residency at the Botanical Garden Network, Thailand</h2>
-      <p class="sub">How does local ecology adapt to changing environments — shifting climate, industrial expansion, the pressure of growth?</p>
-      <p class="sub" style="margin-top:26px">This residency invites artists and researchers to work across Thailand's botanical garden network: to explore the pace of change, and to revisit the idea — and the ideal — of nature.</p>
-      <ul class="learn" style="margin-top:34px;font-size:26px">
-        <li>Fieldwork inside living collections across Thailand</li>
-        <li>Artists and researchers in shared residence</li>
-        <li>Revisiting what "nature" means under anthropogenic change</li>
-      </ul>
-      <p class="sub" style="margin-top:30px;color:var(--amber)">Organized by FREAK Lab Thailand</p>
-    </div>
-  </div>
-  <div class="footer"><span>Botanical Garden Network Residency</span><span>20 / 21</span></div>
-</section>
 
-<!-- 21 · SPEAKERS -->
+
+</div></div>
+
+<div id="dots"></div>
+<div id="hud">
+  <a href="../" style="color:rgba(236,231,218,.55);text-decoration:none;border:1px solid rgba(236,231,218,.18);padding:8px 14px;border-radius:4px">← FREAK Lab</a>
+  <button onclick="nav(-1)">←</button>
+  <span id="counter">1 / 21</span>
+  <button onclick="nav(1)">→</button>
+</div>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')];
+let cur=0;
+try{cur=Math.min(parseInt(localStorage.getItem('iwn-deck')||'0'),slides.length-1)||0}catch(e){}
+const dots=document.getElementById('dots');
+slides.forEach((s,i)=>{const d=document.createElement('i');d.onclick=()=>go(i);dots.appendChild(d)});
+function go(i){
+  cur=(i+slides.length)%slides.length;
+  slides.forEach((s,j)=>s.classList.toggle('active',j===cur));
+  [...dots.children].forEach((d,j)=>d.classList.toggle('on',j===cur));
+  document.getElementById('counter').textContent=(cur+1)+' / '+slides.length;
+  try{localStorage.setItem('iwn-deck',cur)}catch(e){}
+}
+function nav(d){go(cur+d)}
+document.addEventListener('keydown',e=>{
+  if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();nav(1)}
+  if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();nav(-1)}
+  if(e.key==='Home')go(0); if(e.key==='End')go(slides.length-1);
+});
+function fit(){
+  const d=document.getElementById('deck');
+  const s=Math.min(innerWidth/1920,innerHeight/1080);
+  d.style.transform='scale('+s+')';
+}
+addEventListener('resize',fit);fit();go(cur);
+</script>
+</body>
+</html>
+
+<!-- 19 · SPEAKERS -->
 <section class="slide" id="s17">
-  <div class="kicker"><span class="num">21</span>Voices · Program v2.2</div>
+  <div class="kicker"><span class="num">19</span>Voices · Program v2.2</div>
   <h2 style="margin-bottom:20px">Speakers</h2>
   <div style="display:grid;grid-template-columns:1.55fr 1fr;gap:0 56px;flex:1;min-height:0">
     <div style="display:flex;flex-direction:column;justify-content:center">
@@ -640,45 +636,54 @@
       <div style="font-family:var(--mono);font-size:14px;color:var(--bone-dim);margin-top:14px">PechaKucha · 12 artists / curators / scientists — open call</div>
     </div>
   </div>
-  <div class="footer"><span>Join us in Bangkok — March 4–7, 2027 · freaklab.org</span><span>21 / 21</span></div>
+  <div class="footer"><span>Join us in Bangkok — March 4–7, 2027 · freaklab.org</span><span>19 / 21</span></div>
 </section>
 
-
+<!-- 20 · LIVE FOREVER? -->
+<section class="slide" id="s19">
+  <div class="two-col" style="align-items:center">
+    <div>
+      <div class="kicker"><span class="num">20</span>Beyond the Symposium · FREAK Lab Thailand</div>
+      <h2>Live Forever? — Spiritual Drug Discovery</h2>
+      <p class="sub">From molecule to mind: what the spiritual doctor, the local herbalist and the synthetic biologist share when discovering a new drug — the ritual of processing, and of delivery.</p>
+      <p class="sub" style="margin-top:26px">A 3-day trip into the discovery of the elixir of life — by FREAK Lab Thailand.</p>
+      <p class="sub" style="margin-top:26px;color:var(--moss)">Join us — registration opens soon.</p>
+    </div>
+    <div class="img-col">
+      <div class="duo">
+        <div>
+          <div class="frame" style="height:440px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s22_0.jpg" alt="Shaman ritual"></div>
+          <div class="cap" style="font-size:18px">Shaman ritual — diagnosis and delivery as ceremony</div>
+        </div>
+        <div>
+          <div class="frame" style="height:440px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s25_4.jpg" alt="Molecular docking"></div>
+          <div class="cap" style="font-size:18px">Molecular docking — screening the elixir, compound by compound</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer"><span>Live Forever? · Spiritual Drug Discovery</span><span>20 / 21</span></div>
+</section>
+<!-- 21 · BOTANICAL GARDEN RESIDENCY -->
+<section class="slide" id="s20">
+  <div class="two-col">
+    <div class="img-col">
+      <div class="frame" style="height:640px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s24_4.jpg" alt="Rayong Botanical Garden"></div>
+      <div class="cap">Rayong Botanical Garden — living collection as field site</div>
+    </div>
+    <div>
+      <div class="kicker"><span class="num">21</span>Beyond the Symposium · Open Call</div>
+      <h2>Art Residency at the Botanical Garden Network, Thailand</h2>
+      <p class="sub">How does local ecology adapt to changing environments — shifting climate, industrial expansion, the pressure of growth?</p>
+      <p class="sub" style="margin-top:26px">This residency invites artists and researchers to work across Thailand's botanical garden network: to explore the pace of change, and to revisit the idea — and the ideal — of nature.</p>
+      <ul class="learn" style="margin-top:34px;font-size:26px">
+        <li>Fieldwork inside living collections across Thailand</li>
+        <li>Artists and researchers in shared residence</li>
+        <li>Revisiting what "nature" means under anthropogenic change</li>
+      </ul>
+      <p class="sub" style="margin-top:30px;color:var(--amber)">Organized by FREAK Lab Thailand</p>
+    </div>
+  </div>
+  <div class="footer"><span>Botanical Garden Network Residency · Rayong</span><span>21 / 21</span></div>
+</section>
 </div></div>
-
-<div id="dots"></div>
-<div id="hud">
-  <a href="../" style="color:rgba(236,231,218,.55);text-decoration:none;border:1px solid rgba(236,231,218,.18);padding:8px 14px;border-radius:4px">← FREAK Lab</a>
-  <button onclick="nav(-1)">←</button>
-  <span id="counter">1 / 21</span>
-  <button onclick="nav(1)">→</button>
-</div>
-
-<script>
-const slides=[...document.querySelectorAll('.slide')];
-let cur=0;
-try{cur=Math.min(parseInt(localStorage.getItem('iwn-deck')||'0'),slides.length-1)||0}catch(e){}
-const dots=document.getElementById('dots');
-slides.forEach((s,i)=>{const d=document.createElement('i');d.onclick=()=>go(i);dots.appendChild(d)});
-function go(i){
-  cur=(i+slides.length)%slides.length;
-  slides.forEach((s,j)=>s.classList.toggle('active',j===cur));
-  [...dots.children].forEach((d,j)=>d.classList.toggle('on',j===cur));
-  document.getElementById('counter').textContent=(cur+1)+' / '+slides.length;
-  try{localStorage.setItem('iwn-deck',cur)}catch(e){}
-}
-function nav(d){go(cur+d)}
-document.addEventListener('keydown',e=>{
-  if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();nav(1)}
-  if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();nav(-1)}
-  if(e.key==='Home')go(0); if(e.key==='End')go(slides.length-1);
-});
-function fit(){
-  const d=document.getElementById('deck');
-  const s=Math.min(innerWidth/1920,innerHeight/1080);
-  d.style.transform='scale('+s+')';
-}
-addEventListener('resize',fit);fit();go(cur);
-</script>
-</body>
-</html>
