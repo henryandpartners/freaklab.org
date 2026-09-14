@@ -529,48 +529,6 @@
   <div class="footer"><span>Phase 3 · Program v2.2 · BACC or Chulalongkorn University</span><span>18 / 21</span></div>
 </section>
 
-
-
-
-</div></div>
-
-<div id="dots"></div>
-<div id="hud">
-  <a href="../" style="color:rgba(236,231,218,.55);text-decoration:none;border:1px solid rgba(236,231,218,.18);padding:8px 14px;border-radius:4px">← FREAK Lab</a>
-  <button onclick="nav(-1)">←</button>
-  <span id="counter">1 / 21</span>
-  <button onclick="nav(1)">→</button>
-</div>
-
-<script>
-const slides=[...document.querySelectorAll('.slide')];
-let cur=0;
-try{cur=Math.min(parseInt(localStorage.getItem('iwn-deck')||'0'),slides.length-1)||0}catch(e){}
-const dots=document.getElementById('dots');
-slides.forEach((s,i)=>{const d=document.createElement('i');d.onclick=()=>go(i);dots.appendChild(d)});
-function go(i){
-  cur=(i+slides.length)%slides.length;
-  slides.forEach((s,j)=>s.classList.toggle('active',j===cur));
-  [...dots.children].forEach((d,j)=>d.classList.toggle('on',j===cur));
-  document.getElementById('counter').textContent=(cur+1)+' / '+slides.length;
-  try{localStorage.setItem('iwn-deck',cur)}catch(e){}
-}
-function nav(d){go(cur+d)}
-document.addEventListener('keydown',e=>{
-  if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();nav(1)}
-  if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();nav(-1)}
-  if(e.key==='Home')go(0); if(e.key==='End')go(slides.length-1);
-});
-function fit(){
-  const d=document.getElementById('deck');
-  const s=Math.min(innerWidth/1920,innerHeight/1080);
-  d.style.transform='scale('+s+')';
-}
-addEventListener('resize',fit);fit();go(cur);
-</script>
-</body>
-</html>
-
 <!-- 19 · SPEAKERS -->
 <section class="slide" id="s17">
   <div class="kicker"><span class="num">19</span>Voices · Program v2.2</div>
@@ -686,4 +644,42 @@ addEventListener('resize',fit);fit();go(cur);
   </div>
   <div class="footer"><span>Botanical Garden Network Residency · Rayong</span><span>21 / 21</span></div>
 </section>
+
 </div></div>
+
+<div id="dots"></div>
+<div id="hud">
+  <a href="../" style="color:rgba(236,231,218,.55);text-decoration:none;border:1px solid rgba(236,231,218,.18);padding:8px 14px;border-radius:4px">← FREAK Lab</a>
+  <button onclick="nav(-1)">←</button>
+  <span id="counter">1 / 21</span>
+  <button onclick="nav(1)">→</button>
+</div>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')];
+let cur=0;
+try{cur=Math.min(parseInt(localStorage.getItem('iwn-deck')||'0'),slides.length-1)||0}catch(e){}
+const dots=document.getElementById('dots');
+slides.forEach((s,i)=>{const d=document.createElement('i');d.onclick=()=>go(i);dots.appendChild(d)});
+function go(i){
+  cur=(i+slides.length)%slides.length;
+  slides.forEach((s,j)=>s.classList.toggle('active',j===cur));
+  [...dots.children].forEach((d,j)=>d.classList.toggle('on',j===cur));
+  document.getElementById('counter').textContent=(cur+1)+' / '+slides.length;
+  try{localStorage.setItem('iwn-deck',cur)}catch(e){}
+}
+function nav(d){go(cur+d)}
+document.addEventListener('keydown',e=>{
+  if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();nav(1)}
+  if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();nav(-1)}
+  if(e.key==='Home')go(0); if(e.key==='End')go(slides.length-1);
+});
+function fit(){
+  const d=document.getElementById('deck');
+  const s=Math.min(innerWidth/1920,innerHeight/1080);
+  d.style.transform='scale('+s+')';
+}
+addEventListener('resize',fit);fit();go(cur);
+</script>
+</body>
+</html>
