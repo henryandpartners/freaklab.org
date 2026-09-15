@@ -222,33 +222,25 @@ input,textarea,select{background:#1a1a1a!important;color:#eee!important;border-c
 .sub-menu{background:#1a1a1a!important}
 .sub-menu a{color:#ccc!important}
 </style>
-<style id="esg-grid-fix">
-.esg-grid ul{display:grid!important;grid-template-columns:repeat(3,1fr);gap:18px;list-style:none!important;margin:0!important;padding:0!important}
-.esg-grid ul > li{display:block!important;visibility:visible!important;list-style:none!important;margin:0!important;padding:0!important;width:auto!important;height:auto!important;position:static!important;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);transition:transform .2s,box-shadow .2s}
-.esg-grid ul > li:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.12)}
-.esg-grid ul > li .esg-media-cover-wrapper{display:flex;flex-direction:column;height:100%}
-.esg-grid ul > li .esg-entry-media{position:relative;overflow:hidden;aspect-ratio:16/10;background:#f5f5f5}
-.esg-grid ul > li .esg-entry-media img{width:100%;height:100%;object-fit:cover;display:block}
-.esg-grid ul > li .esg-entry-content{padding:14px 16px 18px;flex:1;display:flex;flex-direction:column}
-.esg-grid ul > li .esg-entry-content .esg-content:first-child a{font-size:15px;font-weight:600;color:#111;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px}
-.esg-grid ul > li .esg-entry-content .esg-content:first-child a:hover{color:#555}
-.esg-grid ul > li .esg-entry-content .esg-content:last-child a{font-size:12px;color:#888;text-transform:uppercase;letter-spacing:.5px;text-decoration:none}
-#esg-grid-2-1 ul,#esg-grid-34-2 ul{grid-template-columns:repeat(4,1fr)}
-@media(max-width:1024px){.esg-grid ul{grid-template-columns:repeat(2,1fr)}#esg-grid-2-1 ul,#esg-grid-34-2 ul{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:640px){.esg-grid ul{grid-template-columns:1fr}#esg-grid-2-1 ul,#esg-grid-34-2 ul{grid-template-columns:repeat(2,1fr)}}
-.esg-filter-wrapper{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-bottom:24px!important}
-.esg-filterbutton{display:inline-block;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:500;cursor:pointer;background:#f0f0f0;color:#555;border:none;transition:all .2s;user-select:none}
-.esg-filterbutton:hover{background:#e0e0e0;color:#222}
-.esg-filterbutton.selected{background:#000;color:#fff}
-.esg-filterbutton .esg-filter-checked{display:none}
-.esg-grid ul > li.filter-hidden{display:none!important}
-.esg-overlay{display:none!important}
-.eg-clearfix{display:none}
-.esg-overflowtrick{overflow:visible!important;height:auto!important}
-.esg-grid ul>li.itemishidden{display:none!important}
-.esg-grid ul > li .esg-entry-media{width:100%!important;max-width:100%!important;padding-bottom:0!important}
-.esg-grid ul > li .esg-media-poster{position:absolute!important;top:0!important;left:0!important;width:100%!important;height:100%!important;background-size:cover!important;background-position:center center!important;transform:none!important}
+
+<style id="uc-updates-grid">
+.uc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;list-style:none!important;margin:0!important;padding:0!important}
+.uc-card{display:block!important;visibility:visible!important;list-style:none!important;margin:0!important;padding:0!important;width:auto!important;height:auto!important;position:static!important}
+.uc-link{display:flex;flex-direction:column;height:100%;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);transition:transform .2s,box-shadow .2s;text-decoration:none}
+.uc-card:hover .uc-link{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.3)}
+.uc-media{aspect-ratio:16/10;overflow:hidden;background:#f5f5f5}
+.uc-media img{width:100%;height:100%;object-fit:cover;display:block}
+.uc-body{padding:14px 16px 18px;flex:1;display:flex;flex-direction:column;gap:6px}
+.uc-title{font-size:15px;font-weight:600;color:#111;text-decoration:none;line-height:1.4}
+.uc-card:hover .uc-title{color:#666}
+.uc-cats{display:flex;flex-wrap:wrap;gap:4px 10px}
+.uc-cat{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:.5px;text-decoration:none}
+.uc-grid li.filter-hidden,.uc-grid li.itemishidden{display:none!important}
+@media(max-width:1024px){.uc-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.uc-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.uc-card,.uc-link{transition:none}}
 </style>
+
 </head>
 <body data-rsssl=1 class="wp-singular page-template page-template-page-blank page-template-page-blank-php page page-id-2318 wp-theme-flatsome wp-child-theme-flatsome-child full-width lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border elementor-default elementor-kit-">
 <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
@@ -379,319 +371,76 @@ background-image: url(https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/images
 <!-- THE ESSENTIAL GRID 2.2.4 POST -->
 <article class="myportfolio-container minimal-light source_type_post" id="esg-grid-25-1-wrap">
 <div id="esg-grid-25-1" class="esg-grid" style="background: transparent;padding: 5px 5px 5px 5px ; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;">
-<ul>
-<li id="eg-25-post-id-3765" class="filterall filter-learningfutures filter-special-project eg-project-wrapper eg-post-id-3765" data-date="1643534734">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/preliminary-workshop-bioarthistory/" target="_self"><div class="esg-entry-media"><img fetchpriority="high" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2022/01/Bio-Art-History-workshop.jpg" alt="" width="1550" height="826"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-3765 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-3765" href="..//event/preliminary-workshop-bioarthistory/" target="_self">Preliminary Workshop Bio+Art+History</a></div>
-<div class="esg-content eg-post-3765 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-3765" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a> <a class="eg-project-element-27 eg-post-3765" href="..//group-category/special-project/" title="View all posts in Special Project" rel="category tag">Special Project</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-3514" class="filterall filter-biodigital filter-cat-space filter-courses eg-project-wrapper eg-post-id-3514" data-date="1575006402">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/mini-symposium-on-space-exploration-biotechnology-asian-culture/" target="_self"><div class="esg-entry-media"><img decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/11/78845146_602462700560496_5633653033876324352_n.jpg" alt="" width="942" height="939"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-3514 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-3514" href="..//event/mini-symposium-on-space-exploration-biotechnology-asian-culture/" target="_self">Mini-Symposium on Space Exploration, Biotechnology, Asian Culture</a></div>
-<div class="esg-content eg-post-3514 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-3514" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-project-element-27 eg-post-3514" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-project-element-27 eg-post-3514" href="..//group-category/courses/" title="View all posts in Courses" rel="category tag">Courses</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-3306" class="filterall filter-special-project eg-project-wrapper eg-post-id-3306" data-date="1549799994">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/hyperloop-technical-discussion-first-time-in-thailand/" target="_self"><div class="esg-entry-media"><img decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/02/51078374_228412991439119_3153779427297460224_o.jpg" alt="" width="1477" height="1108"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-3306 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-3306" href="..//event/hyperloop-technical-discussion-first-time-in-thailand/" target="_self">Hyperloop technical discussion first time in Thailand</a></div>
-<div class="esg-content eg-post-3306 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-3306" href="..//group-category/special-project/" title="View all posts in Special Project" rel="category tag">Special Project</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-3278" class="filterall filter-biodigital filter-cat-space filter-experimental-society filter-fab-taste filter-functional-aesthetics filter-neuro-media eg-project-wrapper eg-post-id-3278" data-date="1546568487">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/freak-to-the-futures-exhibition-2/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/Invitation-Card.001.jpg" alt="" width="1024" height="1024"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-3278 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-3278" href="..//event/freak-to-the-futures-exhibition-2/" target="_self">Freak to the Futures Exhibition at FREAK Lab HQ</a></div>
-<div class="esg-content eg-post-3278 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-3278" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-project-element-27 eg-post-3278" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-project-element-27 eg-post-3278" href="..//group-category/experimental-society/" title="View all posts in Experimental Society" rel="category tag">Experimental Society</a> <a class="eg-project-element-27 eg-post-3278" href="..//group-category/fab-taste/" title="View all posts in Fab Taste" rel="category tag">Fab Taste</a> <a class="eg-project-element-27 eg-post-3278" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a> <a class="eg-project-element-27 eg-post-3278" href="..//group-category/neuro-media/" title="View all posts in Neuro Media" rel="category tag">Neuro Media</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-3202" class="filterall filter-special-project eg-project-wrapper eg-post-id-3202" data-date="1545314792">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/hyperloop-lecture-at-kmutt-by-dr-andrea/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/12/48405305_281712532703078_463646057520168960_n.jpg" alt="" width="1370" height="772"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-3202 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-3202" href="..//event/hyperloop-lecture-at-kmutt-by-dr-andrea/" target="_self">Hyperloop lecture at KMUTT by Dr.Andrea Santangelo</a></div>
-<div class="esg-content eg-post-3202 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-3202" href="..//group-category/special-project/" title="View all posts in Special Project" rel="category tag">Special Project</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-3127" class="filterall filter-cat-space eg-project-wrapper eg-post-id-3127" data-date="1542195264">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/ap-sgw-participant-of-gender-diversity/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/46131352_326875934776945_7977252361854779392_n.jpg" alt="" width="1080" height="1616"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-3127 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-3127" href="..//event/ap-sgw-participant-of-gender-diversity/" target="_self">AP-SGW participant of gender diversity</a></div>
-<div class="esg-content eg-post-3127 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-3127" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-3124" class="filterall filter-cat-space eg-project-wrapper eg-post-id-3124" data-date="1542194568">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/co-founder-of-hyperloop-pod-challenge-thailand-team/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/45276131_10157268950650931_6083972812899352576_n-1.jpg" alt="" width="960" height="960"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-3124 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-3124" href="..//event/co-founder-of-hyperloop-pod-challenge-thailand-team/" target="_self">Co-founder of Hyperloop pod Challenge Thailand team</a></div>
-<div class="esg-content eg-post-3124 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-3124" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-3091" class="filterall filter-biodigital filter-cat-space filter-experimental-society filter-fab-taste filter-functional-aesthetics filter-neuro-media eg-project-wrapper eg-post-id-3091" data-date="1542181217">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/freak-to-the-futures-exhibition/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/Invitation-Card.001.jpg" alt="" width="1024" height="1024"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-3091 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-3091" href="..//event/freak-to-the-futures-exhibition/" target="_self">Freak to the Futures Exhibition</a></div>
-<div class="esg-content eg-post-3091 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-3091" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-project-element-27 eg-post-3091" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-project-element-27 eg-post-3091" href="..//group-category/experimental-society/" title="View all posts in Experimental Society" rel="category tag">Experimental Society</a> <a class="eg-project-element-27 eg-post-3091" href="..//group-category/fab-taste/" title="View all posts in Fab Taste" rel="category tag">Fab Taste</a> <a class="eg-project-element-27 eg-post-3091" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a> <a class="eg-project-element-27 eg-post-3091" href="..//group-category/neuro-media/" title="View all posts in Neuro Media" rel="category tag">Neuro Media</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-2504" class="filterall filter-fab-taste eg-project-wrapper eg-post-id-2504" data-date="1531307572">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/food-fiction-futures-fabrication-casual-workshop/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/07/Food-Workshop.001.jpg" alt="" width="1024" height="1024"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-2504 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-2504" href="..//event/food-fiction-futures-fabrication-casual-workshop/" target="_self">Food Fiction Futures Fabrication (Casual Workshop)</a></div>
-<div class="esg-content eg-post-2504 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-2504" href="..//group-category/fab-taste/" title="View all posts in Fab Taste" rel="category tag">Fab Taste</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-2450" class="filterall filter-biodigital filter-experimental-society filter-functional-aesthetics eg-project-wrapper eg-post-id-2450" data-date="1528532823">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/biofab/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/06/Adams-poster-3.001.jpg" alt="" width="1024" height="1024"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-2450 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-2450" href="..//event/biofab/" target="_self">The Futures of Bio-Fabrication:  Aesthetics, Beings, and Factories (Talk and Workshop)</a></div>
-<div class="esg-content eg-post-2450 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-2450" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-project-element-27 eg-post-2450" href="..//group-category/experimental-society/" title="View all posts in Experimental Society" rel="category tag">Experimental Society</a> <a class="eg-project-element-27 eg-post-2450" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-2233" class="filterall filter-biodigital eg-project-wrapper eg-post-id-2233" data-date="1524517767">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/immersea-subversive-submersibles-is-water-adapted-augmented-reality-ar/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/04/ar_nism.jpg" alt="" width="801" height="452"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-2233 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-2233" href="..//event/immersea-subversive-submersibles-is-water-adapted-augmented-reality-ar/" target="_self">ImmerSea: Subversive Submersibles is water-adapted augmented reality (AR)</a></div>
-<div class="esg-content eg-post-2233 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-2233" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-2791" class="filterall filter-biodigital filter-functional-aesthetics eg-project-wrapper eg-post-id-2791" data-date="1522871339">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/mrs-2018/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/DSC02462.jpg" alt="" width="2048" height="1365"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-2791 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-2791" href="..//event/mrs-2018/" target="_self">MRS 2018 Wearables in Smart Fabrics Fashion Show</a></div>
-<div class="esg-content eg-post-2791 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-2791" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-project-element-27 eg-post-2791" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-2798" class="filterall filter-biodigital filter-functional-aesthetics eg-project-wrapper eg-post-id-2798" data-date="1522525965">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/uncertainty-fashion-show-2018/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/MG_3658.jpg" alt="" width="1365" height="2048"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-2798 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-2798" href="..//event/uncertainty-fashion-show-2018/" target="_self">Uncertainty Fashion Show 2018</a></div>
-<div class="esg-content eg-post-2798 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-2798" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-project-element-27 eg-post-2798" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-1779" class="filterall filter-learningfutures eg-project-wrapper eg-post-id-1779" data-date="1518399576">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/ieee-tale-2017/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/25552529_10155820162886605_149671636_o.jpg" alt="" width="2048" height="1365"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-1779 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-1779" href="..//event/ieee-tale-2017/" target="_self">Freak Lab researcher presented an education research at IEEE TALE 2017</a></div>
-<div class="esg-content eg-post-1779 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-1779" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-797" class="filterall filter-biodigital filter-neuro-media eg-project-wrapper eg-post-id-797" data-date="1501205612">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/machine-learning-on-eeg-data-workshop-by-dr-sirawaj-itthipuripat/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/PSean-workshop.001-1.jpg" alt="" width="1024" height="1024"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-797 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-797" href="..//event/machine-learning-on-eeg-data-workshop-by-dr-sirawaj-itthipuripat/" target="_self">Machine  Learning on EEG  data workshop by Dr. Sirawaj Itthipuripat</a></div>
-<div class="esg-content eg-post-797 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-797" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-project-element-27 eg-post-797" href="..//group-category/neuro-media/" title="View all posts in Neuro Media" rel="category tag">Neuro Media</a></div>
-</div>   </div>
-</li>
-<li id="eg-25-post-id-765" class="filterall filter-biodigital eg-project-wrapper eg-post-id-765" data-date="1499700438">
-<div class="esg-media-cover-wrapper">
-<a href="..//event/adm-symposium-2017/" target="_self"><div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/IMG_9779.jpg" alt="" width="1536" height="2048"></div>
-</a>                <div class="esg-overlay esg-none eg-project-container"></div>
-<div class="esg-entry-content eg-project-content">
-<div class="esg-content eg-post-765 eg-project-element-0-a"><a class="eg-project-element-0 eg-post-765" href="..//event/adm-symposium-2017/" target="_self">FREAK Members join ADM Symposium 2017 : Innovation, Biodesign,  Culture, and Technology</a></div>
-<div class="esg-content eg-post-765 eg-project-element-27-a"><a class="eg-project-element-27 eg-post-765" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a></div>
-</div>   </div>
-</li>
+<ul class="uc-grid">
+<li class="uc-card"><a class="uc-link" href="../event/preliminary-workshop-bioarthistory/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2022/01/Bio-Art-History-workshop.jpg" alt="Preliminary Workshop Bio+Art+History" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Preliminary Workshop Bio+Art+History</div><div class="uc-cats"><span class="uc-cat">Learning Futures</span> <span class="uc-cat">Special Project</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/mini-symposium-on-space-exploration-biotechnology-asian-culture/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/11/78845146_602462700560496_5633653033876324352_n.jpg" alt="Mini-Symposium on Space Exploration, Biotechnology, Asian Culture" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Mini-Symposium on Space Exploration, Biotechnology, Asian Culture</div><div class="uc-cats"><span class="uc-cat">Biodigital</span> <span class="uc-cat">Cat Space</span> <span class="uc-cat">Courses</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/hyperloop-technical-discussion-first-time-in-thailand/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/02/51078374_228412991439119_3153779427297460224_o.jpg" alt="Hyperloop technical discussion first time in Thailand" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Hyperloop technical discussion first time in Thailand</div><div class="uc-cats"><span class="uc-cat">Special Project</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/freak-to-the-futures-exhibition-2/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/Invitation-Card.001.jpg" alt="Freak to the Futures Exhibition at FREAK Lab HQ" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Freak to the Futures Exhibition at FREAK Lab HQ</div><div class="uc-cats"><span class="uc-cat">Biodigital</span> <span class="uc-cat">Cat Space</span> <span class="uc-cat">Experimental Society</span> <span class="uc-cat">Fab Taste</span> <span class="uc-cat">Functional Aesthetics</span> <span class="uc-cat">Neuro Media</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/hyperloop-lecture-at-kmutt-by-dr-andrea/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/12/48405305_281712532703078_463646057520168960_n.jpg" alt="Hyperloop lecture at KMUTT by Dr.Andrea Santangelo" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Hyperloop lecture at KMUTT by Dr.Andrea Santangelo</div><div class="uc-cats"><span class="uc-cat">Special Project</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/ap-sgw-participant-of-gender-diversity/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/46131352_326875934776945_7977252361854779392_n.jpg" alt="AP-SGW participant of gender diversity" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">AP-SGW participant of gender diversity</div><div class="uc-cats"><span class="uc-cat">Cat Space</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/co-founder-of-hyperloop-pod-challenge-thailand-team/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/45276131_10157268950650931_6083972812899352576_n-1.jpg" alt="Co-founder of Hyperloop pod Challenge Thailand team" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Co-founder of Hyperloop pod Challenge Thailand team</div><div class="uc-cats"><span class="uc-cat">Cat Space</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/freak-to-the-futures-exhibition/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/Invitation-Card.001.jpg" alt="Freak to the Futures Exhibition" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Freak to the Futures Exhibition</div><div class="uc-cats"><span class="uc-cat">Biodigital</span> <span class="uc-cat">Cat Space</span> <span class="uc-cat">Experimental Society</span> <span class="uc-cat">Fab Taste</span> <span class="uc-cat">Functional Aesthetics</span> <span class="uc-cat">Neuro Media</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/food-fiction-futures-fabrication-casual-workshop/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/07/Food-Workshop.001.jpg" alt="Food Fiction Futures Fabrication (Casual Workshop)" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Food Fiction Futures Fabrication (Casual Workshop)</div><div class="uc-cats"><span class="uc-cat">Fab Taste</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/biofab/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/06/Adams-poster-3.001.jpg" alt="The Futures of Bio-Fabrication: Aesthetics, Beings, and Factories (Talk and Workshop)" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">The Futures of Bio-Fabrication: Aesthetics, Beings, and Factories (Talk and Workshop)</div><div class="uc-cats"><span class="uc-cat">Biodigital</span> <span class="uc-cat">Experimental Society</span> <span class="uc-cat">Functional Aesthetics</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/immersea-subversive-submersibles-is-water-adapted-augmented-reality-ar/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/04/ar_nism.jpg" alt="ImmerSea: Subversive Submersibles is water-adapted augmented reality (AR)" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">ImmerSea: Subversive Submersibles is water-adapted augmented reality (AR)</div><div class="uc-cats"><span class="uc-cat">Biodigital</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/mrs-2018/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/DSC02462.jpg" alt="MRS 2018 Wearables in Smart Fabrics Fashion Show" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">MRS 2018 Wearables in Smart Fabrics Fashion Show</div><div class="uc-cats"><span class="uc-cat">Biodigital</span> <span class="uc-cat">Functional Aesthetics</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/uncertainty-fashion-show-2018/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/MG_3658.jpg" alt="Uncertainty Fashion Show 2018" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Uncertainty Fashion Show 2018</div><div class="uc-cats"><span class="uc-cat">Biodigital</span> <span class="uc-cat">Functional Aesthetics</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/ieee-tale-2017/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/25552529_10155820162886605_149671636_o.jpg" alt="Freak Lab researcher presented an education research at IEEE TALE 2017" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Freak Lab researcher presented an education research at IEEE TALE 2017</div><div class="uc-cats"><span class="uc-cat">Learning Futures</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/machine-learning-on-eeg-data-workshop-by-dr-sirawaj-itthipuripat/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/PSean-workshop.001-1.jpg" alt="Machine Learning on EEG data workshop by Dr. Sirawaj Itthipuripat" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">Machine Learning on EEG data workshop by Dr. Sirawaj Itthipuripat</div><div class="uc-cats"><span class="uc-cat">Biodigital</span> <span class="uc-cat">Neuro Media</span></div></div>
+</a></li>
+<li class="uc-card"><a class="uc-link" href="../event/adm-symposium-2017/">
+<div class="uc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/IMG_9779.jpg" alt="FREAK Members join ADM Symposium 2017 : Innovation, Biodesign, Culture, and Technology" decoding="async"></div>
+<div class="uc-body"><div class="uc-title">FREAK Members join ADM Symposium 2017 : Innovation, Biodesign, Culture, and Technology</div><div class="uc-cats"><span class="uc-cat">Biodigital</span></div></div>
+</a></li>
 </ul>
 <article class="esg-filters esg-singlefilters" style="margin-top: 0px; text-align: center; "><div class="esg-navigationbutton esg-left  esg-fgc-25"  style="margin-left: 2.5px !important; margin-right: 2.5px !important; display: none;"><i class="eg-icon-left-open"></i></div><div class="esg-navigationbutton esg-right  esg-fgc-25"  style="margin-left: 2.5px !important; margin-right: 2.5px !important; display: none;"><i class="eg-icon-right-open"></i></div></article><div class="esg-clear-no-height"></div>    </div>
 </article>
 <div class="clear"></div>
-<script type="text/javascript">
-function eggbfc(winw,resultoption) {
-var lasttop = winw,
-lastbottom = 0,
-smallest =9999,
-largest = 0,
-samount = 0,
-lamount = 0,
-lastamount = 0,
-resultid = 0,
-resultidb = 0,
-responsiveEntries = [
-{ width:1400,amount:4,mmheight:0},
-{ width:1170,amount:4,mmheight:0},
-{ width:1024,amount:4,mmheight:0},
-{ width:960,amount:2,mmheight:0},
-{ width:778,amount:2,mmheight:0},
-{ width:640,amount:2,mmheight:0},
-{ width:480,amount:2,mmheight:0}
-];
-if (responsiveEntries!=undefined && responsiveEntries.length>0)
-jQuery.each(responsiveEntries, function(index,obj) {
-var curw = obj.width != undefined ? obj.width : 0,
-cura = obj.amount != undefined ? obj.amount : 0;
-if (smallest>curw) {
-smallest = curw;
-samount = cura;
-resultidb = index;
-}
-if (largest<curw) {
-largest = curw;
-lamount = cura;
-}
-if (curw>lastbottom && curw<=lasttop) {
-lastbottom = curw;
-lastamount = cura;
-resultid = index;
-}
-});
-if (smallest>winw) {
-lastamount = samount;
-resultid = resultidb;
-}
-var obj = new Object;
-obj.index = resultid;
-obj.column = lastamount;
-if (resultoption=="id")
-return obj;
-else
-return lastamount;
-}
-if ("masonry"=="even") {
-var coh=0,
-container = jQuery("#esg-grid-25-1");
-var	cwidth = container.width(),
-ar = "4:4",
-gbfc = eggbfc(jQuery(window).width(),"id"),
-row = 99;
-ar = ar.split(":");
-var aratio=parseInt(ar[0],0) / parseInt(ar[1],0);
-coh = cwidth / aratio;
-coh = coh/gbfc.column*row;
-var ul = container.find("ul").first();
-ul.css({display:"block",height:coh+"px"});
-}
-var essapi_25;
-jQuery(document).ready(function() {
-essapi_25 = jQuery("#esg-grid-25-1").tpessential({
-gridID:25,
-layout:"masonry",
-forceFullWidth:"off",
-lazyLoad:"off",
-row:99,
-apiName: "essapi_25",
-loadMoreAjaxToken:"7d884ab75c",
-loadMoreAjaxUrl:"..//https://freaklab.org/wp-admin/admin-ajax.php",
-loadMoreAjaxAction:"Essential_Grid_Front_request_ajax",
-ajaxContentTarget:"ess-grid-ajax-container-",
-ajaxScrollToOffset:"0",
-ajaxCloseButton:"off",
-ajaxContentSliding:"on",
-ajaxCallbackArgument:"off",
-ajaxNavButton:"off",
-ajaxCloseType:"type1",
-ajaxCloseInner:"false",
-ajaxCloseStyle:"light",
-ajaxClosePosition:"tr",
-space:5,
-pageAnimation:"fade",
-paginationScrollToTop:"off",
-paginationAutoplay:"off",
-spinner:"spinner5",
-lightBoxMode:"single",
-lightboxHash:"group",
-lightboxPostMinWid:"75%",
-lightboxPostMaxWid:"75%",
-lightboxSpinner:"off",
-lightBoxFeaturedImg:"off",
-lightBoxPostTitle:"off",
-lightBoxPostTitleTag:"h2",
-lightboxMargin : "0|0|0|0",
-lbContentPadding : "0|0|0|0",
-lbContentOverflow : "auto",
-animSpeed:0,
-delayBasic:1,
-mainhoverdelay:1,
-filterType:"single",
-showDropFilter:"hover",
-filterGroupClass:"esg-fgc-25",
-filterNoMatch:"No Items for the Selected Filter",
-filterDeepLink:"off",
-googleFonts:['Open+Sans:300,400,600,700,800','Raleway:100,200,300,400,500,600,700,800,900','Droid+Serif:400,700'],
-aspectratio:"4:4",
-responsiveEntries: [
-{ width:1400,amount:4,mmheight:0},
-{ width:1170,amount:4,mmheight:0},
-{ width:1024,amount:4,mmheight:0},
-{ width:960,amount:2,mmheight:0},
-{ width:778,amount:2,mmheight:0},
-{ width:640,amount:2,mmheight:0},
-{ width:480,amount:2,mmheight:0}
-]
-});
-var arrows = true,
-lightboxOptions = {
-margin : [0,0,0,0],
-buttons : ["share","thumbs","close"],
-infobar : true,
-loop : true,
-slideShow : {"autoStart": false, "speed": 3000},
-animationEffect : "fade",
-animationDuration : 500,
-beforeShow: function(a, c) {
-if(!arrows) {
-jQuery("body").addClass("esgbox-hidearrows");
-}
-var i = 0,
-multiple = false;
-a = a.slides;
-for(var b in a) {
-i++;
-if(i > 1) {
-multiple = true;
-break;
-}
-}
-if(!multiple) jQuery("body").addClass("esgbox-single");
-if(c.type === "image") jQuery(".esgbox-button--zoom").show();
-},
-beforeLoad: function(a, b) {
-jQuery("body").removeClass("esg-four-by-three");
-if(b.opts.$orig.data("ratio") === "4:3") jQuery("body").addClass("esg-four-by-three");
-},
-afterLoad: function() {jQuery(window).trigger("resize.esglb");},
-afterClose : function() {jQuery("body").removeClass("esgbox-hidearrows esgbox-single");},
-transitionEffect : "fade",
-transitionDuration : 500,
-hash : "group",
-arrows : true,
-wheel : false,
-};
-jQuery("#esg-grid-25-1").data("lightboxsettings", lightboxOptions);
-});
-</script>
+<script>/* essential-grid removed */</script>
 </div>
 <style>
 #section_290271811 {
