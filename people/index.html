@@ -222,33 +222,25 @@ input,textarea,select{background:#1a1a1a!important;color:#eee!important;border-c
 .sub-menu{background:#1a1a1a!important}
 .sub-menu a{color:#ccc!important}
 </style>
-<style id="esg-grid-fix">
-.esg-grid ul{display:grid!important;grid-template-columns:repeat(3,1fr);gap:18px;list-style:none!important;margin:0!important;padding:0!important}
-.esg-grid ul > li{display:block!important;visibility:visible!important;list-style:none!important;margin:0!important;padding:0!important;width:auto!important;height:auto!important;position:static!important;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);transition:transform .2s,box-shadow .2s}
-.esg-grid ul > li:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.12)}
-.esg-grid ul > li .esg-media-cover-wrapper{display:flex;flex-direction:column;height:100%}
-.esg-grid ul > li .esg-entry-media{position:relative;overflow:hidden;aspect-ratio:16/10;background:#f5f5f5}
-.esg-grid ul > li .esg-entry-media img{width:100%;height:100%;object-fit:cover;display:block}
-.esg-grid ul > li .esg-entry-content{padding:14px 16px 18px;flex:1;display:flex;flex-direction:column}
-.esg-grid ul > li .esg-entry-content .esg-content:first-child a{font-size:15px;font-weight:600;color:#111;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px}
-.esg-grid ul > li .esg-entry-content .esg-content:first-child a:hover{color:#555}
-.esg-grid ul > li .esg-entry-content .esg-content:last-child a{font-size:12px;color:#888;text-transform:uppercase;letter-spacing:.5px;text-decoration:none}
-#esg-grid-2-1 ul,#esg-grid-34-2 ul{grid-template-columns:repeat(4,1fr)}
-@media(max-width:1024px){.esg-grid ul{grid-template-columns:repeat(2,1fr)}#esg-grid-2-1 ul,#esg-grid-34-2 ul{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:640px){.esg-grid ul{grid-template-columns:1fr}#esg-grid-2-1 ul,#esg-grid-34-2 ul{grid-template-columns:repeat(2,1fr)}}
-.esg-filter-wrapper{display:flex;flex-wrap:wrap;justify-content:center;gap:6px;margin-bottom:24px!important}
-.esg-filterbutton{display:inline-block;padding:6px 16px;border-radius:20px;font-size:13px;font-weight:500;cursor:pointer;background:#f0f0f0;color:#555;border:none;transition:all .2s;user-select:none}
-.esg-filterbutton:hover{background:#e0e0e0;color:#222}
-.esg-filterbutton.selected{background:#000;color:#fff}
-.esg-filterbutton .esg-filter-checked{display:none}
-.esg-grid ul > li.filter-hidden{display:none!important}
-.esg-overlay{display:none!important}
-.eg-clearfix{display:none}
-.esg-overflowtrick{overflow:visible!important;height:auto!important}
-.esg-grid ul>li.itemishidden{display:none!important}
-.esg-grid ul > li .esg-entry-media{width:100%!important;max-width:100%!important;padding-bottom:0!important}
-.esg-grid ul > li .esg-media-poster{position:absolute!important;top:0!important;left:0!important;width:100%!important;height:100%!important;background-size:cover!important;background-position:center center!important;transform:none!important}
+
+<style id="uc-people-grid">
+.pc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;list-style:none!important;margin:0 0 48px!important;padding:0!important}
+.pc-card{display:block!important;visibility:visible!important;list-style:none!important;margin:0!important;padding:0!important;width:auto!important;height:auto!important;position:static!important}
+.pc-link{display:flex;flex-direction:column;height:100%;background:#fff;border-radius:6px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.08);transition:transform .2s,box-shadow .2s;text-decoration:none}
+.pc-card:hover .pc-link{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.3)}
+.pc-media{aspect-ratio:4/4.2;overflow:hidden;background:#f0f0f0;position:relative}
+.pc-media img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
+.pc-initials{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:2.4rem;font-weight:600;color:#999;background:#e8e8e8}
+.pc-body{padding:12px 14px 14px;flex:1}
+.pc-name{font-size:15px;font-weight:600;color:#111;line-height:1.35;text-decoration:none}
+.pc-card:hover .pc-name{color:#666}
+.pc-role{font-size:12px;color:#888;margin-top:3px}
+.pc-grid li.filter-hidden,.pc-grid li.itemishidden{display:none!important}
+@media(max-width:1024px){.pc-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){.pc-grid{grid-template-columns:repeat(2,1fr)}}
+@media(prefers-reduced-motion:reduce){.pc-card,.pc-link{transition:none}}
 </style>
+
 </head>
 <body data-rsssl=1 class="wp-singular page-template page-template-page-blank page-template-page-blank-php page page-id-1239 wp-theme-flatsome wp-child-theme-flatsome-child full-width lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border elementor-default elementor-kit-">
 <a class="skip-link screen-reader-text" href="#main">Skip to content</a>
@@ -389,521 +381,128 @@ background-position: 56% 67%;
 <!-- THE ESSENTIAL GRID 2.2.4 POST -->
 <article class="myportfolio-container minimal-light source_type_post" id="esg-grid-2-1-wrap">
 <div id="esg-grid-2-1" class="esg-grid" style="background: transparent;padding: 5px 5px 5px 5px ; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;">
-<article class="esg-filters esg-singlefilters" style="margin-bottom: 0px; text-align: center; "><!-- THE FILTER BUTTONS --><div class="esg-filter-wrapper eg-show-amount  esg-fgc-2" style="margin-left: 2.5px; margin-right: 2.5px;"><div class="esg-filterbutton selected esg-allfilter" data-filter="filterall" data-fid="-1"><span>Active Member</span></div><div class="esg-filterbutton" data-fid="114" data-filter="filter-e0b884e0b899e0b8a3e0b8b1e0b89ae0b983e0b88ae0b989"><span>คนรับใช้</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="110" data-filter="filter-researcher"><span>Researcher</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="170" data-filter="filter-pi"><span>Principle Investigator (PI)</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="108" data-filter="filter-member"><span>Member</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="112" data-filter="filter-manager"><span>Manager</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="107" data-filter="filter-director"><span>Director</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="169" data-filter="filter-collaborator"><span>Collaborator</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="111" data-filter="filter-co-founder"><span>Co-founder</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="175" data-filter="filter-affiliated"><span>Affiliated</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="109" data-filter="filter-advisor"><span>Advisor</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="171" data-filter="filter-admin"><span>Administrator</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="eg-clearfix"></div></div></article><div class="esg-clear-no-height"></div><ul>
-<li id="eg-2-post-id-642" class="filterall filter-co-founder filter-e0b884e0b899e0b8a3e0b8b1e0b89ae0b983e0b88ae0b989 filter-biodigital filter-cat-space filter-experimental-society filter-fab-taste filter-functional-aesthetics filter-learningfutures filter-neuro-media filter-space-zab eg-people-wrapper eg-post-id-642" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/pat.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/pat-pataranutaporn/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-642 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-642" href="..//peoples/pat-pataranutaporn/" target="_self">Co-founder,คนรับใช้</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-642 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-642" href="..//peoples/pat-pataranutaporn/" target="_self">Pat Pataranutaporn</a></div>
-<div class="esg-content eg-post-642 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-642" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-people-element-27 eg-post-642" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-people-element-27 eg-post-642" href="..//group-category/experimental-society/" title="View all posts in Experimental Society" rel="category tag">Experimental Society</a> <a class="eg-people-element-27 eg-post-642" href="..//group-category/fab-taste/" title="View all posts in Fab Taste" rel="category tag">Fab Taste</a> <a class="eg-people-element-27 eg-post-642" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a> <a class="eg-people-element-27 eg-post-642" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a> <a class="eg-people-element-27 eg-post-642" href="..//group-category/neuro-media/" title="View all posts in Neuro Media" rel="category tag">Neuro Media</a> <a class="eg-people-element-27 eg-post-642" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-865" class="filterall filter-co-founder filter-director filter-biodigital filter-cat-space filter-experimental-society filter-functional-aesthetics filter-learningfutures filter-neuro-media filter-space-zab eg-people-wrapper eg-post-id-865" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/werasak.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/werasak-surareungchai/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-865 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-865" href="..//peoples/werasak-surareungchai/" target="_self">Co-founder,Director</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-865 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-865" href="..//peoples/werasak-surareungchai/" target="_self">Werasak Surareungchai</a></div>
-<div class="esg-content eg-post-865 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-865" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-people-element-27 eg-post-865" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-people-element-27 eg-post-865" href="..//group-category/experimental-society/" title="View all posts in Experimental Society" rel="category tag">Experimental Society</a> <a class="eg-people-element-27 eg-post-865" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a> <a class="eg-people-element-27 eg-post-865" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a> <a class="eg-people-element-27 eg-post-865" href="..//group-category/neuro-media/" title="View all posts in Neuro Media" rel="category tag">Neuro Media</a> <a class="eg-people-element-27 eg-post-865" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-874" class="filterall filter-pi filter-experimental-society filter-functional-aesthetics eg-people-wrapper eg-post-id-874" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/bank.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/bank-ngamarunchot/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-874 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-874" href="..//peoples/bank-ngamarunchot/" target="_self">Principle Investigator (PI)</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-874 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-874" href="..//peoples/bank-ngamarunchot/" target="_self">Bank Ngamarunchot</a></div>
-<div class="esg-content eg-post-874 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-874" href="..//group-category/experimental-society/" title="View all posts in Experimental Society" rel="category tag">Experimental Society</a> <a class="eg-people-element-27 eg-post-874" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-879" class="filterall filter-co-founder filter-manager filter-biodigital filter-cat-space filter-experimental-society filter-functional-aesthetics filter-learningfutures filter-neuro-media filter-space-zab eg-people-wrapper eg-post-id-879" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/gear.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/potiwat-ngamkajornwiwat/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-879 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-879" href="..//peoples/potiwat-ngamkajornwiwat/" target="_self">Co-founder,Manager</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-879 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-879" href="..//peoples/potiwat-ngamkajornwiwat/" target="_self">Potiwat Ngamkajornwiwat</a></div>
-<div class="esg-content eg-post-879 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-879" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-people-element-27 eg-post-879" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-people-element-27 eg-post-879" href="..//group-category/experimental-society/" title="View all posts in Experimental Society" rel="category tag">Experimental Society</a> <a class="eg-people-element-27 eg-post-879" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a> <a class="eg-people-element-27 eg-post-879" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a> <a class="eg-people-element-27 eg-post-879" href="..//group-category/neuro-media/" title="View all posts in Neuro Media" rel="category tag">Neuro Media</a> <a class="eg-people-element-27 eg-post-879" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-889" class="filterall filter-pi filter-cat-space filter-space-zab eg-people-wrapper eg-post-id-889" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/golf.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/wares-chancharoen/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-889 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-889" href="..//peoples/wares-chancharoen/" target="_self">Principle Investigator (PI)</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-889 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-889" href="..//peoples/wares-chancharoen/" target="_self">Wares Chancharoen</a></div>
-<div class="esg-content eg-post-889 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-889" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-people-element-27 eg-post-889" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-899" class="filterall filter-researcher filter-biodigital filter-cat-space filter-space-zab eg-people-wrapper eg-post-id-899" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/Screen-Shot-2561-11-16-at-00.33.55.jpg" alt="" width="1446" height="1442"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/prompt-suathim/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-899 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-899" href="..//peoples/prompt-suathim/" target="_self">Researcher</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-899 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-899" href="..//peoples/prompt-suathim/" target="_self">Prompt Suathim</a></div>
-<div class="esg-content eg-post-899 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-899" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-people-element-27 eg-post-899" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-people-element-27 eg-post-899" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-908" class="filterall filter-pi filter-experimental-society filter-functional-aesthetics filter-space-zab eg-people-wrapper eg-post-id-908" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/sonny.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/sornchai-chatwiriyachai/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-908 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-908" href="..//peoples/sornchai-chatwiriyachai/" target="_self">Principle Investigator (PI)</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-908 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-908" href="..//peoples/sornchai-chatwiriyachai/" target="_self">Sornchai Chatwiriyachai</a></div>
-<div class="esg-content eg-post-908 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-908" href="..//group-category/experimental-society/" title="View all posts in Experimental Society" rel="category tag">Experimental Society</a> <a class="eg-people-element-27 eg-post-908" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a> <a class="eg-people-element-27 eg-post-908" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-909" class="filterall filter-pi filter-biodigital filter-neuro-media eg-people-wrapper eg-post-id-909" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/first.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/sirawaj-sean-itthipuripat/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-909 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-909" href="..//peoples/sirawaj-sean-itthipuripat/" target="_self">Principle Investigator (PI)</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-909 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-909" href="..//peoples/sirawaj-sean-itthipuripat/" target="_self">Sirawaj Sean Itthipuripa...</a></div>
-<div class="esg-content eg-post-909 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-909" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-people-element-27 eg-post-909" href="..//group-category/neuro-media/" title="View all posts in Neuro Media" rel="category tag">Neuro Media</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-913" class="filterall filter-collaborator filter-biodigital filter-learningfutures eg-people-wrapper eg-post-id-913" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/blink.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/bawornsak-sakulkueakulsuk/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-913 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-913" href="..//peoples/bawornsak-sakulkueakulsuk/" target="_self">Collaborator</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-913 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-913" href="..//peoples/bawornsak-sakulkueakulsuk/" target="_self">Bawornsak Sakulkueakulsu...</a></div>
-<div class="esg-content eg-post-913 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-913" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-people-element-27 eg-post-913" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-1277" class="filterall filter-affiliated filter-cat-space filter-space-zab eg-people-wrapper eg-post-id-1277" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/10/Tor.jpg" alt="" width="960" height="960"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/siwaphan-luksanayeam/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1277 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1277" href="..//peoples/siwaphan-luksanayeam/" target="_self">Affiliated</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1277 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1277" href="..//peoples/siwaphan-luksanayeam/" target="_self">Siwaphan Luksanayeam</a></div>
-<div class="esg-content eg-post-1277 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1277" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-people-element-27 eg-post-1277" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-1278" class="filterall filter-researcher filter-cat-space filter-space-zab eg-people-wrapper eg-post-id-1278" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/05/Nont.jpg" alt="" width="448" height="448"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/prapanpong/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1278 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1278" href="..//peoples/prapanpong/" target="_self">Researcher</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1278 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1278" href="..//peoples/prapanpong/" target="_self">Prapanpong Damsongsaeng</a></div>
-<div class="esg-content eg-post-1278 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1278" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-people-element-27 eg-post-1278" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-1442" class="filterall filter-affiliated filter-functional-aesthetics filter-learningfutures eg-people-wrapper eg-post-id-1442" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/11/PAom.jpg" alt="" width="720" height="719"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/vipatsaya-u-poon/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1442 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1442" href="..//peoples/vipatsaya-u-poon/" target="_self">Affiliated</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1442 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1442" href="..//peoples/vipatsaya-u-poon/" target="_self">Vipatsaya U-poon</a></div>
-<div class="esg-content eg-post-1442 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1442" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a> <a class="eg-people-element-27 eg-post-1442" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-1642" class="filterall filter-affiliated filter-biodigital filter-experimental-society filter-functional-aesthetics filter-neuro-media eg-people-wrapper eg-post-id-1642" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/01/Ben.jpg" alt="" width="707" height="736"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/nutchanon/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1642 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1642" href="..//peoples/nutchanon/" target="_self">Affiliated</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1642 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1642" href="..//peoples/nutchanon/" target="_self">Nutchanon Ninyawee</a></div>
-<div class="esg-content eg-post-1642 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1642" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-people-element-27 eg-post-1642" href="..//group-category/experimental-society/" title="View all posts in Experimental Society" rel="category tag">Experimental Society</a> <a class="eg-people-element-27 eg-post-1642" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a> <a class="eg-people-element-27 eg-post-1642" href="..//group-category/neuro-media/" title="View all posts in Neuro Media" rel="category tag">Neuro Media</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-1729" class="filterall filter-affiliated filter-special-project eg-people-wrapper eg-post-id-1729" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/korakot-chaovavanich/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1729 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1729" href="..//peoples/korakot-chaovavanich/" target="_self">Affiliated</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1729 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1729" href="..//peoples/korakot-chaovavanich/" target="_self">Korakot Chaovavanich</a></div>
-<div class="esg-content eg-post-1729 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1729" href="..//group-category/special-project/" title="View all posts in Special Project" rel="category tag">Special Project</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-1732" class="filterall filter-researcher filter-biodigital filter-learningfutures eg-people-wrapper eg-post-id-1732" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/pakpoom.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/pakpoom-subsoontorn/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1732 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1732" href="..//peoples/pakpoom-subsoontorn/" target="_self">Researcher</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1732 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1732" href="..//peoples/pakpoom-subsoontorn/" target="_self">Pakpoom Subsoontorn</a></div>
-<div class="esg-content eg-post-1732 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1732" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-people-element-27 eg-post-1732" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-1742" class="filterall filter-advisor eg-people-wrapper eg-post-id-1742" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/mint.jpg" alt="" width="643" height="640"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/sirada-sirijindaphan/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1742 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1742" href="..//peoples/sirada-sirijindaphan/" target="_self">Advisor</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1742 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1742" href="..//peoples/sirada-sirijindaphan/" target="_self">Sirada Sirijindaphan</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-1748" class="filterall filter-advisor eg-people-wrapper eg-post-id-1748" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/Galina.jpg" alt="" width="888" height="956"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/galina-mihaleva/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1748 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1748" href="..//peoples/galina-mihaleva/" target="_self">Advisor</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1748 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1748" href="..//peoples/galina-mihaleva/" target="_self">Galina Mihaleva</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-1750" class="filterall filter-advisor eg-people-wrapper eg-post-id-1750" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/winai.jpg" alt="" width="888" height="956"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/winai-phu-numphon/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1750 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1750" href="..//peoples/winai-phu-numphon/" target="_self">Advisor</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1750 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1750" href="..//peoples/winai-phu-numphon/" target="_self">Winai Phu-Numphon</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-2148" class="filterall filter-researcher filter-learningfutures eg-people-wrapper eg-post-id-2148" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/04/siyada.jpg" alt="" width="315" height="343"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/siyada-witoon/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2148 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2148" href="..//peoples/siyada-witoon/" target="_self">Researcher</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2148 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2148" href="..//peoples/siyada-witoon/" target="_self">Siyada Witoon</a></div>
-<div class="esg-content eg-post-2148 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2148" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-2333" class="filterall filter-member filter-biodigital filter-learningfutures eg-people-wrapper eg-post-id-2333" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/05/Dr_puey.jpg" alt="" width="521" height="521"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/puey-ounjai/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2333 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2333" href="..//peoples/puey-ounjai/" target="_self">Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2333 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2333" href="..//peoples/puey-ounjai/" target="_self">Puey Ounjai</a></div>
-<div class="esg-content eg-post-2333 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2333" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a> <a class="eg-people-element-27 eg-post-2333" href="..//group-category/learningfutures/" title="View all posts in Learning Futures" rel="category tag">Learning Futures</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-2488" class="filterall filter-affiliated filter-special-project eg-people-wrapper eg-post-id-2488" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/06/sonskuln2.jpg" alt="" width="544" height="572"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/sonskuln-thaomohr/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2488 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2488" href="..//peoples/sonskuln-thaomohr/" target="_self">Affiliated</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2488 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2488" href="..//peoples/sonskuln-thaomohr/" target="_self">Sonskuln Thaomohr</a></div>
-<div class="esg-content eg-post-2488 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2488" href="..//group-category/special-project/" title="View all posts in Special Project" rel="category tag">Special Project</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-2643" class="filterall filter-member filter-special-project eg-people-wrapper eg-post-id-2643" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/mean.jpg" alt="" width="960" height="959"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/patcharapol-sankaew/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2643 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2643" href="..//peoples/patcharapol-sankaew/" target="_self">Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2643 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2643" href="..//peoples/patcharapol-sankaew/" target="_self">Patcharapol Sankaew</a></div>
-<div class="esg-content eg-post-2643 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2643" href="..//group-category/special-project/" title="View all posts in Special Project" rel="category tag">Special Project</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-2751" class="filterall filter-member filter-special-project eg-people-wrapper eg-post-id-2751" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/henry-tan.jpg" alt="" width="305" height="305"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/henry-tan/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2751 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2751" href="..//peoples/henry-tan/" target="_self">Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2751 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2751" href="..//peoples/henry-tan/" target="_self">Henry Tan</a></div>
-<div class="esg-content eg-post-2751 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2751" href="..//group-category/special-project/" title="View all posts in Special Project" rel="category tag">Special Project</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-2884" class="filterall filter-affiliated filter-cat-space eg-people-wrapper eg-post-id-2884" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/earth.jpg" alt="" width="677" height="690"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/saran-seehanam/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2884 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2884" href="..//peoples/saran-seehanam/" target="_self">Affiliated</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2884 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2884" href="..//peoples/saran-seehanam/" target="_self">Saran Seehanam</a></div>
-<div class="esg-content eg-post-2884 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2884" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-3228" class="filterall filter-researcher filter-biodigital eg-people-wrapper eg-post-id-3228" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/01/WachiBoo.jpg" alt="" width="960" height="960"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/wachira-chaiworn/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-3228 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-3228" href="..//peoples/wachira-chaiworn/" target="_self">Researcher</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-3228 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-3228" href="..//peoples/wachira-chaiworn/" target="_self">Wachira Chaiworn</a></div>
-<div class="esg-content eg-post-3228 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-3228" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-3232" class="filterall filter-admin eg-people-wrapper eg-post-id-3232" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/01/Fonefon.jpg" alt="" width="960" height="960"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/warinthorn-detpisuttitham/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-3232 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-3232" href="..//peoples/warinthorn-detpisuttitham/" target="_self">Administrator</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-3232 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-3232" href="..//peoples/warinthorn-detpisuttitham/" target="_self">Warinthorn Detpisuttitha...</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-3630" class="filterall filter-member filter-researcher filter-cat-space filter-space-zab eg-people-wrapper eg-post-id-3630" data-author="freaklab-editor">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2020/04/60312977_1469308153209801_5233626759248740352_o-2.jpg" alt="" width="614" height="553"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/tanis-phongphisantham/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-3630 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-3630" href="..//peoples/tanis-phongphisantham/" target="_self">Member,Researcher</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-3630 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-3630" href="..//peoples/tanis-phongphisantham/" target="_self">Tanis Phongphisantham</a></div>
-<div class="esg-content eg-post-3630 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-3630" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a> <a class="eg-people-element-27 eg-post-3630" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-3679" class="filterall filter-researcher filter-biodigital eg-people-wrapper eg-post-id-3679" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/opas-tantithakul/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-3679 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-3679" href="..//peoples/opas-tantithakul/" target="_self">Researcher</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-3679 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-3679" href="..//peoples/opas-tantithakul/" target="_self">Opas Tantithakul</a></div>
-<div class="esg-content eg-post-3679 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-3679" href="..//group-category/biodigital/" title="View all posts in Biodigital" rel="category tag">Biodigital</a></div>
-</div>   </div>
-</li>
-<li id="eg-2-post-id-3770" class="filterall filter-member filter-special-project eg-people-wrapper eg-post-id-3770" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/alan-archapiraj/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-3770 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-3770" href="..//peoples/alan-archapiraj/" target="_self">Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-3770 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-3770" href="..//peoples/alan-archapiraj/" target="_self">Alan Archapiraj</a></div>
-<div class="esg-content eg-post-3770 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-3770" href="..//group-category/special-project/" title="View all posts in Special Project" rel="category tag">Special Project</a></div>
-</div>   </div>
-</li>
+<article class="esg-filters esg-singlefilters" style="margin-bottom: 0px; text-align: center; "><!-- THE FILTER BUTTONS --><div class="esg-filter-wrapper eg-show-amount  esg-fgc-2" style="margin-left: 2.5px; margin-right: 2.5px;"><div class="esg-filterbutton selected esg-allfilter" data-filter="filterall" data-fid="-1"><span>Active Member</span></div><div class="esg-filterbutton" data-fid="114" data-filter="filter-e0b884e0b899e0b8a3e0b8b1e0b89ae0b983e0b88ae0b989"><span>คนรับใช้</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="110" data-filter="filter-researcher"><span>Researcher</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="170" data-filter="filter-pi"><span>Principle Investigator (PI)</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="108" data-filter="filter-member"><span>Member</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="112" data-filter="filter-manager"><span>Manager</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="107" data-filter="filter-director"><span>Director</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="169" data-filter="filter-collaborator"><span>Collaborator</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="111" data-filter="filter-co-founder"><span>Co-founder</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="175" data-filter="filter-affiliated"><span>Affiliated</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="109" data-filter="filter-advisor"><span>Advisor</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="171" data-filter="filter-admin"><span>Administrator</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="eg-clearfix"></div></div></article><div class="esg-clear-no-height"></div><ul class="pc-grid">
+<li class="pc-card"><a class="pc-link" href="../peoples/pat-pataranutaporn/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/pat.jpg" alt="Pat Pataranutaporn" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Pat Pataranutaporn</div><div class="pc-role">Co-founder,คนรับใช้</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/werasak-surareungchai/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/werasak.jpg" alt="Werasak Surareungchai" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Werasak Surareungchai</div><div class="pc-role">Co-founder,Director</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/bank-ngamarunchot/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/bank.jpg" alt="Bank Ngamarunchot" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Bank Ngamarunchot</div><div class="pc-role">Principle Investigator (PI)</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/potiwat-ngamkajornwiwat/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/gear.jpg" alt="Potiwat Ngamkajornwiwat" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Potiwat Ngamkajornwiwat</div><div class="pc-role">Co-founder,Manager</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/wares-chancharoen/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/golf.jpg" alt="Wares Chancharoen" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Wares Chancharoen</div><div class="pc-role">Principle Investigator (PI)</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/prompt-suathim/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/Screen-Shot-2561-11-16-at-00.33.55.jpg" alt="Prompt Suathim" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Prompt Suathim</div><div class="pc-role">Researcher</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/sornchai-chatwiriyachai/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/sonny.jpg" alt="Sornchai Chatwiriyachai" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Sornchai Chatwiriyachai</div><div class="pc-role">Principle Investigator (PI)</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/sirawaj-sean-itthipuripat/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/first.jpg" alt="Sirawaj Sean Itthipuripa..." decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Sirawaj Sean Itthipuripa...</div><div class="pc-role">Principle Investigator (PI)</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/bawornsak-sakulkueakulsuk/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/blink.jpg" alt="Bawornsak Sakulkueakulsu..." decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Bawornsak Sakulkueakulsu...</div><div class="pc-role">Collaborator</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/siwaphan-luksanayeam/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/10/Tor.jpg" alt="Siwaphan Luksanayeam" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Siwaphan Luksanayeam</div><div class="pc-role">Affiliated</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/prapanpong/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/05/Nont.jpg" alt="Prapanpong Damsongsaeng" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Prapanpong Damsongsaeng</div><div class="pc-role">Researcher</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/vipatsaya-u-poon/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/11/PAom.jpg" alt="Vipatsaya U-poon" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Vipatsaya U-poon</div><div class="pc-role">Affiliated</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/nutchanon/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/01/Ben.jpg" alt="Nutchanon Ninyawee" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Nutchanon Ninyawee</div><div class="pc-role">Affiliated</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/korakot-chaovavanich/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Korakot Chaovavanich" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Korakot Chaovavanich</div><div class="pc-role">Affiliated</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/pakpoom-subsoontorn/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/pakpoom.jpg" alt="Pakpoom Subsoontorn" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Pakpoom Subsoontorn</div><div class="pc-role">Researcher</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/sirada-sirijindaphan/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/mint.jpg" alt="Sirada Sirijindaphan" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Sirada Sirijindaphan</div><div class="pc-role">Advisor</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/galina-mihaleva/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/Galina.jpg" alt="Galina Mihaleva" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Galina Mihaleva</div><div class="pc-role">Advisor</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/winai-phu-numphon/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/02/winai.jpg" alt="Winai Phu-Numphon" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Winai Phu-Numphon</div><div class="pc-role">Advisor</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/siyada-witoon/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/04/siyada.jpg" alt="Siyada Witoon" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Siyada Witoon</div><div class="pc-role">Researcher</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/puey-ounjai/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/05/Dr_puey.jpg" alt="Puey Ounjai" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Puey Ounjai</div><div class="pc-role">Member</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/sonskuln-thaomohr/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/06/sonskuln2.jpg" alt="Sonskuln Thaomohr" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Sonskuln Thaomohr</div><div class="pc-role">Affiliated</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/patcharapol-sankaew/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/mean.jpg" alt="Patcharapol Sankaew" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Patcharapol Sankaew</div><div class="pc-role">Member</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/henry-tan/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/henry-tan.jpg" alt="Henry Tan" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Henry Tan</div><div class="pc-role">Member</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/saran-seehanam/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/earth.jpg" alt="Saran Seehanam" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Saran Seehanam</div><div class="pc-role">Affiliated</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/wachira-chaiworn/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/01/WachiBoo.jpg" alt="Wachira Chaiworn" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Wachira Chaiworn</div><div class="pc-role">Researcher</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/warinthorn-detpisuttitham/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/01/Fonefon.jpg" alt="Warinthorn Detpisuttitha..." decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Warinthorn Detpisuttitha...</div><div class="pc-role">Administrator</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/tanis-phongphisantham/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2020/04/60312977_1469308153209801_5233626759248740352_o-2.jpg" alt="Tanis Phongphisantham" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Tanis Phongphisantham</div><div class="pc-role">Member,Researcher</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/opas-tantithakul/">
+<div class="pc-media"><div class="pc-initials">OT</div></div>
+<div class="pc-body"><div class="pc-name">Opas Tantithakul</div><div class="pc-role">Researcher</div></div>
+</a></li>
+<li class="pc-card"><a class="pc-link" href="../peoples/alan-archapiraj/">
+<div class="pc-media"><div class="pc-initials">AA</div></div>
+<div class="pc-body"><div class="pc-name">Alan Archapiraj</div><div class="pc-role">Member</div></div>
+</a></li>
 </ul>
 </div>
 </article>
 <div class="clear"></div>
-<script type="text/javascript">
-function eggbfc(winw,resultoption) {
-var lasttop = winw,
-lastbottom = 0,
-smallest =9999,
-largest = 0,
-samount = 0,
-lamount = 0,
-lastamount = 0,
-resultid = 0,
-resultidb = 0,
-responsiveEntries = [
-{ width:1400,amount:5,mmheight:0},
-{ width:1170,amount:5,mmheight:0},
-{ width:1024,amount:4,mmheight:0},
-{ width:960,amount:2,mmheight:0},
-{ width:778,amount:2,mmheight:0},
-{ width:640,amount:2,mmheight:0},
-{ width:480,amount:2,mmheight:0}
-];
-if (responsiveEntries!=undefined && responsiveEntries.length>0)
-jQuery.each(responsiveEntries, function(index,obj) {
-var curw = obj.width != undefined ? obj.width : 0,
-cura = obj.amount != undefined ? obj.amount : 0;
-if (smallest>curw) {
-smallest = curw;
-samount = cura;
-resultidb = index;
-}
-if (largest<curw) {
-largest = curw;
-lamount = cura;
-}
-if (curw>lastbottom && curw<=lasttop) {
-lastbottom = curw;
-lastamount = cura;
-resultid = index;
-}
-});
-if (smallest>winw) {
-lastamount = samount;
-resultid = resultidb;
-}
-var obj = new Object;
-obj.index = resultid;
-obj.column = lastamount;
-if (resultoption=="id")
-return obj;
-else
-return lastamount;
-}
-if ("masonry"=="even") {
-var coh=0,
-container = jQuery("#esg-grid-2-1");
-var	cwidth = container.width(),
-ar = "4:4",
-gbfc = eggbfc(jQuery(window).width(),"id"),
-row = 99;
-ar = ar.split(":");
-var aratio=parseInt(ar[0],0) / parseInt(ar[1],0);
-coh = cwidth / aratio;
-coh = coh/gbfc.column*row;
-var ul = container.find("ul").first();
-ul.css({display:"block",height:coh+"px"});
-}
-var essapi_2;
-jQuery(document).ready(function() {
-essapi_2 = jQuery("#esg-grid-2-1").tpessential({
-gridID:2,
-layout:"masonry",
-forceFullWidth:"off",
-lazyLoad:"on",
-lazyLoadColor:"#FFFFFF",
-row:99,
-apiName: "essapi_2",
-loadMoreAjaxToken:"7d884ab75c",
-loadMoreAjaxUrl:"..//https://freaklab.org/wp-admin/admin-ajax.php",
-loadMoreAjaxAction:"Essential_Grid_Front_request_ajax",
-ajaxContentTarget:"ess-grid-ajax-container-",
-ajaxScrollToOffset:"0",
-ajaxCloseButton:"off",
-ajaxContentSliding:"on",
-ajaxScrollToOnLoad:"on",
-ajaxCallbackArgument:"off",
-ajaxNavButton:"off",
-ajaxCloseType:"type1",
-ajaxCloseInner:"false",
-ajaxCloseStyle:"light",
-ajaxClosePosition:"tr",
-space:5,
-pageAnimation:"scale",
-paginationScrollToTop:"off",
-paginationAutoplay:"off",
-spinner:"spinner5",
-lightBoxMode:"single",
-lightboxHash:"group",
-lightboxPostMinWid:"75%",
-lightboxPostMaxWid:"75%",
-lightboxSpinner:"off",
-lightBoxFeaturedImg:"off",
-lightBoxPostTitle:"off",
-lightBoxPostTitleTag:"h2",
-lightboxMargin : "0|0|0|0",
-lbContentPadding : "0|0|0|0",
-lbContentOverflow : "auto",
-animSpeed:500,
-delayBasic:1,
-mainhoverdelay:1,
-filterType:"single",
-showDropFilter:"click",
-filterGroupClass:"esg-fgc-2",
-filterNoMatch:"No Items for the Selected Filter",
-filterDeepLink:"on",
-googleFonts:['Open+Sans:300,400,600,700,800','Raleway:100,200,300,400,500,600,700,800,900','Droid+Serif:400,700'],
-aspectratio:"4:4",
-responsiveEntries: [
-{ width:1400,amount:5,mmheight:0},
-{ width:1170,amount:5,mmheight:0},
-{ width:1024,amount:4,mmheight:0},
-{ width:960,amount:2,mmheight:0},
-{ width:778,amount:2,mmheight:0},
-{ width:640,amount:2,mmheight:0},
-{ width:480,amount:2,mmheight:0}
-]
-});
-var arrows = true,
-lightboxOptions = {
-margin : [0,0,0,0],
-buttons : ["share","thumbs","close"],
-infobar : true,
-loop : true,
-slideShow : {"autoStart": false, "speed": 3000},
-animationEffect : "fade",
-animationDuration : 500,
-beforeShow: function(a, c) {
-if(!arrows) {
-jQuery("body").addClass("esgbox-hidearrows");
-}
-var i = 0,
-multiple = false;
-a = a.slides;
-for(var b in a) {
-i++;
-if(i > 1) {
-multiple = true;
-break;
-}
-}
-if(!multiple) jQuery("body").addClass("esgbox-single");
-if(c.type === "image") jQuery(".esgbox-button--zoom").show();
-},
-beforeLoad: function(a, b) {
-jQuery("body").removeClass("esg-four-by-three");
-if(b.opts.$orig.data("ratio") === "4:3") jQuery("body").addClass("esg-four-by-three");
-},
-afterLoad: function() {jQuery(window).trigger("resize.esglb");},
-afterClose : function() {jQuery("body").removeClass("esgbox-hidearrows esgbox-single");},
-transitionEffect : "fade",
-transitionDuration : 500,
-hash : "group",
-arrows : true,
-wheel : false,
-};
-jQuery("#esg-grid-2-1").data("lightboxsettings", lightboxOptions);
-});
-</script>
+<script>/* essential-grid removed */</script>
 <div id="gap-2036729275" class="gap-element clearfix" style="display:block; height:auto;">
 <style>
 #gap-2036729275 {
@@ -926,302 +525,107 @@ padding-top: 30px;
 <!-- THE ESSENTIAL GRID 2.2.4 POST -->
 <article class="myportfolio-container minimal-light source_type_post" id="esg-grid-34-2-wrap">
 <div id="esg-grid-34-2" class="esg-grid" style="background: transparent;padding: 5px 5px 5px 5px ; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;">
-<ul>
-<li id="eg-34-post-id-868" class="filterall filter-past-member filter-functional-aesthetics eg-people-wrapper eg-post-id-868" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/smitt-1.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/smitt-loha-unchit/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-868 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-868" href="..//peoples/smitt-loha-unchit/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-868 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-868" href="..//peoples/smitt-loha-unchit/" target="_self">Smitt Loha-Unchit</a></div>
-<div class="esg-content eg-post-868 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-868" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-892" class="filterall filter-past-member filter-space-zab eg-people-wrapper eg-post-id-892" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/tawan.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/tawan-thintawornkul/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-892 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-892" href="..//peoples/tawan-thintawornkul/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-892 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-892" href="..//peoples/tawan-thintawornkul/" target="_self">Tawan Thintawornkul</a></div>
-<div class="esg-content eg-post-892 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-892" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-910" class="filterall filter-past-member eg-people-wrapper eg-post-id-910" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/chan.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/chan-la-o-vorakiat/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-910 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-910" href="..//peoples/chan-la-o-vorakiat/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-910 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-910" href="..//peoples/chan-la-o-vorakiat/" target="_self">Chan La-o-vorakiat</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-911" class="filterall filter-past-member filter-functional-aesthetics eg-people-wrapper eg-post-id-911" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/chak.jpg" alt="" width="333" height="390"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/chakrapipat-assawaboonyalert/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-911 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-911" href="..//peoples/chakrapipat-assawaboonyalert/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-911 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-911" href="..//peoples/chakrapipat-assawaboonyalert/" target="_self">Chakrapipat Assawaboonya...</a></div>
-<div class="esg-content eg-post-911 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-911" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-912" class="filterall filter-past-member filter-neuro-media eg-people-wrapper eg-post-id-912" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/Theerawit.jpg" alt="" width="191" height="207"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/theerawit-wilaiprasitporn/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-912 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-912" href="..//peoples/theerawit-wilaiprasitporn/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-912 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-912" href="..//peoples/theerawit-wilaiprasitporn/" target="_self">Theerawit Wilaiprasitpor...</a></div>
-<div class="esg-content eg-post-912 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-912" href="..//group-category/neuro-media/" title="View all posts in Neuro Media" rel="category tag">Neuro Media</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-1276" class="filterall filter-past-member filter-space-zab eg-people-wrapper eg-post-id-1276" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/tanadet-pipatpolkai/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1276 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1276" href="..//peoples/tanadet-pipatpolkai/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1276 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1276" href="..//peoples/tanadet-pipatpolkai/" target="_self">Tanadet Pipatpolkai</a></div>
-<div class="esg-content eg-post-1276 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1276" href="..//group-category/space-zab/" title="View all posts in Space Zab" rel="category tag">Space Zab</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-1275" class="filterall filter-past-member filter-cat-space eg-people-wrapper eg-post-id-1275" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/pondet-ananchai/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1275 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1275" href="..//peoples/pondet-ananchai/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1275 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1275" href="..//peoples/pondet-ananchai/" target="_self">Pondet Ananchai</a></div>
-<div class="esg-content eg-post-1275 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1275" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-1421" class="filterall filter-past-member filter-functional-aesthetics eg-people-wrapper eg-post-id-1421" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/jayanat-harinrojsobhon/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1421 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1421" href="..//peoples/jayanat-harinrojsobhon/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1421 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1421" href="..//peoples/jayanat-harinrojsobhon/" target="_self">Jayanat Harinrojsobhon</a></div>
-<div class="esg-content eg-post-1421 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1421" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-1637" class="filterall filter-past-member filter-functional-aesthetics eg-people-wrapper eg-post-id-1637" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/01/26943496_10155744989881508_672199503_n-1.jpg" alt="" width="471" height="471"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/pansavuth/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-1637 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-1637" href="..//peoples/pansavuth/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-1637 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-1637" href="..//peoples/pansavuth/" target="_self">Pansavuth Khehasukcharoe...</a></div>
-<div class="esg-content eg-post-1637 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-1637" href="..//group-category/functional-aesthetics/" title="View all posts in Functional Aesthetics" rel="category tag">Functional Aesthetics</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2403" class="filterall filter-past-member filter-cat-space eg-people-wrapper eg-post-id-2403" data-author="golfyjstp">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/05/33941984_10156102178270791_1599653431159554048_n-1.jpg" alt="" width="523" height="531"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/paitoon-mueanpetch/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2403 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2403" href="..//peoples/paitoon-mueanpetch/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2403 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2403" href="..//peoples/paitoon-mueanpetch/" target="_self">Paitoon Mueanpetch</a></div>
-<div class="esg-content eg-post-2403 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2403" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2566" class="filterall filter-past-member filter-fab-taste eg-people-wrapper eg-post-id-2566" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/22894243_708902745965016_8171288535254777713_n.jpg" alt="" width="960" height="960"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/tone-anusorn-tipayanon/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2566 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2566" href="..//peoples/tone-anusorn-tipayanon/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2566 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2566" href="..//peoples/tone-anusorn-tipayanon/" target="_self">Tone Anusorn Tipayanon</a></div>
-<div class="esg-content eg-post-2566 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2566" href="..//group-category/fab-taste/" title="View all posts in Fab Taste" rel="category tag">Fab Taste</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2825" class="filterall filter-past-member filter-fab-taste eg-people-wrapper eg-post-id-2825" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/nam.jpg" alt="" width="1463" height="1588"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/kansuda-panprom/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2825 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2825" href="..//peoples/kansuda-panprom/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2825 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2825" href="..//peoples/kansuda-panprom/" target="_self">Kansuda Panprom</a></div>
-<div class="esg-content eg-post-2825 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2825" href="..//group-category/fab-taste/" title="View all posts in Fab Taste" rel="category tag">Fab Taste</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2936" class="filterall filter-past-member filter-cat-space eg-people-wrapper eg-post-id-2936" data-author="wares-cat-kung">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/peerapong-torteeka/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2936 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2936" href="..//peoples/peerapong-torteeka/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2936 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2936" href="..//peoples/peerapong-torteeka/" target="_self">Peerapong Torteeka</a></div>
-<div class="esg-content eg-post-2936 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2936" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2938" class="filterall filter-past-member filter-cat-space eg-people-wrapper eg-post-id-2938" data-author="wares-cat-kung">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/piyapat-saranrittichai/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2938 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2938" href="..//peoples/piyapat-saranrittichai/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2938 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2938" href="..//peoples/piyapat-saranrittichai/" target="_self">Piyapat Saranrittichai</a></div>
-<div class="esg-content eg-post-2938 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2938" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2940" class="filterall filter-past-member filter-cat-space eg-people-wrapper eg-post-id-2940" data-author="wares-cat-kung">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/thakdanai-sirisombat/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2940 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2940" href="..//peoples/thakdanai-sirisombat/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2940 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2940" href="..//peoples/thakdanai-sirisombat/" target="_self">Thakdanai Sirisombat</a></div>
-<div class="esg-content eg-post-2940 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2940" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2943" class="filterall filter-past-member filter-cat-space eg-people-wrapper eg-post-id-2943" data-author="wares-cat-kung">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/naronggorn-booncharoen/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2943 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2943" href="..//peoples/naronggorn-booncharoen/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2943 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2943" href="..//peoples/naronggorn-booncharoen/" target="_self">Naronggorn Booncharoen</a></div>
-<div class="esg-content eg-post-2943 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2943" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2949" class="filterall filter-past-member filter-cat-space eg-people-wrapper eg-post-id-2949" data-author="wares-cat-kung">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/nitipoom-unrrom/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2949 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2949" href="..//peoples/nitipoom-unrrom/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2949 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2949" href="..//peoples/nitipoom-unrrom/" target="_self">Nitipoom Unrrom</a></div>
-<div class="esg-content eg-post-2949 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2949" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2951" class="filterall filter-past-member eg-people-wrapper eg-post-id-2951" data-author="wares-cat-kung">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/joe-teerawat/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2951 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2951" href="..//peoples/joe-teerawat/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2951 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2951" href="..//peoples/joe-teerawat/" target="_self">Joe Teerawat</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2953" class="filterall filter-past-member eg-people-wrapper eg-post-id-2953" data-author="wares-cat-kung">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/katon-thammavijitdej/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2953 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2953" href="..//peoples/katon-thammavijitdej/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2953 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2953" href="..//peoples/katon-thammavijitdej/" target="_self">Katon Thammavijitdej</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2958" class="filterall filter-past-member filter-cat-space eg-people-wrapper eg-post-id-2958" data-author="wares-cat-kung">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/chatchaphon-kang/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2958 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2958" href="..//peoples/chatchaphon-kang/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2958 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2958" href="..//peoples/chatchaphon-kang/" target="_self">Chatchaphon Kang</a></div>
-<div class="esg-content eg-post-2958 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2958" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-2967" class="filterall filter-past-member filter-cat-space eg-people-wrapper eg-post-id-2967" data-author="wares-cat-kung">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/suphannalak-chaiklahan/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-2967 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-2967" href="..//peoples/suphannalak-chaiklahan/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-2967 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-2967" href="..//peoples/suphannalak-chaiklahan/" target="_self">Suphannalak Chaiklahan</a></div>
-<div class="esg-content eg-post-2967 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-2967" href="..//group-category/cat-space/" title="View all posts in Cat Space" rel="category tag">Cat Space</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-3178" class="filterall filter-past-member filter-fab-taste eg-people-wrapper eg-post-id-3178" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/Wave.jpg" alt="" width="335" height="335"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/weeratouch-pongruengkiat/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-3178 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-3178" href="..//peoples/weeratouch-pongruengkiat/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-3178 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-3178" href="..//peoples/weeratouch-pongruengkiat/" target="_self">Weeratouch Pongruengkiat</a></div>
-<div class="esg-content eg-post-3178 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-3178" href="..//group-category/fab-taste/" title="View all posts in Fab Taste" rel="category tag">Fab Taste</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-3182" class="filterall filter-past-member filter-fab-taste eg-people-wrapper eg-post-id-3182" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/weerawit-horinouchi/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-3182 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-3182" href="..//peoples/weerawit-horinouchi/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-3182 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-3182" href="..//peoples/weerawit-horinouchi/" target="_self">Weerawit Horinouchi</a></div>
-<div class="esg-content eg-post-3182 eg-people-element-27-a"><a class="eg-people-element-27 eg-post-3182" href="..//group-category/fab-taste/" title="View all posts in Fab Taste" rel="category tag">Fab Taste</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-3298" class="filterall filter-past-member eg-people-wrapper eg-post-id-3298" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/01/nittipon.jpg" alt="" width="500" height="500"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/nitipon-puttaraksa/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-3298 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-3298" href="..//peoples/nitipon-puttaraksa/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-3298 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-3298" href="..//peoples/nitipon-puttaraksa/" target="_self">Nitipon Puttaraksa</a></div>
-</div>   </div>
-</li>
-<li id="eg-34-post-id-3412" class="filterall filter-past-member eg-people-wrapper eg-post-id-3412" data-author="pat-pataranutaporn">
-<div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img loading="lazy" decoding="async" src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/wp-content/plugins/Archive/public/assets/images/300x200transparent.png" data-lazysrc="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/07/66139502_452963721946681_7714964241005936640_n.jpg" alt="" width="679" height="674"></div>
-<div class="esg-entry-cover" data-clickable="on">
-<a class="eg-invisiblebutton" href="..//peoples/vasunun-chumchua/" target="_self"></a>                <div class="esg-overlay esg-none eg-people-container"></div>
-<div class="esg-bottom eg-post-3412 eg-people-element-29-a"><a class="eg-people-element-29 eg-post-3412" href="..//peoples/vasunun-chumchua/" target="_self">Past Member</a></div>
-</div>
-<div class="esg-entry-content eg-people-content">
-<div class="esg-content eg-post-3412 eg-people-element-0-a"><a class="eg-people-element-0 eg-post-3412" href="..//peoples/vasunun-chumchua/" target="_self">Vasunun Chumchua</a></div>
-</div>   </div>
-</li>
+<ul class="pc-grid">
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/smitt-loha-unchit/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/smitt-1.jpg" alt="Smitt Loha-Unchit" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Smitt Loha-Unchit</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/tawan-thintawornkul/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/tawan.jpg" alt="Tawan Thintawornkul" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Tawan Thintawornkul</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/chan-la-o-vorakiat/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/chan.jpg" alt="Chan La-o-vorakiat" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Chan La-o-vorakiat</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/chakrapipat-assawaboonyalert/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/chak.jpg" alt="Chakrapipat Assawaboonya..." decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Chakrapipat Assawaboonya...</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/theerawit-wilaiprasitporn/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/07/Theerawit.jpg" alt="Theerawit Wilaiprasitpor..." decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Theerawit Wilaiprasitpor...</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/tanadet-pipatpolkai/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Tanadet Pipatpolkai" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Tanadet Pipatpolkai</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/pondet-ananchai/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Pondet Ananchai" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Pondet Ananchai</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/jayanat-harinrojsobhon/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Jayanat Harinrojsobhon" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Jayanat Harinrojsobhon</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/pansavuth/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/01/26943496_10155744989881508_672199503_n-1.jpg" alt="Pansavuth Khehasukcharoe..." decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Pansavuth Khehasukcharoe...</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/paitoon-mueanpetch/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/05/33941984_10156102178270791_1599653431159554048_n-1.jpg" alt="Paitoon Mueanpetch" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Paitoon Mueanpetch</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/tone-anusorn-tipayanon/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/22894243_708902745965016_8171288535254777713_n.jpg" alt="Tone Anusorn Tipayanon" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Tone Anusorn Tipayanon</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/kansuda-panprom/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/08/nam.jpg" alt="Kansuda Panprom" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Kansuda Panprom</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/peerapong-torteeka/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Peerapong Torteeka" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Peerapong Torteeka</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/piyapat-saranrittichai/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Piyapat Saranrittichai" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Piyapat Saranrittichai</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/thakdanai-sirisombat/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Thakdanai Sirisombat" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Thakdanai Sirisombat</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/naronggorn-booncharoen/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Naronggorn Booncharoen" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Naronggorn Booncharoen</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/nitipoom-unrrom/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Nitipoom Unrrom" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Nitipoom Unrrom</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/joe-teerawat/">
+<div class="pc-media"><div class="pc-initials">JT</div></div>
+<div class="pc-body"><div class="pc-name">Joe Teerawat</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/katon-thammavijitdej/">
+<div class="pc-media"><div class="pc-initials">KT</div></div>
+<div class="pc-body"><div class="pc-name">Katon Thammavijitdej</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/chatchaphon-kang/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Chatchaphon Kang" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Chatchaphon Kang</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/suphannalak-chaiklahan/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Suphannalak Chaiklahan" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Suphannalak Chaiklahan</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/weeratouch-pongruengkiat/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2018/11/Wave.jpg" alt="Weeratouch Pongruengkiat" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Weeratouch Pongruengkiat</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/weerawit-horinouchi/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2017/08/portrait-placeholder-grey.jpg" alt="Weerawit Horinouchi" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Weerawit Horinouchi</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/nitipon-puttaraksa/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/01/nittipon.jpg" alt="Nitipon Puttaraksa" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Nitipon Puttaraksa</div><div class="pc-role">Past Member</div></div>
+</a></li>
+<li class="pc-card pc-past"><a class="pc-link" href="../peoples/vasunun-chumchua/">
+<div class="pc-media"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/thumbs/images/2019/07/66139502_452963721946681_7714964241005936640_n.jpg" alt="Vasunun Chumchua" decoding="async"></div>
+<div class="pc-body"><div class="pc-name">Vasunun Chumchua</div><div class="pc-role">Past Member</div></div>
+</a></li>
 </ul>
 </div>
 </article>
@@ -1389,83 +793,7 @@ hash : "group",
 arrows : true,
 wheel : false,
 };
-jQuery("#esg-grid-34-2").data("lightboxsettings", lightboxOptions);
-});
-</script>
-</div>
-</div>
-</div>
-</div>
-
-</main>
-<footer id="footer" class="footer-wrapper">
-<!-- FOOTER 1 -->
-<!-- FOOTER 2 -->
-<div class="absolute-footer dark medium-text-center text-center">
-<div class="container clearfix">
-<div class="footer-primary pull-left">
-<div class="copyright-footer">
-Freak Lab at King Mongkut’s University of Technology Thonburi + Research Networks      </div>
-</div>
-</div>
-</div>
-<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link" aria-label="Go to top"><i class="icon-angle-up" ></i></a>
-</footer>
-</div>
-<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
-<div class="sidebar-menu no-scrollbar ">
-<ul class="nav nav-sidebar nav-vertical nav-uppercase" data-tab="1">
-<li class="header-search-form search-form html relative has-icon">
-<div class="header-search-form-wrapper">
-<div class="searchform-wrapper ux-search-box relative is-normal"><form method="get" class="searchform" action="..//" role="search">
-<div class="flex-row relative">
-<div class="flex-col flex-grow">
-<input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search&hellip;" />
-</div>
-<div class="flex-col">
-<button type="submit" class="ux-search-submit submit-button secondary button icon mb-0" aria-label="Submit">
-<i class="icon-search" ></i>				</button>
-</div>
-</div>
-<div class="live-search-results text-left z-top"></div>
-</form>
-</div>	</div>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-327"><a href="..//">Home</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-940 menu-item-has-children"><a href="..//research/">Research</a>
-<ul class="sub-menu nav-sidebar-ul children">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3488"><a href="..//courses/">Courses</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1466"><a href="..//publications/">Publications</a></li>
-
-
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1706"><a href="..//research/">Research Group</a></li>
-
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3875"><a href="..//residency-program/">Residency</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3875"><a href="..//symposium/">Symposium</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2623"><a href="..//spinoff/">Spin Off</a></li>
-
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1239 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-1708 menu-item-has-children"><a href="..//people/" aria-current="page">People</a>
-<ul class="sub-menu nav-sidebar-ul children">
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1239 current_page_item menu-item-1707"><a href="..//people/" aria-current="page">People</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-795"><a href="https://www.facebook.com/FreakLaboratory/">Connect</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1008"><a href="..//join-us/">Join Us</a></li>
-</ul>
-</li>
-
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2322 menu-item-has-children"><a href="..//updates/">Updates</a>
-<ul class="sub-menu nav-sidebar-ul children">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2321"><a href="..//events/">Events</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2681"><a href="..//press/">Press</a></li>
-
-
-</ul>
-</li>
-
-
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2822"><a href="..//hq/">HQ</a></li>
-<li class="html header-social-icons ml-0">
-<div class="social-icons follow-icons" ><a href="http://url" target="_blank" data-label="Facebook" class="icon plain facebook tooltip" title="Follow on Facebook" aria-label="Follow on Facebook" rel="noopener nofollow" ><i class="icon-facebook" ></i></a><a href="http://url" target="_blank" data-label="Instagram" class="icon plain instagram tooltip" title="Follow on Instagram" aria-label="Follow on Instagram" rel="noopener nofollow" ><i class="icon-instagram" ></i></a><a href="http://url" data-label="Twitter" target="_blank" class="icon plain twitter tooltip" title="Follow on Twitter" aria-label="Follow on Twitter" rel="noopener nofollow" ><i class="icon-twitter" ></i></a><a href="mailto:your@email" data-label="E-mail" target="_blank" class="icon plain email tooltip" title="Send us an email" aria-label="Send us an email" rel="nofollow noopener" ><i class="icon-envelop" ></i></a></div></li>
+jQuery("#esg-grid-34-2").dat<script>/* essential-grid removed */</script>book tooltip" title="Follow on Facebook" aria-label="Follow on Facebook" rel="noopener nofollow" ><i class="icon-facebook" ></i></a><a href="http://url" target="_blank" data-label="Instagram" class="icon plain instagram tooltip" title="Follow on Instagram" aria-label="Follow on Instagram" rel="noopener nofollow" ><i class="icon-instagram" ></i></a><a href="http://url" data-label="Twitter" target="_blank" class="icon plain twitter tooltip" title="Follow on Twitter" aria-label="Follow on Twitter" rel="noopener nofollow" ><i class="icon-twitter" ></i></a><a href="mailto:your@email" data-label="E-mail" target="_blank" class="icon plain email tooltip" title="Send us an email" aria-label="Send us an email" rel="nofollow noopener" ><i class="icon-envelop" ></i></a></div></li>
 </ul>
 </div>
 </div>
