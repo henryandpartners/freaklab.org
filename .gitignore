@@ -1,2 +1,7 @@
 .vercel
 .env*
+.DS_Store
+__pycache__/
+audit/original/
+audit/published-content.json
+dist/

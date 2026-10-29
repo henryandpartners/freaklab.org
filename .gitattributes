@@ -1,0 +1,7 @@
+# Preserve the original bytes and formatting of imported presentation/media assets.
+assets/media/** -text whitespace=-trailing-space
+assets/vendor/** -text whitespace=-trailing-space
+assets/external/** -text whitespace=-trailing-space
+public/assets/media/** -text whitespace=-trailing-space
+public/assets/vendor/** -text whitespace=-trailing-space
+public/assets/external/** -text whitespace=-trailing-space

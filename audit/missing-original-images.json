@@ -1,0 +1,12 @@
+{
+  "missing_visual_assets": 2,
+  "sources": [
+    "http://www.iafastro.org/wp-content/uploads/2018/06/heatshot_Wares.jpg",
+    "https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/images/2022/04/Alan.jpg"
+  ],
+  "affected_pages": [
+    "/peoples/alan-archapiraj/",
+    "/update/the-iaf-emerging-space-leaders-2018/"
+  ],
+  "behavior": "Readable placeholders preserve surrounding original text. Original files are required for exact visual parity."
+}

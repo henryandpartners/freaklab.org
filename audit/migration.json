@@ -1,0 +1,2149 @@
+{
+  "pages": [
+    {
+      "page": "application/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Application",
+      "text_sha256": "b1ae3ee7e0aadd5fd1ddbb13d509ba7fb7d7620f85b27553faeb1d3923e8941c",
+      "text_length": 14
+    },
+    {
+      "page": "author/admin_golf/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Wares Cat Kung – FREAK lab",
+      "text_sha256": "aabf3f1b219a6c1465db064816c072b5d8e450a10f8e018a8bd60b3c86467ae9",
+      "text_length": 248
+    },
+    {
+      "page": "author/admin_ninyawee/index.html",
+      "source": "public WordPress snapshot",
+      "title": "ninyawee nutchanon – FREAK lab",
+      "text_sha256": "f08f9f54c4427a2bd2e0db3dbdd7cbaea04b5c47ecb6c0d2a17b91327ee3c430",
+      "text_length": 252
+    },
+    {
+      "page": "author/admin_pp/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Pat Pataranutaporn – FREAK lab",
+      "text_sha256": "764570efccc44d0381889ee892cea8401924cf14dc6849b496360d582f3fe438",
+      "text_length": 1928
+    },
+    {
+      "page": "author/freaklab_editor/index.html",
+      "source": "public WordPress snapshot",
+      "title": "freaklab editor – FREAK lab",
+      "text_sha256": "7975fab357e41f0a2905203d712dfe02235e1616939d0e19db62a8d5733b1d32",
+      "text_length": 249
+    },
+    {
+      "page": "author/golfyjstp/index.html",
+      "source": "public WordPress snapshot",
+      "title": "golfyjstp – FREAK lab",
+      "text_sha256": "3f42f6b7ab308a6b983bd01f9c52c056b2d34a070f7e1125323bc8869bc9cb30",
+      "text_length": 243
+    },
+    {
+      "page": "award/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Award",
+      "text_sha256": "1c53851aba2225ab64163e4af96e6065332dd520abd952b53ac15ef6b465e80d",
+      "text_length": 16234
+    },
+    {
+      "page": "blog/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Blogs – FREAK lab",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_length": 0
+    },
+    {
+      "page": "blog/wearable-research-at-ntu/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Arts + Technology = Wearable Research @Nanyang University of Technology",
+      "text_sha256": "0164bd371e941ce475cdd94bbf72565f3e62aecbda2e6823617d68fcd715ab4e",
+      "text_length": 623
+    },
+    {
+      "page": "blog/what-is-freak-lab/index.html",
+      "source": "public WordPress snapshot",
+      "title": "What is Freak Lab",
+      "text_sha256": "5b3aaf638caed17455c7ea3707e525fa696caf312778513fb9639bc0aa37c841",
+      "text_length": 809
+    },
+    {
+      "page": "category/biodigital/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Biodigital – FREAK lab",
+      "text_sha256": "87bcbaff7f6b4c2ff1e2fdd9d78a8dc4a97829d485ca3fb9cc29c541eb764783",
+      "text_length": 119
+    },
+    {
+      "page": "category/blog/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Blog – FREAK lab",
+      "text_sha256": "17d097f4d78b8bbef023d08c1653ae017c3f685fb96ca811dc97899d05ffb536",
+      "text_length": 113
+    },
+    {
+      "page": "category/event/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Event – FREAK lab",
+      "text_sha256": "ea6c9e95f6a845d353ac09c9082cde4d229512b91fdb42a018a2d1e4afe6900e",
+      "text_length": 114
+    },
+    {
+      "page": "category/magic-monsters-machines/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Magic, monsters, and machines – FREAK lab",
+      "text_sha256": "78ca2fc8b1570ea87c3f8cabffa7f8a9109f18fbb62bae9db41708bbcba4b58f",
+      "text_length": 1941
+    },
+    {
+      "page": "category/neuromedia/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Neuromedia – FREAK lab",
+      "text_sha256": "2a48cea2cdd05fc22d2254c28b9fdaef549a840f0cc7e48a17ff5be9f835347e",
+      "text_length": 119
+    },
+    {
+      "page": "category/news/index.html",
+      "source": "public WordPress snapshot",
+      "title": "News – FREAK lab",
+      "text_sha256": "7e2e6305bdb97eb40526cfaf23833688e89b84c5d35b7c9a13067d6a75bb7fa8",
+      "text_length": 113
+    },
+    {
+      "page": "computational-kwaidan/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Computational kwaidan: recreating Japanese tales with machine learning",
+      "text_sha256": "c3b2148fd33fc6172f1af933f1b9ad2f8641f3a396d480d65bbac335e78c6474",
+      "text_length": 1627
+    },
+    {
+      "page": "courses/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Courses",
+      "text_sha256": "b19dcc0e1b0bc4299b4cfdbfaefb609970129b6ae932f9f4781839c4a426041d",
+      "text_length": 15989
+    },
+    {
+      "page": "elementor-3713/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Elementor #3713",
+      "text_sha256": "e0c71f98b2e021a30b82766010882dd48ab092956f90bd371fe9df457c2f1967",
+      "text_length": 27
+    },
+    {
+      "page": "event/adm-symposium-2017/index.html",
+      "source": "public WordPress snapshot",
+      "title": "FREAK Members join ADM Symposium 2017 : Innovation, Biodesign, Culture, and Technology",
+      "text_sha256": "81f9e77f9ddefbf9eb2858b510fbcba9dcb7d0fd09e5fdb9a844795a9cf71667",
+      "text_length": 206
+    },
+    {
+      "page": "event/ap-sgw-participant-of-gender-diversity/index.html",
+      "source": "public WordPress snapshot",
+      "title": "AP-SGW participant of gender diversity",
+      "text_sha256": "f88b062e2a22d2ff7ce446c365a85b87045424c0162070d8f04074e235b6adb1",
+      "text_length": 193
+    },
+    {
+      "page": "event/biofab/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The Futures of Bio-Fabrication: Aesthetics, Beings, and Factories (Talk and Workshop)",
+      "text_sha256": "a1e347b58876977e68b42ba1167a28005dd24a167e430bf02e86ed00c0d313e5",
+      "text_length": 4414
+    },
+    {
+      "page": "event/co-founder-of-hyperloop-pod-challenge-thailand-team/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Co-founder of Hyperloop pod Challenge Thailand team",
+      "text_sha256": "5c53c2562633e9699819e7ec95a952dca074078d993111c5d76ba1ebb1b5c3dc",
+      "text_length": 174
+    },
+    {
+      "page": "event/food-fiction-futures-fabrication-casual-workshop/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Food Fiction Futures Fabrication (Casual Workshop)",
+      "text_sha256": "115e5f6751487679fbf54acd7f45f053e9584b48cf4ec851bd3ff5ce11c81f9f",
+      "text_length": 221
+    },
+    {
+      "page": "event/freak-to-the-futures-exhibition/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak to the Futures Exhibition",
+      "text_sha256": "d6ffbf9756fc89b015637d6a3755687f0e3bae6779722a2c0749c029f8102704",
+      "text_length": 186
+    },
+    {
+      "page": "event/freak-to-the-futures-exhibition-2/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak to the Futures Exhibition at FREAK Lab HQ",
+      "text_sha256": "079085bb04ca8d0918fbf3230b0524d96ae05308d245a8919dc86be08cb5fb9d",
+      "text_length": 204
+    },
+    {
+      "page": "event/hyperloop-lecture-at-kmutt-by-dr-andrea/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Hyperloop lecture at KMUTT by Dr.Andrea Santangelo",
+      "text_sha256": "d1c2b6b726c383f29e8266e6faeda18f6e59fda95ab45d355dd8587b7f9a7ace",
+      "text_length": 189
+    },
+    {
+      "page": "event/hyperloop-technical-discussion-first-time-in-thailand/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Hyperloop technical discussion first time in Thailand",
+      "text_sha256": "8b716082232df4ac089296a6d1dc83103b9616fddee1fefe6a78506dae3a04cb",
+      "text_length": 219
+    },
+    {
+      "page": "event/ieee-tale-2017/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak Lab researcher presented an education research at IEEE TALE 2017",
+      "text_sha256": "0ab6ff1d214754c2152fb2c98af059d0b66186d2d6baadd9b528320a9add6594",
+      "text_length": 840
+    },
+    {
+      "page": "event/immersea-subversive-submersibles-is-water-adapted-augmented-reality-ar/index.html",
+      "source": "public WordPress snapshot",
+      "title": "ImmerSea: Subversive Submersibles is water-adapted augmented reality (AR)",
+      "text_sha256": "2804bd6edeb2ae47633f2ba8035ca6bd8ea097e9524144a064d106620b979799",
+      "text_length": 261
+    },
+    {
+      "page": "event/machine-learning-on-eeg-data-workshop-by-dr-sirawaj-itthipuripat/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Machine Learning on EEG data workshop by Dr. Sirawaj Itthipuripat",
+      "text_sha256": "52c1a234077cc3057a8f33ba64293d7f240ff1d8704e376297f0582faee31bbb",
+      "text_length": 637
+    },
+    {
+      "page": "event/mini-symposium-on-space-exploration-biotechnology-asian-culture/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Mini-Symposium on Space Exploration, Biotechnology, Asian Culture",
+      "text_sha256": "89f757bed8cf2924cddd8a4f9f2704be3bb2084071868667326380db694a42ab",
+      "text_length": 208
+    },
+    {
+      "page": "event/mrs-2018/index.html",
+      "source": "public WordPress snapshot",
+      "title": "MRS 2018 Wearables in Smart Fabrics Fashion Show",
+      "text_sha256": "e900eb99bc89d02608a076aa12cc8dec78c13410f160db0f1de0bf19cd3e39ee",
+      "text_length": 204
+    },
+    {
+      "page": "event/preliminary-workshop-bioarthistory/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Preliminary Workshop Bio+Art+History",
+      "text_sha256": "af9184c52a8c252bacaaab7109dc3865038ac60bb7c39453ad4d8f6bc147f208",
+      "text_length": 154
+    },
+    {
+      "page": "event/uncertainty-fashion-show-2018/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Uncertainty Fashion Show 2018",
+      "text_sha256": "19030f6b43aa2a7dfcf7fa6c15d9abb4d6eb35f9d1451419c2f9b77a1e6304f0",
+      "text_length": 201
+    },
+    {
+      "page": "events/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Events",
+      "text_sha256": "23efdf4dc22058e0793f87e963ce4ea9becbe5186a60a5491738a071541ef3d8",
+      "text_length": 17138
+    },
+    {
+      "page": "group-category/award-recognition/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Award",
+      "text_sha256": "1c53851aba2225ab64163e4af96e6065332dd520abd952b53ac15ef6b465e80d",
+      "text_length": 16234
+    },
+    {
+      "page": "group-category/biodigital/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Biodigital",
+      "text_sha256": "74692002be22e3f84c0274b94c3f5fbf6028c503e33040b873d3730431bb3747",
+      "text_length": 51982
+    },
+    {
+      "page": "group-category/cat-space/index.html",
+      "source": "public WordPress snapshot",
+      "title": "C.A.T Space",
+      "text_sha256": "e70d92ac46d44dab8efd7dad4bc925d28536d51338950b36a5684dbe78bda64b",
+      "text_length": 51313
+    },
+    {
+      "page": "group-category/courses/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Courses – FREAK lab",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_length": 0
+    },
+    {
+      "page": "group-category/experimental-society/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Experimental Society",
+      "text_sha256": "93862f0b166575e40e16b4cfbcf397b9a4d1a1169b7cd76486073a95b2191951",
+      "text_length": 50459
+    },
+    {
+      "page": "group-category/fab-taste/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Fab Taste",
+      "text_sha256": "f5d2fee1035a5a9fab2baf6e5e4eafe88c59db27c8de65aef42cf4a95623cdf1",
+      "text_length": 48468
+    },
+    {
+      "page": "group-category/functional-aesthetics/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Functional + Aesthetics",
+      "text_sha256": "46cd94fd3b0cab9184df0771ead4fdc13eeb3f551781bb49b4122d1e81cdf069",
+      "text_length": 50448
+    },
+    {
+      "page": "group-category/learningfutures/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Learning Futures",
+      "text_sha256": "dfa5ee5e60788adcf0e09703ebf8ad64dc2e1c1b19bbcffa78706d06995af3c8",
+      "text_length": 49653
+    },
+    {
+      "page": "group-category/neuro-media/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Neuro Media",
+      "text_sha256": "6f02ca939968c4725a51d90bc56b12b5532b16b84a7a7843984dc4ba2afab83c",
+      "text_length": 49559
+    },
+    {
+      "page": "group-category/press/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Press",
+      "text_sha256": "a5236f4dbf77cf08a60757465f654835ccee244416ad7b640259bfd224b3fed2",
+      "text_length": 16913
+    },
+    {
+      "page": "group-category/space-zab/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Space Zab – FREAK lab",
+      "text_sha256": "7c8f5059290305cec8323d79521f0353c9ac308b60cb4c1976340d0ce4a121d5",
+      "text_length": 5
+    },
+    {
+      "page": "group-category/space-zab/page/1/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Space Zab – FREAK lab",
+      "text_sha256": "7c8f5059290305cec8323d79521f0353c9ac308b60cb4c1976340d0ce4a121d5",
+      "text_length": 5
+    },
+    {
+      "page": "group-category/space-zab/page/2/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Space Zab – Page 2 – FREAK lab",
+      "text_sha256": "7c8f5059290305cec8323d79521f0353c9ac308b60cb4c1976340d0ce4a121d5",
+      "text_length": 5
+    },
+    {
+      "page": "group-category/space-zab/page/3/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Space Zab – Page 3 – FREAK lab",
+      "text_sha256": "7c8f5059290305cec8323d79521f0353c9ac308b60cb4c1976340d0ce4a121d5",
+      "text_length": 5
+    },
+    {
+      "page": "group-category/special-project/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Special Project – FREAK lab",
+      "text_sha256": "f71998fe363b9c29116c80b5eecf33a2fedca3b6159724384485804b71651029",
+      "text_length": 3
+    },
+    {
+      "page": "group-category/special-project/page/1/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Special Project – FREAK lab",
+      "text_sha256": "f71998fe363b9c29116c80b5eecf33a2fedca3b6159724384485804b71651029",
+      "text_length": 3
+    },
+    {
+      "page": "group-category/special-project/page/2/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Special Project – Page 2 – FREAK lab",
+      "text_sha256": "f71998fe363b9c29116c80b5eecf33a2fedca3b6159724384485804b71651029",
+      "text_length": 3
+    },
+    {
+      "page": "group-category/spin-off/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Spin Off",
+      "text_sha256": "1f80a38e29ab568883b3b874c2131e634010ca51da4d9a27fa56c8694e162a69",
+      "text_length": 15909
+    },
+    {
+      "page": "hologram-festival/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Hologram festival",
+      "text_sha256": "81a57c47e5789e23eb2c1ad43a22a4d1648cbb47cb60fb8808c966a53efe3df0",
+      "text_length": 4616
+    },
+    {
+      "page": "hq/index.html",
+      "source": "public WordPress snapshot",
+      "title": "HQ",
+      "text_sha256": "93878c539155c8e093ff253178b29658e81cd1424960cd0d17467ef6bbf807e3",
+      "text_length": 2984
+    },
+    {
+      "page": "index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak Lab | Futuristic Research in Enigmatic and Aesthetics Knowledges",
+      "text_sha256": "1c33b424070d6a93a618d1f42e47ee3d52c5bc1bca4817d53f1650710d6cee24",
+      "text_length": 43624
+    },
+    {
+      "page": "join-us/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Join Us",
+      "text_sha256": "4c060c62b00d1707a33e8b0d29d9ff7410e5c90f0ba4f7cf17c5d4db33fb6c10",
+      "text_length": 6016
+    },
+    {
+      "page": "machine-mononoke/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Machine Mononoke : robot, supernatural, and power",
+      "text_sha256": "53302f004d1a58841e30db4b3fbad4091eb1f95ae053b0b6c0da350c643abbf9",
+      "text_length": 3719
+    },
+    {
+      "page": "monsterization-and-society/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Monsterization and Society : how to convert anything (cute or cruel) into the target of hatred",
+      "text_sha256": "5661d164a5eeacf2870906a759550b6c84a241fe999ee2403af8e7ef54fe773a",
+      "text_length": 1459
+    },
+    {
+      "page": "on-my-godzillas-mind/index.html",
+      "source": "public WordPress snapshot",
+      "title": "On my Godzilla’s mind",
+      "text_sha256": "9637ad4d39321a4480af596968e86e14e620090b28be47c2aef7c93be99db5fb",
+      "text_length": 819
+    },
+    {
+      "page": "people/index.html",
+      "source": "public WordPress snapshot",
+      "title": "People",
+      "text_sha256": "7740eb06ebafe0129564e2ff7e7fcebc4213916254a16cc5dbfcc0b0bc3f2222",
+      "text_length": 35722
+    },
+    {
+      "page": "peoples/alan-archapiraj/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Alan Archapiraj",
+      "text_sha256": "3fcb03a13b786b665928468157ebc8632888f6e139dacc963b437478ddbb7950",
+      "text_length": 78
+    },
+    {
+      "page": "peoples/bank-ngamarunchot/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Bank Ngamarunchot",
+      "text_sha256": "17f3184cd692e454c6fb6f975001bcdfe783d91a30f74b84ed8d458d640925ca",
+      "text_length": 721
+    },
+    {
+      "page": "peoples/bawornsak-sakulkueakulsuk/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Bawornsak Sakulkueakulsuk",
+      "text_sha256": "bf2bb8d54c27c0d0261a88da8726007bd2273bcfed26bdf2b585408c0ecbe879",
+      "text_length": 269
+    },
+    {
+      "page": "peoples/chakrapipat-assawaboonyalert/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Chakrapipat Assawaboonyalert",
+      "text_sha256": "347862f6142238f5f883a4d7cf7285042953c2aa3710fae6dadb1e985fc6a3da",
+      "text_length": 261
+    },
+    {
+      "page": "peoples/chan-la-o-vorakiat/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Chan La-o-vorakiat",
+      "text_sha256": "5a09d5f501668ffc993ef531d1d47ebd0552460958f42bf6b8ecd85b1e70b416",
+      "text_length": 261
+    },
+    {
+      "page": "peoples/chatchaphon-kang/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Chatchaphon Kang",
+      "text_sha256": "75dceebd79dbdc1184d9082b94060af95291a61051ffb40d9a3a93a500a9accd",
+      "text_length": 111
+    },
+    {
+      "page": "peoples/galina-mihaleva/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Galina Mihaleva",
+      "text_sha256": "5882cdfb892a7273267bdf594d52a1a858b6bb1c62b7ff1e09b671bf481deab2",
+      "text_length": 239
+    },
+    {
+      "page": "peoples/henry-tan/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Henry Tan",
+      "text_sha256": "6d24bb5fbd9ad2a3d33673911d2dc2b6886272a3e227049b94da306d6de1ca10",
+      "text_length": 91
+    },
+    {
+      "page": "peoples/jayanat-harinrojsobhon/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Jayanat Harinrojsobhon",
+      "text_sha256": "d3afd96d7d66b8418d924a9c2b03c9246f4a84a9c20d1b68f328d8940f8a864e",
+      "text_length": 258
+    },
+    {
+      "page": "peoples/joe-teerawat/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Joe Teerawat",
+      "text_sha256": "bfe3ad8b72530b902ad76634f8faf01dcaefba6b20e5a68f720318282d18137e",
+      "text_length": 100
+    },
+    {
+      "page": "peoples/kansuda-panprom/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Kansuda Panprom",
+      "text_sha256": "640f6759fc1b0926d0c262fa2f70612f6dd05bc151854172efceef00afe6568a",
+      "text_length": 91
+    },
+    {
+      "page": "peoples/katon-thammavijitdej/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Katon Thammavijitdej",
+      "text_sha256": "27d9a666e88c3a9b2bac5a69f1aa1a036c117822c4bc17ba87df895187bf8966",
+      "text_length": 101
+    },
+    {
+      "page": "peoples/korakot-chaovavanich/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Korakot Chaovavanich",
+      "text_sha256": "b49be2e5c6dad052be75ebb9a851315dc88a465a831af74416805b753b9172d8",
+      "text_length": 247
+    },
+    {
+      "page": "peoples/naronggorn-booncharoen/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Naronggorn Booncharoen",
+      "text_sha256": "3277449002769be69c97c516b608c6a91e01ce325b50b00467151bc6537fd945",
+      "text_length": 110
+    },
+    {
+      "page": "peoples/nitipon-puttaraksa/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Nitipon Puttaraksa",
+      "text_sha256": "513beb6825e67a6034ca33aa9c10bf41c18cd7741682b71aa54050b6f73c9618",
+      "text_length": 112
+    },
+    {
+      "page": "peoples/nitipoom-unrrom/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Nitipoom Unrrom",
+      "text_sha256": "b7327d891360fa974f3d0ece601e925a45c797d92f545b34d2c0e896f9990609",
+      "text_length": 102
+    },
+    {
+      "page": "peoples/nutchanon/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Nutchanon Ninyawee",
+      "text_sha256": "6d700ee9a87584ffff6663ac684e06136ed9661da63766b4549367a215e37606",
+      "text_length": 253
+    },
+    {
+      "page": "peoples/opas-tantithakul/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Opas Tantithakul",
+      "text_sha256": "4b71d3750cd46668e5b31b6058548924794ac500ddf4bbf0fa4039faa387d25d",
+      "text_length": 104
+    },
+    {
+      "page": "peoples/paitoon-mueanpetch/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Paitoon Mueanpetch",
+      "text_sha256": "c11ad68c408328645b0c122a219919299a1518d1fbcc53fb316d7f141446524c",
+      "text_length": 99
+    },
+    {
+      "page": "peoples/pakpoom-subsoontorn/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Pakpoom Subsoontorn",
+      "text_sha256": "6a31b75082d54200bd70ec69698c852616328ad503cf4d0f6a23d73518eda0e6",
+      "text_length": 111
+    },
+    {
+      "page": "peoples/pansavuth/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Pansavuth Khehasukcharoen",
+      "text_sha256": "e436160d791e720b7b43ec8c3ee049634f3cda1772c9bbf34c2dde360dd41345",
+      "text_length": 249
+    },
+    {
+      "page": "peoples/pat-pataranutaporn/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Pat Pataranutaporn",
+      "text_sha256": "9a1f8eb1fe89ef7f7ef96b3931c0c713408bdfdb4b1e863e9842475492496a6e",
+      "text_length": 101
+    },
+    {
+      "page": "peoples/patcharapol-sankaew/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Patcharapol Sankaew",
+      "text_sha256": "0efa3587823f4530e1052f55b271ed2b5399bcbceccc3a70735cd8bc55814797",
+      "text_length": 98
+    },
+    {
+      "page": "peoples/peerapong-torteeka/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Peerapong Torteeka",
+      "text_sha256": "bc7aa5574624768bc7d677cbb8d9414428fce1d549c583ba2058fa87b7443874",
+      "text_length": 107
+    },
+    {
+      "page": "peoples/piyapat-saranrittichai/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Piyapat Saranrittichai",
+      "text_sha256": "a5b67f64a3df03e2621551b735a433b22895e87036d38c019990bbb23447875b",
+      "text_length": 113
+    },
+    {
+      "page": "peoples/pondet-ananchai/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Pondet Ananchai",
+      "text_sha256": "0eab1abf9ece0f8deaccb75cb9e593e8ce8bc90fb2a9219028c944afc6353d57",
+      "text_length": 244
+    },
+    {
+      "page": "peoples/potiwat-ngamkajornwiwat/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Potiwat Ngamkajornwiwat",
+      "text_sha256": "25924e5415126c5978cf241dd1dc3a3efe61fa7d7dafe05d304414f13947cd9b",
+      "text_length": 119
+    },
+    {
+      "page": "peoples/prapanpong/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Prapanpong Damsongsaeng",
+      "text_sha256": "755ef4b973e8e8511c09e5b0f6fe67951fa33f538737ff4860f012ee44137659",
+      "text_length": 117
+    },
+    {
+      "page": "peoples/prompt-suathim/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Prompt Suathim",
+      "text_sha256": "dfb3376f28622aa78e949e6526e115b3ddb2144144f4618bad729193f11cdb99",
+      "text_length": 108
+    },
+    {
+      "page": "peoples/puey-ounjai/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Puey Ounjai",
+      "text_sha256": "838c9c1c9149b6b54d242b574367a5f10000e8a14d9018bee455f0a65a296286",
+      "text_length": 90
+    },
+    {
+      "page": "peoples/saran-seehanam/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Saran Seehanam",
+      "text_sha256": "97a2a5a02b85f20b64f2b1e68cc402763282199ec3004496a7066705a8fe0dc7",
+      "text_length": 99
+    },
+    {
+      "page": "peoples/sirada-sirijindaphan/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Sirada Sirijindaphan",
+      "text_sha256": "bf793b59dcbcef34059278c447504bc0f4a401a821b71c9ff3614135f255441e",
+      "text_length": 241
+    },
+    {
+      "page": "peoples/sirawaj-sean-itthipuripat/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Sirawaj Sean Itthipuripat",
+      "text_sha256": "bdd509fc3fa4e5c2b22ddf509d7f55e4b44c3dd29b97d50b3b17c072268c17d8",
+      "text_length": 272
+    },
+    {
+      "page": "peoples/siwaphan-luksanayeam/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Siwaphan Luksanayeam",
+      "text_sha256": "139a9baa7e00c175cf85ddaf76014aea81c625d304961ac2db0dfd02d802f99b",
+      "text_length": 246
+    },
+    {
+      "page": "peoples/siyada-witoon/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Siyada Witoon",
+      "text_sha256": "c9a352f121fb65281d1c33ec55fcdb2f1d1ffe90d35d24886a337928e6bec63d",
+      "text_length": 93
+    },
+    {
+      "page": "peoples/smitt-loha-unchit/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Smitt Loha-Unchit",
+      "text_sha256": "61e3560a56d79f0672292ea8f9049aa035a003ed2efb4a5e7dd6c29a8e347f83",
+      "text_length": 108
+    },
+    {
+      "page": "peoples/sonskuln-thaomohr/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Sonskuln Thaomohr",
+      "text_sha256": "66b8688a1d608b523bcf85f05ae34614a2f4a88a1727cb97874353527956f2b6",
+      "text_length": 109
+    },
+    {
+      "page": "peoples/sornchai-chatwiriyachai/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Sornchai Chatwiriyachai",
+      "text_sha256": "9d80cc235fe25e4d9011f76d7be41554afc554c8a2d37a65ff31ec19bde33567",
+      "text_length": 131
+    },
+    {
+      "page": "peoples/suphannalak-chaiklahan/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Suphannalak Chaiklahan",
+      "text_sha256": "9342392ef648047024047be84d57081383506940a5f3f469df1a618a97c21112",
+      "text_length": 115
+    },
+    {
+      "page": "peoples/tanadet-pipatpolkai/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Tanadet Pipatpolkai",
+      "text_sha256": "6b3fbaaea8afaf957c344cd2823e4c86c617de4225c565400068eff9abe03c5d",
+      "text_length": 250
+    },
+    {
+      "page": "peoples/tanis-phongphisantham/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Tanis Phongphisantham",
+      "text_sha256": "3e4843b36dd8eef924a5eb2aa3226e07dbf0c42fb01277672b86490990443e92",
+      "text_length": 114
+    },
+    {
+      "page": "peoples/tara-suwinyattichaiporn/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Tara Suwinyattichaiporn",
+      "text_sha256": "37d2004ffdc6da7ad54ef9a9184d92fe6691b0fe33d2725b11a58fef04730f54",
+      "text_length": 112
+    },
+    {
+      "page": "peoples/tawan-thintawornkul/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Tawan Thintawornkul",
+      "text_sha256": "5a95ae8710fbc8b7c27b95a0de410d9bbf95c722b556560dcafad3ab14f804ca",
+      "text_length": 103
+    },
+    {
+      "page": "peoples/thakdanai-sirisombat/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Thakdanai Sirisombat",
+      "text_sha256": "6286c83b6dc5567b7eba27d80534c1e6ce1b66020e6750d80408a45c49383458",
+      "text_length": 117
+    },
+    {
+      "page": "peoples/theerawit-wilaiprasitporn/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Theerawit Wilaiprasitporn",
+      "text_sha256": "c7b158b3175da9a2fc80013c1f5f8cbab96a268fa3a0f2b89678dfb2b558e8d2",
+      "text_length": 259
+    },
+    {
+      "page": "peoples/tone-anusorn-tipayanon/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Tone Anusorn Tipayanon",
+      "text_sha256": "8ad76ca62df8ec37096975be932e8efe13504248406038b14a7d8a9762a2a975",
+      "text_length": 111
+    },
+    {
+      "page": "peoples/vasunun-chumchua/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Vasunun Chumchua",
+      "text_sha256": "93488402eb0e8ad4abad59631340c92a68ef79f7e5586cf641b510ede996c299",
+      "text_length": 108
+    },
+    {
+      "page": "peoples/vipatsaya-u-poon/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Vipatsaya U-poon",
+      "text_sha256": "f1750399f0a12fb4f2fa7dad5ff686aaf5949189a35c113f7b437518d0dd040d",
+      "text_length": 116
+    },
+    {
+      "page": "peoples/wachira-chaiworn/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Wachira Chaiworn",
+      "text_sha256": "bfa4c269222aa2790760ee7546098f84093138ff275fac1c70d9a051f36a1c24",
+      "text_length": 112
+    },
+    {
+      "page": "peoples/wares-chancharoen/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Wares Chancharoen",
+      "text_sha256": "0a1355302ab64a78f82b0aa55bd390b0e24af52dbe57dc91c8ccf87233b21866",
+      "text_length": 704
+    },
+    {
+      "page": "peoples/warinthorn-detpisuttitham/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Warinthorn Detpisuttitham",
+      "text_sha256": "d7b9799b3a692520f0ab16434913d94c2cf231701fc5851d0cc2575531fdf130",
+      "text_length": 114
+    },
+    {
+      "page": "peoples/weeratouch-pongruengkiat/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Weeratouch Pongruengkiat",
+      "text_sha256": "4407b3e6b11598f4c0d1c4a74c8e9605d5de19cc683de0a5c0f7efc3725d3b3c",
+      "text_length": 118
+    },
+    {
+      "page": "peoples/weerawit-horinouchi/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Weerawit Horinouchi",
+      "text_sha256": "71afdd9eb832f28929a64a2fe0ba0df363b7639540b979190b9d8e4c82317ad4",
+      "text_length": 112
+    },
+    {
+      "page": "peoples/werasak-surareungchai/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Werasak Surareungchai",
+      "text_sha256": "f157649eea489ec2f614620ac475182671acf4035b831a356b8ab82e0701d819",
+      "text_length": 119
+    },
+    {
+      "page": "peoples/winai-phu-numphon/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Winai Phu-Numphon",
+      "text_sha256": "6d376a4cf18839fb3f676d586f65871ccc237d687b8c3d789c2da01c53d4be2a",
+      "text_length": 231
+    },
+    {
+      "page": "policy-advise-on-zombie-apocalypse/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Policy Advise on Zombie Apocalypse",
+      "text_sha256": "454dfc4e8e833fec7f6136a868d2ec83e096257e32bd4dcc9711f5c75ed4ef2e",
+      "text_length": 619
+    },
+    {
+      "page": "press/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Press",
+      "text_sha256": "a5236f4dbf77cf08a60757465f654835ccee244416ad7b640259bfd224b3fed2",
+      "text_length": 16913
+    },
+    {
+      "page": "projects/3d-food-fabrication/index.html",
+      "source": "public WordPress snapshot",
+      "title": "3D Food Fabrication",
+      "text_sha256": "9d079cce1ce1b2e35d8ed010c9323514f510d6b4a1b0448dbb511e31cb937bd0",
+      "text_length": 187
+    },
+    {
+      "page": "projects/ai-in-agriculture/index.html",
+      "source": "public WordPress snapshot",
+      "title": "AI in Agriculture Educational Camp",
+      "text_sha256": "1b52bf0b3885a6d90881bb2c9932c349f4c3077efe01865c72b2b636f1c9234e",
+      "text_length": 133
+    },
+    {
+      "page": "projects/astrobiotechnology/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Astrobiotechnology :  Biotechnology for Space Exploration",
+      "text_sha256": "baa2289417eb6795c0ef0a27824fa54097c02037d8a7e4dd49f774f400e74dba",
+      "text_length": 313
+    },
+    {
+      "page": "projects/augmented-history-ar-archeology-and-the-maker-approach-for-the-future-history-class/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Augmented History: AR, Archeology, and the Maker Approach for the Future History Class",
+      "text_sha256": "fa8f696c3045aa503a0a19af68a9f3178737a496cfb6e62aa49cfd5fe9e64520",
+      "text_length": 207
+    },
+    {
+      "page": "projects/bang-fai-festival-visit-for-space-project/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Cultural Rocket Festival (Bang Fai) visit for Space project",
+      "text_sha256": "c796b2a111452b01cbd206f4017421b14ce51b3a7e5360d7c015d8e2b63e1604",
+      "text_length": 186
+    },
+    {
+      "page": "projects/bio-e/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Bio-Electricity : The Co-Production Platform for Microbial Generated Electricity",
+      "text_sha256": "7166bc98d1f5f2db9d2bf735694e27d5534f90a7dcdfd75c22210b98e07f9dac",
+      "text_length": 170
+    },
+    {
+      "page": "projects/biofab/index.html",
+      "source": "public WordPress snapshot",
+      "title": "BioFab: The Next Generation of Wearable Devices",
+      "text_sha256": "5cf2d9fdc7136eb5222f00700a1f2de7db875557349107bc71a8e1f83d7d7bcb",
+      "text_length": 254
+    },
+    {
+      "page": "projects/bioprinting-workshop/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Bio-Printing Workshop",
+      "text_sha256": "1b9dd3a3a32e519393d720047da010c222af726ba006fa3e1ab68846c7c37f75",
+      "text_length": 173
+    },
+    {
+      "page": "projects/buddha-bot/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Buddha Bot",
+      "text_sha256": "0ff43c2546418156b6dbec19dfd66cab62c5bf499117facb4b26085fa970119c",
+      "text_length": 107
+    },
+    {
+      "page": "projects/covid-bot/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Covid Bot : Chatbot for Covid 19 Pre-screening",
+      "text_sha256": "39ae73fbf72494afda328e3a9c80d1baa58a302121d7bd8176eccc54c71fa175",
+      "text_length": 2523
+    },
+    {
+      "page": "projects/deforestation-detection-by-deep-learning-using-satellite-image/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Deforestation detection by deep learning using satellite image",
+      "text_sha256": "269bb6be63a7fcb581e1d013d05d060015b22be06b494b677ff13ffbe6bef9ab",
+      "text_length": 196
+    },
+    {
+      "page": "projects/electrical-stimulation-over-human-posterior-parietal-cortex-selectively-enhances-the-capacity-of-visual-short-term-memory/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Electrical Stimulation Over Human Posterior Parietal Cortex Selectively Enhances the Capacity of Visual Short-Term Memory",
+      "text_sha256": "cfb8fb46b4fb3ff7c32b6f1484ca184acaa53021b2e4c2ebaa693721ebd4ce31",
+      "text_length": 375
+    },
+    {
+      "page": "projects/emoti-khon/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Emoti-Khon Live Display Mirror",
+      "text_sha256": "3b20460c44da2887b168c5215b33048ca935fb10ff73d44376283fd0ee22e10e",
+      "text_length": 248
+    },
+    {
+      "page": "projects/first-thai-space-mission/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The First Thai Space Missions in Space",
+      "text_sha256": "81d80981ab5eece8337a998f427c5d554526fc79b4c6276922297adb5e95eda4",
+      "text_length": 157
+    },
+    {
+      "page": "projects/food-fiction-futures-fabrication-workshop/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Food Fiction Futures Fabrication Workshop",
+      "text_sha256": "e6c680ebb293140ae2d620d386c8de59260791e80cfa779639db698e227f2e65",
+      "text_length": 193
+    },
+    {
+      "page": "projects/freak-food-novel/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak Food Novel",
+      "text_sha256": "c03ffb8e419dfa3c32a6cb2457abc419886ee827c8957265143ac12fc293e341",
+      "text_length": 187
+    },
+    {
+      "page": "projects/functional-mri-and-eeg-index-complementary-attentional-modulations/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Functional MRI and EEG Index Complementary Attentional Modulations",
+      "text_sha256": "124da1088576c5b3bf5d9aa2e3c9347439b75adb3bb8a4ba2e89b3fca573a61e",
+      "text_length": 332
+    },
+    {
+      "page": "projects/genomix-mask/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Genomix Mask and Complex Web of Life",
+      "text_sha256": "10999162f726cbfb6bbfbbd4905b0161dc58a76c0e37dbe44122c76a648c7156",
+      "text_length": 323
+    },
+    {
+      "page": "projects/graffiti-play-ground/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Graffiti (play)Ground",
+      "text_sha256": "b290021155289fad58311c350ab48da5e0edccfeacdde77126fc16c869372608",
+      "text_length": 173
+    },
+    {
+      "page": "projects/growable-robot/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Toward Growable Robot : Exploring and Integrating Flexible – Biological Matter with Electronics",
+      "text_sha256": "78dffcd68159fcfef6d29f60b14ee0aa57ffc1f19f5a159effd4d146e27916db",
+      "text_length": 221
+    },
+    {
+      "page": "projects/hack-biodesign/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Hack Biodesign",
+      "text_sha256": "c391aad0ba3197d135069e75d1d5b7edd9a657c2649f0e1e42b81ae7be42111a",
+      "text_length": 108
+    },
+    {
+      "page": "projects/hackbiodesign-x-jstp/index.html",
+      "source": "public WordPress snapshot",
+      "title": "HackBiodesign X JSTP",
+      "text_sha256": "5e67d10f48ad71574ba65804f2919831a16c5cbfcd61682ba085d8b08e4cc492",
+      "text_length": 204
+    },
+    {
+      "page": "projects/holographic-food/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Holographic Food",
+      "text_sha256": "20eff2cb0d226f8e55e81f4ad29bd41650bfdc6ab7e33bb4c6ac0caec685f728",
+      "text_length": 169
+    },
+    {
+      "page": "projects/hormone-couture/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Hormone Couture : Biopolitics, Aesthetics, and Technology",
+      "text_sha256": "92f684ad1b4b22ea16bd8f00b23bc83a3359c42098d78e1b2c549f1d1d5ba8ff",
+      "text_length": 255
+    },
+    {
+      "page": "projects/igem-thailand-team/index.html",
+      "source": "public WordPress snapshot",
+      "title": "iGEM Thailand Team",
+      "text_sha256": "72b98ed458f6b4b178f7d08d9a3b89984786d85d06aa584f818a2781163d9351",
+      "text_length": 162
+    },
+    {
+      "page": "projects/ihoy/index.html",
+      "source": "public WordPress snapshot",
+      "title": "iHOY : the Internet of Hyper-organism Opera displaY",
+      "text_sha256": "b3f9f31d86632c5b79ab1467f9d4834e560da2a32fcd0edde363d73671de1481",
+      "text_length": 173
+    },
+    {
+      "page": "projects/immersive-ayutthaya/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Immersive Ayutthaya",
+      "text_sha256": "cfaa23acd8db98d967d2ae7ca128db93d785beb27ab24c24e2cee4e2262745c0",
+      "text_length": 180
+    },
+    {
+      "page": "projects/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Projects – FREAK lab",
+      "text_sha256": "52e255c95a83ec98c4a26161369965a52a3b75be6a43404e0cd2cec1d0313a3d",
+      "text_length": 4239
+    },
+    {
+      "page": "projects/isnail-environmental-sensor-via-bio-digital-interfaces/index.html",
+      "source": "public WordPress snapshot",
+      "title": "iSnail : Environmental Sensor via Bio-Digital Interfaces",
+      "text_sha256": "f977b76b6f6c4a020db2e8d95dea292703518b79509dc094167939f1bd169a1a",
+      "text_length": 171
+    },
+    {
+      "page": "projects/jaundice-app/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Simple and high sensitive monitoring of icteric sclera for personalized care of cholangiocarcinoma and jaundice related diseases and public healthcare",
+      "text_sha256": "db286b7a97249a04e6b2184e1e9e83706b335b78fd310bcd956cf1c74c6a97cc",
+      "text_length": 3067
+    },
+    {
+      "page": "projects/jstp-app/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Unschooling activity management app",
+      "text_sha256": "d7e8926ea2f7b1ed8a411ddc8c7085e654dc68ed83b8fc5d86206b39c9de06af",
+      "text_length": 144
+    },
+    {
+      "page": "projects/jstp-space-camp/index.html",
+      "source": "public WordPress snapshot",
+      "title": "JSTP Space Exploration Activities",
+      "text_sha256": "dcf8895c0f61d8cb2b7429c332b8008b4b5b462c52e3871c966597f7c3cf67ff",
+      "text_length": 208
+    },
+    {
+      "page": "projects/jube/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Jube",
+      "text_sha256": "2523ad9f1b61fc2b5bf7cb44cb0456e0c6fb672ec63e9fee5675b67f177f0999",
+      "text_length": 83
+    },
+    {
+      "page": "projects/making-food-with-the-mind/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Making Food with the Mind : Connecting Food 3D Printer with BCI",
+      "text_sha256": "1d2ff8880e09482976484a553750bc565e9efa664066616dcc93839906092629",
+      "text_length": 288
+    },
+    {
+      "page": "projects/messe/index.html",
+      "source": "public WordPress snapshot",
+      "title": "MESSE – Molecular Encoded Storage for Space Exploration",
+      "text_sha256": "30935e71ae4487f0b14942c1292ec5cd5375e1b139f5cceba65afd41ed4828ee",
+      "text_length": 184
+    },
+    {
+      "page": "projects/museum-of-capitalism/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Museum of Capitalism",
+      "text_sha256": "6af527bd2adbf39f475a10df3cd0fb2fa01be5fd0c3776a44b043edd752ffcb9",
+      "text_length": 220
+    },
+    {
+      "page": "projects/neurotechnology-in-the-merger-of-biological-and-machine-intelligence/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Neurotechnology in the Merger of Biological and Machine Intelligence",
+      "text_sha256": "31597a063dcdd30d235e2d66c17d150e64d4ac402a160892b44f8c8c922d8535",
+      "text_length": 226
+    },
+    {
+      "page": "projects/page/1/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Projects – FREAK lab",
+      "text_sha256": "d81ed0c8ed772baa6ca4bd08a7264c21b8c0135483d014c03d4425014a6000e0",
+      "text_length": 11
+    },
+    {
+      "page": "projects/page/2/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Projects – Page 2 – FREAK lab",
+      "text_sha256": "6c9c7779fec212e2e1c18ab1a477d1ffbefdffd04896018346e54a054f91a604",
+      "text_length": 13
+    },
+    {
+      "page": "projects/page/3/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Projects – Page 3 – FREAK lab",
+      "text_sha256": "c06b820d1997311acdd186f7608d409e1847538003aca960c4188618c625bf05",
+      "text_length": 13
+    },
+    {
+      "page": "projects/page/4/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Projects – Page 4 – FREAK lab",
+      "text_sha256": "c06b820d1997311acdd186f7608d409e1847538003aca960c4188618c625bf05",
+      "text_length": 13
+    },
+    {
+      "page": "projects/page/5/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Projects – Page 5 – FREAK lab",
+      "text_sha256": "c06b820d1997311acdd186f7608d409e1847538003aca960c4188618c625bf05",
+      "text_length": 13
+    },
+    {
+      "page": "projects/page/6/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Projects – Page 6 – FREAK lab",
+      "text_sha256": "a61fbed09a46f42a75f5e430123965c9b11052a7e53ec19bcb2c76d69dc8e941",
+      "text_length": 13
+    },
+    {
+      "page": "projects/page/7/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Projects – Page 7 – FREAK lab",
+      "text_sha256": "16f3e23c262c8c48a20204d21acfe483f57f7ae40e4860c0b5303f303f601993",
+      "text_length": 11
+    },
+    {
+      "page": "projects/passive-payload-for-microgravity-research-in-space/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Passive Payload for Microgravity Research in Space",
+      "text_sha256": "27721deb8f9a2256245e4e43d1b7cd702a9c7b681f0ad0a4c870af007bf48596",
+      "text_length": 176
+    },
+    {
+      "page": "projects/pearl-of-lunar/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Pearl of Lunar",
+      "text_sha256": "fcf093454c21249e1d925584c3a53e5069f0deaecdac19de13ace13156941c25",
+      "text_length": 159
+    },
+    {
+      "page": "projects/plaiy/index.html",
+      "source": "public WordPress snapshot",
+      "title": "PL(Ai)Y",
+      "text_sha256": "47d6f6972e835cb0fbd657a0fdbfebe25fa31472abcae15e24ca1145b2267908",
+      "text_length": 179
+    },
+    {
+      "page": "projects/reinterpreting-3d-food-printing-as-neo-print-capitalism-fabrication-food-and-futures/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Reinterpreting 3D Food Printing as Neo-Print Capitalism : Fabrication, Food, and Futures",
+      "text_sha256": "308b431b33821026e7478d8016a0c3040c22cd879bfbaaeb4762a164c9a74f5e",
+      "text_length": 185
+    },
+    {
+      "page": "projects/reinventing-a-new-currency-globeyoud/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Reinventing A New Currency : “Globeyond”",
+      "text_sha256": "eea7dfbc237a63d85e6553ded6b9d8a82f5b24fdc276b41bb0157aebea66aab6",
+      "text_length": 181
+    },
+    {
+      "page": "projects/robot-design-preliminary-study/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Robot design preliminary study",
+      "text_sha256": "3cdfa04958aca103bf75e4cd7aa85f5be60381b0424408269b6f86fd6d168286",
+      "text_length": 143
+    },
+    {
+      "page": "projects/saku/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Saku: Job bot",
+      "text_sha256": "b1527687fc9f34d14c13dc3ddf83ebfe6e068763c44494b3d03b322d8ea19f41",
+      "text_length": 166
+    },
+    {
+      "page": "projects/social-robot-design-and-steam-education/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Social Robot Design and STEAM Education (JSTP Camp )",
+      "text_sha256": "0f8ec1e06c974c2a31406623bd3303f57a2f797d75234fb86ac49be52a6a77cb",
+      "text_length": 146
+    },
+    {
+      "page": "projects/solid-propellant-rocket-test/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Solid-propellant rocket test",
+      "text_sha256": "6fd5e535a8d008e91b19cbdecefeaa8ae1453db48f4fc76cefce7faf2f4e9ece",
+      "text_length": 141
+    },
+    {
+      "page": "projects/space-biobot/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Space Biobot",
+      "text_sha256": "875e63988d46abf982b464f50ca0c5f000414aca2c06349d6b258fcb15754973",
+      "text_length": 123
+    },
+    {
+      "page": "projects/space-debris-computer-vision-research-space-biobot-project/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Space Debris Computer Vision Research (Space Biobot Project)",
+      "text_sha256": "bad7ed83fae0d5430c72271ecf4bcdbed5f7b0900555b0c50b7c58411ce776f7",
+      "text_length": 156
+    },
+    {
+      "page": "projects/space-food/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Personalized Food Fabrication in Space : An Evaluation on the Fabrication Process of Multi-Viscosity Substance in Zero Gravity by Food 3D printer",
+      "text_sha256": "174672d875895c7be621c70eb93fefca928cb5af42255b9f1d26519ba94878f6",
+      "text_length": 292
+    },
+    {
+      "page": "projects/space-nego-card-game/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Space Nego Card Game",
+      "text_sha256": "220b8e187307569f0e01d2debce9f071875a86a06674e5b90ee1f7bcf662e8e4",
+      "text_length": 176
+    },
+    {
+      "page": "projects/spacezab/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Space Zab",
+      "text_sha256": "55e700bc23e788e518162d48a96f9393537395439618ff927083c8b74e8e1eb9",
+      "text_length": 77
+    },
+    {
+      "page": "projects/speculating-the-futures-of-human-robot-marriage-scenario-construction-and-couple-recommendation/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Speculating the futures of Human-Robot Marriage",
+      "text_sha256": "f3cf207035ceb799e0ee4d1c9d99d17e55df01a8934d0f3b061e9818ef43872e",
+      "text_length": 158
+    },
+    {
+      "page": "projects/talung-app/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Talung app",
+      "text_sha256": "6076e42c1c4c2b6cf052327970c873edd97ede282740eea2cf8a6e2e8b95c518",
+      "text_length": 130
+    },
+    {
+      "page": "projects/tele-creativity-digital-constructivism-in-stem-jstp-planet/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Tele-Creativity & Digital Constructivism in STEM : JSTP Planet",
+      "text_sha256": "1558894d7c1adedf4d99f6cd87271c790bddd0c428f6c1dcf6c022b29e3469da",
+      "text_length": 227
+    },
+    {
+      "page": "projects/the-national-cansat-competition-reflection-on-the-compulsory-education-strategy-of-science-and-technology-in-thailand/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The National CanSat Competition Study",
+      "text_sha256": "583dcd66cfb34abe0d1abf36af9e7323fba2ef4f9cf77b16e86c84c0a30d1a06",
+      "text_length": 119
+    },
+    {
+      "page": "projects/toward-human-magic-interaction/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Toward Human-Magic Interaction : Interfacing biological, tangible, and cultural technology",
+      "text_sha256": "593e6826d0c58a76959f928ed24a3b36cf604654e14dfd7415be99313752c24b",
+      "text_length": 184
+    },
+    {
+      "page": "projects/unboxing-passive-payload-blue-origin-mission-9/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Unboxing Passive Payload (Blue Origin Mission 9)",
+      "text_sha256": "83fc4157cde9cef549560f51731a0a74da825238fb00ec629fd13a8bc17c9a30",
+      "text_length": 209
+    },
+    {
+      "page": "projects/upski/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Upski: Intelligent Bot for Economic Mobility",
+      "text_sha256": "b8c6bcecd1d1ceec110fefee1f8f51c10ec975750249d36551b4fb619826cdc1",
+      "text_length": 163
+    },
+    {
+      "page": "projects/value-driven-attentional-capture-enhances-distractor-representations-in-early-visual-cortex/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Value-driven attentional capture enhances distractor representations in early visual cortex",
+      "text_sha256": "ae31bcec408399c7f6c9ec258409317cf91e87c5d2af8a7aefa610b092787436",
+      "text_length": 258
+    },
+    {
+      "page": "projects/voice2gene/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Voice2Gene : A Voice Controlled Gene Transformer Machine",
+      "text_sha256": "758236726522aefe7f3e7351c495f69edbc035b590428c3d34e8b9bb8f2a4ba3",
+      "text_length": 225
+    },
+    {
+      "page": "projects/vr-space-by-gifa-team/index.html",
+      "source": "public WordPress snapshot",
+      "title": "VR Space by GIFA team",
+      "text_sha256": "28ad0baa72546b0eb9f5d36be8e2cd047569d693b3fa2b5a7f9a02777d400c79",
+      "text_length": 183
+    },
+    {
+      "page": "projects/wearable-biofab/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Wearable BioFab : The Next Generation Wearable Biotechnology",
+      "text_sha256": "4b11b8b675432df9b72a46c60684d86b49313c4856b3e356232851bb64654a24",
+      "text_length": 174
+    },
+    {
+      "page": "projects/when-conflict-cannot-be-avoided-relative-contributions-of-early-selection-and-frontal-executive-control-in-mitigating-stroop-conflict/index.html",
+      "source": "public WordPress snapshot",
+      "title": "When Conflict Cannot be Avoided: Relative Contributions of Early Selection and Frontal Executive Control in Mitigating Stroop Conflict",
+      "text_sha256": "4e6fca92579d65836a120c8f5e81b47b7dd8c0fb50b30cc5170a067014c2f9b8",
+      "text_length": 366
+    },
+    {
+      "page": "projects/zodulars/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Zodulars : The Modularized Spacecrafts",
+      "text_sha256": "e16aed9af6bae581b7941b2b1fd5a5555ec934106daaeb2ab199b8779c227e9d",
+      "text_length": 154
+    },
+    {
+      "page": "prototyping-the-future-society-through-theatre-for-social-change/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Prototyping The Future Society through Theatre for Social Change",
+      "text_sha256": "31f9d09be4487908a1e51df2ab7b968615bd513cbff152d921232b2531aa1db4",
+      "text_length": 1394
+    },
+    {
+      "page": "publications/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Publications",
+      "text_sha256": "42e006d72567589bb3dd8f4dda0878374f593e123dc1cc98f218835efda23028",
+      "text_length": 4424
+    },
+    {
+      "page": "rashomon-universe/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Rashomon universe, distorted universe, or parallel universes",
+      "text_sha256": "4b71b545dc5fee208af1bc026d8a2a75d4bf1c4748e85df0befc7c2d092eef77",
+      "text_length": 1041
+    },
+    {
+      "page": "research/biodigital/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Biodigital",
+      "text_sha256": "74692002be22e3f84c0274b94c3f5fbf6028c503e33040b873d3730431bb3747",
+      "text_length": 51982
+    },
+    {
+      "page": "research/cat-space/index.html",
+      "source": "public WordPress snapshot",
+      "title": "C.A.T Space",
+      "text_sha256": "e70d92ac46d44dab8efd7dad4bc925d28536d51338950b36a5684dbe78bda64b",
+      "text_length": 51313
+    },
+    {
+      "page": "research/experimental-society/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Experimental Society",
+      "text_sha256": "93862f0b166575e40e16b4cfbcf397b9a4d1a1169b7cd76486073a95b2191951",
+      "text_length": 50459
+    },
+    {
+      "page": "research/fab-taste/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Fab Taste",
+      "text_sha256": "f5d2fee1035a5a9fab2baf6e5e4eafe88c59db27c8de65aef42cf4a95623cdf1",
+      "text_length": 48468
+    },
+    {
+      "page": "research/functional-aesthetics/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Functional + Aesthetics",
+      "text_sha256": "46cd94fd3b0cab9184df0771ead4fdc13eeb3f551781bb49b4122d1e81cdf069",
+      "text_length": 50448
+    },
+    {
+      "page": "research/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Research",
+      "text_sha256": "442761a31ca73d8a52ce35b666cfc73a5aafdc3706e01a203cbd9dc1531d6c34",
+      "text_length": 20332
+    },
+    {
+      "page": "research/learningfutures/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Learning Futures",
+      "text_sha256": "dfa5ee5e60788adcf0e09703ebf8ad64dc2e1c1b19bbcffa78706d06995af3c8",
+      "text_length": 49653
+    },
+    {
+      "page": "research/neuro-media/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Neuro Media",
+      "text_sha256": "6f02ca939968c4725a51d90bc56b12b5532b16b84a7a7843984dc4ba2afab83c",
+      "text_length": 49559
+    },
+    {
+      "page": "residency-program/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Residency Program",
+      "text_sha256": "e7ff35a04bf5168d8d47aec25fcdb98a9ce36fb86776d545b461a73e29daea34",
+      "text_length": 13607
+    },
+    {
+      "page": "sig/agriculture-of-the-future/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Agriculture of the Future",
+      "text_sha256": "65a38ab4c82d47379b8bbe4f7ca6a448fd4692be381931c610f7721e7c019662",
+      "text_length": 1322
+    },
+    {
+      "page": "sig/freakfab/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak Fab",
+      "text_sha256": "8c1b503eb0e96f3a1db64c1fcf329110eccc0a1e4b4584600981f7366afdfa1b",
+      "text_length": 1462
+    },
+    {
+      "page": "sig/mmm/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Center for Magic, Monsters, and Machines",
+      "text_sha256": "aa4bd7223c9a812125c0ac89d6acaf565697249f9f33f487172322fc27138a31",
+      "text_length": 3214
+    },
+    {
+      "page": "silkie-robot-alien/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Silkie, Robot, and Alien : The Interpretation and Analysis of Human and the Otherness in Experimental Silkie Stories.",
+      "text_sha256": "1d37c4f15cf5373fc3788d2d3d172aa41b0f263605a0d7602339e67729a3a710",
+      "text_length": 1632
+    },
+    {
+      "page": "spinoff/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Spin Off",
+      "text_sha256": "1f80a38e29ab568883b3b874c2131e634010ca51da4d9a27fa56c8694e162a69",
+      "text_length": 15909
+    },
+    {
+      "page": "symposium/index.html",
+      "source": "existing standalone symposium",
+      "title": "Symposium — Intimacy with Nature | FREAK lab"
+    },
+    {
+      "page": "tag/%e0%b8%84%e0%b8%99%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%83%e0%b8%8a%e0%b9%89/index.html",
+      "source": "public WordPress snapshot",
+      "title": "คนรับใช้ – FREAK lab",
+      "text_sha256": "859d1c17a4e68beaa6b411e34e59b44e609b05de9bdb9b88a2e23385f0f944cf",
+      "text_length": 22
+    },
+    {
+      "page": "tag/admin/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Administrator – FREAK lab",
+      "text_sha256": "ac55a79d84747132bdd8ab11b20e3fd81b995485e4f2e980b3a64fce9b7c3a9e",
+      "text_length": 27
+    },
+    {
+      "page": "tag/advisor/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Advisor – FREAK lab",
+      "text_sha256": "6c0cac5a9d0f3be749805114ca276db405eca6a3182821afebcb5b87acf2188d",
+      "text_length": 21
+    },
+    {
+      "page": "tag/affiliate/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Affiliate – FREAK lab",
+      "text_sha256": "0712b596e851a4c109efc5737c22ae687c851092cfbf7947b0897d1d38b07e55",
+      "text_length": 23
+    },
+    {
+      "page": "tag/affiliated/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Affiliated – FREAK lab",
+      "text_sha256": "ec600c4b64dffd61d913d8e19da6e1f2d8c66782f3dcecd45d528d856f693750",
+      "text_length": 24
+    },
+    {
+      "page": "tag/co-founder/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Co-founder – FREAK lab",
+      "text_sha256": "f5a4b911c898b76a175063ab1efb3f4e553e30189ef2274b4227d14d5a13c02f",
+      "text_length": 24
+    },
+    {
+      "page": "tag/collaborator/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Collaborator – FREAK lab",
+      "text_sha256": "0427cd113051cd8ea0f4f6c1a9ae8cbc0a372193c334ded06cecc1eb4e70073d",
+      "text_length": 26
+    },
+    {
+      "page": "tag/director/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Director – FREAK lab",
+      "text_sha256": "c1487c62d84919468588fc9ade1ad9bc8ab31ad1b40cb37135a6d3acfc1ccd3c",
+      "text_length": 22
+    },
+    {
+      "page": "tag/manager/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Manager – FREAK lab",
+      "text_sha256": "d0627c0510c7d3576cdaa32f33dc98f6cd3883ba2c60112c3a2e588e9403c80f",
+      "text_length": 21
+    },
+    {
+      "page": "tag/member/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Member – FREAK lab",
+      "text_sha256": "5ee01e1c5c3604822774647ec47e8e9cb07c09642b726c553fe9f5632f199753",
+      "text_length": 20
+    },
+    {
+      "page": "tag/past-member/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Past Member – FREAK lab",
+      "text_sha256": "783b72a4524b90f1d00450825f4d1cd178d544264fed59cc173f68e494c440c9",
+      "text_length": 31
+    },
+    {
+      "page": "tag/past-member/page/1/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Past Member – FREAK lab",
+      "text_sha256": "783b72a4524b90f1d00450825f4d1cd178d544264fed59cc173f68e494c440c9",
+      "text_length": 31
+    },
+    {
+      "page": "tag/past-member/page/2/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Past Member – Page 2 – FREAK lab",
+      "text_sha256": "783b72a4524b90f1d00450825f4d1cd178d544264fed59cc173f68e494c440c9",
+      "text_length": 31
+    },
+    {
+      "page": "tag/past-member/page/3/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Past Member – Page 3 – FREAK lab",
+      "text_sha256": "783b72a4524b90f1d00450825f4d1cd178d544264fed59cc173f68e494c440c9",
+      "text_length": 31
+    },
+    {
+      "page": "tag/pi/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Principle Investigator (PI) – FREAK lab",
+      "text_sha256": "f07a0765200f75340eba57ab20a43835c484597657277319234b442beef83a2d",
+      "text_length": 41
+    },
+    {
+      "page": "tag/researcher/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Researcher – FREAK lab",
+      "text_sha256": "0ea5670826330edd6a05cc2ef010b74ccf356288ed73ba3e615912e243a53865",
+      "text_length": 24
+    },
+    {
+      "page": "tag/คนรับใช้/index.html",
+      "source": "public WordPress snapshot",
+      "title": "คนรับใช้ – FREAK lab",
+      "text_sha256": "859d1c17a4e68beaa6b411e34e59b44e609b05de9bdb9b88a2e23385f0f944cf",
+      "text_length": 22
+    },
+    {
+      "page": "talk/bio-hci-wearing-bio-data-printing-food-with-mind-and-modifying-lifeform-through-voice/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Bio HCI : Wearing Bio Data, Printing Food with Mind, and Modifying Lifeform through Voice!",
+      "text_sha256": "0a762d75d2ca2800f67a4b8cb9d375d025e95e2cda4d3e6af28c8f2792fd3e77",
+      "text_length": 227
+    },
+    {
+      "page": "talk/biodigital-seminar2/index.html",
+      "source": "public WordPress snapshot",
+      "title": "ศาสตร์ ศิลป์ วัฒนธรรม เทคโนโลยี และนวัตกรรม มุมมองและผลงานจากแลป Biodigital – Beyond 4.0",
+      "text_sha256": "a42c450d90e3eb683ca98939afdfe858aaa2d2724da1b7c1b705bb993f697dbc",
+      "text_length": 267
+    },
+    {
+      "page": "talk/event-training-qualitatively-alter-neural-mechanism-that-support-selective-attension/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Event : Training qualitatively alter neural mechanism that support selective attension",
+      "text_sha256": "f0b4b8f3bf35fe0eb908af91ebc17f0849d9ac92ecd3295f8091b824bd6f1a25",
+      "text_length": 227
+    },
+    {
+      "page": "talk/freak-lab-presentation-at-mit-biosummit/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak lab presentation at MIT biosummit",
+      "text_sha256": "bc667981e20963b66857c6f4f821a01a6e7f7fb99469025754860cc97117b160",
+      "text_length": 271
+    },
+    {
+      "page": "talk/national-space-exploration-nse-roadshow/index.html",
+      "source": "public WordPress snapshot",
+      "title": "National Space Exploration (NSE) Roadshow",
+      "text_sha256": "d85dc656f006db65d59bff20e12dd214411e508d758d8da553bb90e966d11886",
+      "text_length": 166
+    },
+    {
+      "page": "talk/presentation-of-vivoarts-aesthetics-beings-and-factories/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Presentation of Vivoarts : Aesthetics, Beings, and Factories",
+      "text_sha256": "cfed8de6d905898340aa5c4efec0078f63a6e5291a5ec1f72111d2e9c97fcc6c",
+      "text_length": 185
+    },
+    {
+      "page": "talk/public-discussion-on-vivo-arts-and-society/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Public Discussion on Vivo-arts and Society",
+      "text_sha256": "c7f58a86d084ad71967836e0683aed839c95456cfbdbcc97ecfea805f28f1f47",
+      "text_length": 197
+    },
+    {
+      "page": "talk/science-colloquium-ii-freak-out-standing/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Science Colloquium II : Freak Out (Standing)",
+      "text_sha256": "3f83c7f9b2aaafb4cde313fc27cd99b2103bb95b414bd63f13107eaa95716379",
+      "text_length": 217
+    },
+    {
+      "page": "talk/tedx-series/index.html",
+      "source": "public WordPress snapshot",
+      "title": "TED X Series by FREAK members",
+      "text_sha256": "2268ed023b7237270340673332f6734efafd91cdc16a5d702375d9cf950666a3",
+      "text_length": 187
+    },
+    {
+      "page": "talk/the-future-of-everyday-things/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The Future of Everyday Things",
+      "text_sha256": "b689d9becb7554f495fd3b9302c79c16e35f30ffa8fe553932e94c62e8a938d0",
+      "text_length": 123
+    },
+    {
+      "page": "the-computational-aesthetics-of-kojiki/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The Computational Aesthetics of Kojiki : the Machine Learning Approach for Regenerating the Primitive Japanese Text, and the Relationship between Machine and Authorship.",
+      "text_sha256": "23fe0d730fbac1a1e714469982a61d9f295a70d4753089c4478fe77cdcb7b553",
+      "text_length": 1726
+    },
+    {
+      "page": "the-development-of-ethical-guideline-and-social-practice-for-robot-and-artificial-intelligence/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The Development of Ethical Guideline and Social Practice for Robot and Artificial Intelligence",
+      "text_sha256": "727b270e9ddc73231bf8d67e2e2c24df0157e0c0e9801e6fd3f5ae8297225c9b",
+      "text_length": 2506
+    },
+    {
+      "page": "type/video/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Video – FREAK lab",
+      "text_sha256": "86e691a2e5ad287500c97155f32acdfd7a68e8538271aebd9b5ebf26fe62a94c",
+      "text_length": 96
+    },
+    {
+      "page": "update/%e0%b8%99%e0%b8%b1%e0%b8%81%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%94%e0%b8%b4%e0%b8%a9%e0%b8%90%e0%b9%8c%e0%b8%ad%e0%b8%99%e0%b8%b2%e0%b8%84%e0%b8%95-%e0%b8%9e%e0%b8%b1%e0%b8%97%e0%b8%99%e0%b9%8c/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The 101 : นักประดิษฐ์อนาคต พัทน์ ภัทรนุธาพร เด็กไทยในวงการวิทยาศาสตร์โลก",
+      "text_sha256": "34c1d2a02d69ad9c3e9dd5f752c1b3108ee834177581f789c84f6d0e7c2acdda",
+      "text_length": 291
+    },
+    {
+      "page": "update/3d-pioneers-2018/index.html",
+      "source": "public WordPress snapshot",
+      "title": "3D Pioneers 2018",
+      "text_sha256": "42091f4c43138df8370cbe75ab180a840b1314f1420ef99ff0b102acae9f1113",
+      "text_length": 179
+    },
+    {
+      "page": "update/3d-printing-in-space-progress-update-at-gistda/index.html",
+      "source": "public WordPress snapshot",
+      "title": "3D printing in space progress update at GISTDA",
+      "text_sha256": "2e35e387352b3b1b4dfae84cd197fb8d9d46e48809bf5d9a51d52158ea3288ed",
+      "text_length": 244
+    },
+    {
+      "page": "update/artssciences-meeting-at-bacc/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Arts/Sciences meeting at BACC",
+      "text_sha256": "235bf808544ca29a11b5fcffda14890214643a2710a16b88269e87e5fac1170b",
+      "text_length": 172
+    },
+    {
+      "page": "update/astropreneur-panelist-at-iac2018-conference/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Astropreneur panelist at IAC2018 conference",
+      "text_sha256": "62488361c14e16a13b9914adda92b0e4823a71b9eae8602e2654270a4334c159",
+      "text_length": 185
+    },
+    {
+      "page": "update/bacc-x-freak-lab-reachout-program/index.html",
+      "source": "public WordPress snapshot",
+      "title": "BACC X FREAK Lab Reachout program",
+      "text_sha256": "1d931c51100eabe0f28111a0beee34605a0384ec8be5814c263350390c2b826a",
+      "text_length": 145
+    },
+    {
+      "page": "update/cansat-design-workshop-for-student/index.html",
+      "source": "public WordPress snapshot",
+      "title": "CanSat Design Workshop for Student",
+      "text_sha256": "af255ead1263aed973bbc76ab10b5f1b302efafa88f720df69694523cf26e2a7",
+      "text_length": 206
+    },
+    {
+      "page": "update/core77-design-awards-2018/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Core77 Design Awards 2018 : Student Notable Design Concept Award",
+      "text_sha256": "93627a6fb7bca43d4e4153999b468f953713c89d425b8740564ad511841141c3",
+      "text_length": 150
+    },
+    {
+      "page": "update/dr-galina-and-tentacle-gallery-visited-freak-lab/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Dr. Galina and Tentacle Gallery visited FREAK Lab",
+      "text_sha256": "eee353dd79491dbdf3b254f95e0f3c75ad962f28b6d33411c3ae86de62fb2218",
+      "text_length": 259
+    },
+    {
+      "page": "update/emoti-khon-team-at-creative-district-bangkok-town-hall-meeting/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Emoti-Khon team at  Creative District Bangkok Town Hall Meeting",
+      "text_sha256": "4fb914964178528159de30c3adcb59e1547ed63c580a35e519b6d2a138a30680",
+      "text_length": 189
+    },
+    {
+      "page": "update/forbes-asia/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Forbes : Freak Member was selected from Forbes Asia Magazine to be a talented researcher",
+      "text_sha256": "eae55cfa1a2a55229528fe02cf6e2bd88518022d1b94b7f5540853cb25d2e7ee",
+      "text_length": 269
+    },
+    {
+      "page": "update/freak-and-fringe/index.html",
+      "source": "public WordPress snapshot",
+      "title": "FREAK and FRINGE",
+      "text_sha256": "dedd8440e0660d91c57deac358cfa7d7a17a9af9eaad6289a07cfd6bb2cc3415",
+      "text_length": 156
+    },
+    {
+      "page": "update/freak-lab-at-urban-media-art-academy-bangkok/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak Lab at Urban Media Art Academy Bangkok",
+      "text_sha256": "5daadf773b98d473b955f67b62b456a28e2d23c2e1bdbc343dd07ebfae0ca6d5",
+      "text_length": 263
+    },
+    {
+      "page": "update/freak-lab-member-to-join-7th-space-generation-congress/index.html",
+      "source": "public WordPress snapshot",
+      "title": "FREAK Lab member to join 7th Space Generation Congress",
+      "text_sha256": "8bbe4491b7be569514a0c1c563149dfdca43e105b28bbe3d46b78df5a45e5cbe",
+      "text_length": 183
+    },
+    {
+      "page": "update/freak-lab-member-to-join-the-international-space-exploration-forum-isef2/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak Lab Member joined the International Space Exploration Forum (ISEF2)",
+      "text_sha256": "8c7d8afdea1bff440b16d0b3aaf22e39f625d4306f4f2d005d3fb4e9f024b881",
+      "text_length": 234
+    },
+    {
+      "page": "update/freak-lab-members-met-minister-of-science-and-technology-of-thailand/index.html",
+      "source": "public WordPress snapshot",
+      "title": "FREAK Lab Members met Minister of Science and Technology of Thailand",
+      "text_sha256": "ffa2e27c8d8506a295c3939655a007f4c5b286fb2d6f229e06e5a744e29e84b8",
+      "text_length": 150
+    },
+    {
+      "page": "update/freak-lab-researcher-presented-at-isef/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Freak Lab/Space Zab researcher presented at Thailand Space Science &Exploration Forum (TSEF)",
+      "text_sha256": "51bedce2a2600cdff4990e63769193902cd4971e8675935ecb3d314be80c6535",
+      "text_length": 245
+    },
+    {
+      "page": "update/freak-lab-retreat/index.html",
+      "source": "public WordPress snapshot",
+      "title": "FREAK Lab retreat",
+      "text_sha256": "755036a53aaed808fec18529560e63c5a7ab2c2b58ec2217c9da10eacfe02902",
+      "text_length": 127
+    },
+    {
+      "page": "update/freak-lab-support-mu-for-nse-2018-project/index.html",
+      "source": "public WordPress snapshot",
+      "title": "FREAK Lab support MU for NSE 2018 Project",
+      "text_sha256": "8fb8183e4e02a40c92e233df4b901dc88b701213a2210c43c230ed89ccb46882",
+      "text_length": 162
+    },
+    {
+      "page": "update/freak-members-at-techsauce-2018/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Techsauce Global Summit 2018 : FREAK Members Presentation",
+      "text_sha256": "a2114e05aec806f28077f258c89837661106c9dd96294c6d388d63e09925df1a",
+      "text_length": 249
+    },
+    {
+      "page": "update/freakar-won-award/index.html",
+      "source": "public WordPress snapshot",
+      "title": "FREAKAR won travel tech award",
+      "text_sha256": "590a74d7cfaf1ee763d6a1baf1c163f39e594063ea0b59725d616f4651953ca3",
+      "text_length": 246
+    },
+    {
+      "page": "update/inspired-talk-by-prompt-suathim-space-boy/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Inspired Talk by Prompt Suathim (Space Boy)",
+      "text_sha256": "17d48e6f0098095111d587aa7686ed22ef83488ad19618b79802e05e62f97934",
+      "text_length": 165
+    },
+    {
+      "page": "update/new-farming-model-2030/index.html",
+      "source": "public WordPress snapshot",
+      "title": "New Farming Model 2030",
+      "text_sha256": "a2d0190f24e22a97ac17f90be0ece970676df525a773bcdf24bfab5573d0f1f3",
+      "text_length": 210
+    },
+    {
+      "page": "update/panel-discussion-its-complicated-book/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Panel Discussion : It’s Complicated Book",
+      "text_sha256": "c275c674cc3df310a67a2e86ad96300c0698d82f7548ee86f5e7e39f91490459",
+      "text_length": 160
+    },
+    {
+      "page": "update/passive-payload-for-microgravity-research-in-space/index.html",
+      "source": "public WordPress snapshot",
+      "title": "FREAK Lab เเละ SpaceZab ได้มีการส่งมอบชุดการทดลอง “Passive Payload for Microgravity Research in Space”",
+      "text_sha256": "05e9aca43459daf214f314a1480b5e9142a29045699cb502c884b04d53508334",
+      "text_length": 295
+    },
+    {
+      "page": "update/professor-gunalan-nadarajan-dean-of-university-of-michigan-visited-freak-lab/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Professor Gunalan Nadarajan, Dean of University of Michigan visited FREAK Lab",
+      "text_sha256": "b607d649302415184e762c6691c1e1def04a8a6058eca776dba2563438fc6577",
+      "text_length": 260
+    },
+    {
+      "page": "update/rocket-capacity-testing/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Rocket Capacity Testing",
+      "text_sha256": "cca0329501de529c0fe8f41bf5eba1b3df13974901c639c2584d0d1d1060b1e5",
+      "text_length": 134
+    },
+    {
+      "page": "update/sgac-and-iac2018-participant/index.html",
+      "source": "public WordPress snapshot",
+      "title": "SGAC and IAC2018 participant",
+      "text_sha256": "df375be0f3ce2f2ca40289b602b7e9912dd6e665019a108b36fbbed067ad4cbd",
+      "text_length": 168
+    },
+    {
+      "page": "update/smallsat-workshop-nus/index.html",
+      "source": "public WordPress snapshot",
+      "title": "SmallSat workshop @NUS",
+      "text_sha256": "9b678ba46784296f43c54d77d67dc207c2af144b3127dd31f8c9df33a8014373",
+      "text_length": 129
+    },
+    {
+      "page": "update/space-cherprang/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Spaceth.co : Exclusive สัมภาษณ์พิเศษกับคุณประพันธ์พงศ์ ดำส่งแสง วิศวกรนักวิจัยจาก Freaklab",
+      "text_sha256": "377bea77a2251833ffd9015a68a44a1da80c0623a74a788ea662def847407be0",
+      "text_length": 292
+    },
+    {
+      "page": "update/space-zab-team-present-at-national-space-exploration/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Space Zab team presented at National Space Exploration",
+      "text_sha256": "e89deff349c2d191136f4adc1b7165f672184f616073c8e1b5b8f21f6d608d2a",
+      "text_length": 243
+    },
+    {
+      "page": "update/spacetech-asia-thailands-payload-in-detail/index.html",
+      "source": "public WordPress snapshot",
+      "title": "SpaceTech Asia : Thailand’s payload in detail",
+      "text_sha256": "78873f0faa8bcdfb654dd16010364cd46e0bd2c8853e585308c3509d26a353da",
+      "text_length": 189
+    },
+    {
+      "page": "update/spacezab-member-meet-with-an-investor/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Spacezab member meet with an Investor",
+      "text_sha256": "917e0414495b2c0c83be52fbec8e1eca370b6686d4c30d8eb739e6ceb17685ad",
+      "text_length": 170
+    },
+    {
+      "page": "update/tale2018/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Dr. Pakpoom, FREAK Lab member presented at IEEE TALE 2018 : Education and Technology Conference",
+      "text_sha256": "113b3b5e5ea680087a42fc4add5378b4987198866589dd5cdb57a730a04ef6f2",
+      "text_length": 255
+    },
+    {
+      "page": "update/thailand-to-send-smelly-durian-into-space-because-future-astronauts-should-be-able-to-enjoy-thai-food/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Thailand to Send Smelly Durian Into Space Because Future Astronauts Should be Able to Enjoy Thai Food",
+      "text_sha256": "82053d517bfb6bff74cef74e9ebce0b18c31087438d8ebe8d1f84ccf7488543a",
+      "text_length": 247
+    },
+    {
+      "page": "update/the-5th-asia-pacific-space-generation-workshop-ap-sgw-2018/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The 5th Asia-Pacific Space Generation Workshop (AP-SGW 2018)",
+      "text_sha256": "f926dc8978bfa306e3f8f25a75223e8b33e5c0962733ede39a89a3ad1e7d9529",
+      "text_length": 179
+    },
+    {
+      "page": "update/the-first-space-research-experiment-and-exploration-seminar-between-china-and-thailand/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The first space research experiment and exploration seminar between China and Thailand",
+      "text_sha256": "9511dce4867eda4bb6e8d39bfc4ae3ea40dcb1d539bbf67f6812056c4857f1a8",
+      "text_length": 271
+    },
+    {
+      "page": "update/the-iaf-emerging-space-leaders-2018/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The IAF Emerging Space Leaders 2018",
+      "text_sha256": "dee65ca19709f455794b29ef8da20c06462b6986c37fcd3698118ee4e795c76f",
+      "text_length": 219
+    },
+    {
+      "page": "update/the-matter-emoti-khon-%e0%b8%99%e0%b8%a7%e0%b8%b1%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%ad%e0%b8%b2%e0%b8%a3%e0%b8%a1%e0%b8%93%e0%b9%8c%e0%b9%83%e0%b8%99%e0%b8%aa%e0%b8%b1%e0%b8%87/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The Matter : Emoti-Khon นวัตกรรมอารมณ์ในสังคมใส่หน้ากาก",
+      "text_sha256": "f045d0d8cc93fd0f46c18fed47d347a555e977df1e808b74f1fce40435a3d568",
+      "text_length": 289
+    },
+    {
+      "page": "update/the-matter-emoti-khon-นวัตกรรมอารมณ์ในสัง/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The Matter : Emoti-Khon นวัตกรรมอารมณ์ในสังคมใส่หน้ากาก",
+      "text_sha256": "f045d0d8cc93fd0f46c18fed47d347a555e977df1e808b74f1fce40435a3d568",
+      "text_length": 289
+    },
+    {
+      "page": "update/the-momentum-freak-lab-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%a0%e0%b8%b2%e0%b8%a3%e0%b8%81%e0%b8%b4%e0%b8%88%e0%b8%9e%e0%b8%b2%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%97%e0%b8%94%e0%b8%a5%e0%b8%ad%e0%b8%87/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The Momentum : FREAK lab กับภารกิจพาการทดลองขึ้นไปอวกาศกับจรวด New Shepard",
+      "text_sha256": "eb4684b35620428b31a5c1b3dd1b6373b9adb1b626653d3cfb326a2a125c227d",
+      "text_length": 195
+    },
+    {
+      "page": "update/the-momentum-freak-lab-กับภารกิจพาการทดลอง/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The Momentum : FREAK lab กับภารกิจพาการทดลองขึ้นไปอวกาศกับจรวด New Shepard",
+      "text_sha256": "eb4684b35620428b31a5c1b3dd1b6373b9adb1b626653d3cfb326a2a125c227d",
+      "text_length": 195
+    },
+    {
+      "page": "update/y-sef/index.html",
+      "source": "public WordPress snapshot",
+      "title": "ไอเดียขยะอวกาศสร้างบ้านบนดวงจันทร์ คนไทยชนะเลิศ ประกวดกิจกรรมในอนาคต นานาชาติ",
+      "text_sha256": "4f614a95b9a10594647b5befc7a07620f22e0d70b241f4df5c55e6a1df1fec41",
+      "text_length": 523
+    },
+    {
+      "page": "update/นักประดิษฐ์อนาคต-พัทน์/index.html",
+      "source": "public WordPress snapshot",
+      "title": "The 101 : นักประดิษฐ์อนาคต พัทน์ ภัทรนุธาพร เด็กไทยในวงการวิทยาศาสตร์โลก",
+      "text_sha256": "34c1d2a02d69ad9c3e9dd5f752c1b3108ee834177581f789c84f6d0e7c2acdda",
+      "text_length": 291
+    },
+    {
+      "page": "updates/index.html",
+      "source": "public WordPress snapshot",
+      "title": "Updates",
+      "text_sha256": "a61f875c6606f1304e3ae2c38ced2ac7d84dd9c8bd3777a9e21664e29427c8ca",
+      "text_length": 21265
+    }
+  ],
+  "missing_original_body": [
+    "event/adm-symposium-2017/index.html",
+    "event/ap-sgw-participant-of-gender-diversity/index.html",
+    "event/co-founder-of-hyperloop-pod-challenge-thailand-team/index.html",
+    "event/food-fiction-futures-fabrication-casual-workshop/index.html",
+    "event/freak-to-the-futures-exhibition/index.html",
+    "event/freak-to-the-futures-exhibition-2/index.html",
+    "event/hyperloop-lecture-at-kmutt-by-dr-andrea/index.html",
+    "event/immersea-subversive-submersibles-is-water-adapted-augmented-reality-ar/index.html",
+    "event/mini-symposium-on-space-exploration-biotechnology-asian-culture/index.html",
+    "event/mrs-2018/index.html",
+    "event/preliminary-workshop-bioarthistory/index.html",
+    "event/uncertainty-fashion-show-2018/index.html",
+    "peoples/alan-archapiraj/index.html",
+    "peoples/chatchaphon-kang/index.html",
+    "peoples/henry-tan/index.html",
+    "peoples/joe-teerawat/index.html",
+    "peoples/kansuda-panprom/index.html",
+    "peoples/katon-thammavijitdej/index.html",
+    "peoples/naronggorn-booncharoen/index.html",
+    "peoples/nitipon-puttaraksa/index.html",
+    "peoples/nitipoom-unrrom/index.html",
+    "peoples/opas-tantithakul/index.html",
+    "peoples/paitoon-mueanpetch/index.html",
+    "peoples/pakpoom-subsoontorn/index.html",
+    "peoples/pat-pataranutaporn/index.html",
+    "peoples/patcharapol-sankaew/index.html",
+    "peoples/peerapong-torteeka/index.html",
+    "peoples/piyapat-saranrittichai/index.html",
+    "peoples/potiwat-ngamkajornwiwat/index.html",
+    "peoples/prapanpong/index.html",
+    "peoples/prompt-suathim/index.html",
+    "peoples/puey-ounjai/index.html",
+    "peoples/saran-seehanam/index.html",
+    "peoples/siyada-witoon/index.html",
+    "peoples/smitt-loha-unchit/index.html",
+    "peoples/sonskuln-thaomohr/index.html",
+    "peoples/sornchai-chatwiriyachai/index.html",
+    "peoples/suphannalak-chaiklahan/index.html",
+    "peoples/tanis-phongphisantham/index.html",
+    "peoples/tara-suwinyattichaiporn/index.html",
+    "peoples/tawan-thintawornkul/index.html",
+    "peoples/thakdanai-sirisombat/index.html",
+    "peoples/tone-anusorn-tipayanon/index.html",
+    "peoples/vasunun-chumchua/index.html",
+    "peoples/vipatsaya-u-poon/index.html",
+    "peoples/wachira-chaiworn/index.html",
+    "peoples/warinthorn-detpisuttitham/index.html",
+    "peoples/weeratouch-pongruengkiat/index.html",
+    "peoples/weerawit-horinouchi/index.html",
+    "peoples/werasak-surareungchai/index.html",
+    "projects/3d-food-fabrication/index.html",
+    "projects/ai-in-agriculture/index.html",
+    "projects/astrobiotechnology/index.html",
+    "projects/augmented-history-ar-archeology-and-the-maker-approach-for-the-future-history-class/index.html",
+    "projects/bang-fai-festival-visit-for-space-project/index.html",
+    "projects/bio-e/index.html",
+    "projects/biofab/index.html",
+    "projects/bioprinting-workshop/index.html",
+    "projects/buddha-bot/index.html",
+    "projects/deforestation-detection-by-deep-learning-using-satellite-image/index.html",
+    "projects/electrical-stimulation-over-human-posterior-parietal-cortex-selectively-enhances-the-capacity-of-visual-short-term-memory/index.html",
+    "projects/emoti-khon/index.html",
+    "projects/first-thai-space-mission/index.html",
+    "projects/food-fiction-futures-fabrication-workshop/index.html",
+    "projects/freak-food-novel/index.html",
+    "projects/functional-mri-and-eeg-index-complementary-attentional-modulations/index.html",
+    "projects/genomix-mask/index.html",
+    "projects/graffiti-play-ground/index.html",
+    "projects/growable-robot/index.html",
+    "projects/hack-biodesign/index.html",
+    "projects/hackbiodesign-x-jstp/index.html",
+    "projects/holographic-food/index.html",
+    "projects/hormone-couture/index.html",
+    "projects/igem-thailand-team/index.html",
+    "projects/ihoy/index.html",
+    "projects/immersive-ayutthaya/index.html",
+    "projects/isnail-environmental-sensor-via-bio-digital-interfaces/index.html",
+    "projects/jstp-app/index.html",
+    "projects/jstp-space-camp/index.html",
+    "projects/jube/index.html",
+    "projects/making-food-with-the-mind/index.html",
+    "projects/messe/index.html",
+    "projects/museum-of-capitalism/index.html",
+    "projects/neurotechnology-in-the-merger-of-biological-and-machine-intelligence/index.html",
+    "projects/passive-payload-for-microgravity-research-in-space/index.html",
+    "projects/pearl-of-lunar/index.html",
+    "projects/plaiy/index.html",
+    "projects/reinterpreting-3d-food-printing-as-neo-print-capitalism-fabrication-food-and-futures/index.html",
+    "projects/reinventing-a-new-currency-globeyoud/index.html",
+    "projects/robot-design-preliminary-study/index.html",
+    "projects/saku/index.html",
+    "projects/social-robot-design-and-steam-education/index.html",
+    "projects/solid-propellant-rocket-test/index.html",
+    "projects/space-biobot/index.html",
+    "projects/space-debris-computer-vision-research-space-biobot-project/index.html",
+    "projects/space-food/index.html",
+    "projects/space-nego-card-game/index.html",
+    "projects/spacezab/index.html",
+    "projects/speculating-the-futures-of-human-robot-marriage-scenario-construction-and-couple-recommendation/index.html",
+    "projects/talung-app/index.html",
+    "projects/tele-creativity-digital-constructivism-in-stem-jstp-planet/index.html",
+    "projects/the-national-cansat-competition-reflection-on-the-compulsory-education-strategy-of-science-and-technology-in-thailand/index.html",
+    "projects/toward-human-magic-interaction/index.html",
+    "projects/unboxing-passive-payload-blue-origin-mission-9/index.html",
+    "projects/value-driven-attentional-capture-enhances-distractor-representations-in-early-visual-cortex/index.html",
+    "projects/voice2gene/index.html",
+    "projects/vr-space-by-gifa-team/index.html",
+    "projects/wearable-biofab/index.html",
+    "projects/when-conflict-cannot-be-avoided-relative-contributions-of-early-selection-and-frontal-executive-control-in-mitigating-stroop-conflict/index.html",
+    "projects/zodulars/index.html",
+    "talk/bio-hci-wearing-bio-data-printing-food-with-mind-and-modifying-lifeform-through-voice/index.html",
+    "talk/biodigital-seminar2/index.html",
+    "talk/event-training-qualitatively-alter-neural-mechanism-that-support-selective-attension/index.html",
+    "talk/freak-lab-presentation-at-mit-biosummit/index.html",
+    "talk/national-space-exploration-nse-roadshow/index.html",
+    "talk/presentation-of-vivoarts-aesthetics-beings-and-factories/index.html",
+    "talk/public-discussion-on-vivo-arts-and-society/index.html",
+    "talk/science-colloquium-ii-freak-out-standing/index.html",
+    "talk/tedx-series/index.html",
+    "talk/the-future-of-everyday-things/index.html",
+    "update/%e0%b8%99%e0%b8%b1%e0%b8%81%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%94%e0%b8%b4%e0%b8%a9%e0%b8%90%e0%b9%8c%e0%b8%ad%e0%b8%99%e0%b8%b2%e0%b8%84%e0%b8%95-%e0%b8%9e%e0%b8%b1%e0%b8%97%e0%b8%99%e0%b9%8c/index.html",
+    "update/3d-pioneers-2018/index.html",
+    "update/3d-printing-in-space-progress-update-at-gistda/index.html",
+    "update/artssciences-meeting-at-bacc/index.html",
+    "update/astropreneur-panelist-at-iac2018-conference/index.html",
+    "update/bacc-x-freak-lab-reachout-program/index.html",
+    "update/cansat-design-workshop-for-student/index.html",
+    "update/core77-design-awards-2018/index.html",
+    "update/dr-galina-and-tentacle-gallery-visited-freak-lab/index.html",
+    "update/emoti-khon-team-at-creative-district-bangkok-town-hall-meeting/index.html",
+    "update/forbes-asia/index.html",
+    "update/freak-and-fringe/index.html",
+    "update/freak-lab-at-urban-media-art-academy-bangkok/index.html",
+    "update/freak-lab-member-to-join-7th-space-generation-congress/index.html",
+    "update/freak-lab-member-to-join-the-international-space-exploration-forum-isef2/index.html",
+    "update/freak-lab-members-met-minister-of-science-and-technology-of-thailand/index.html",
+    "update/freak-lab-researcher-presented-at-isef/index.html",
+    "update/freak-lab-retreat/index.html",
+    "update/freak-lab-support-mu-for-nse-2018-project/index.html",
+    "update/freak-members-at-techsauce-2018/index.html",
+    "update/freakar-won-award/index.html",
+    "update/inspired-talk-by-prompt-suathim-space-boy/index.html",
+    "update/new-farming-model-2030/index.html",
+    "update/panel-discussion-its-complicated-book/index.html",
+    "update/passive-payload-for-microgravity-research-in-space/index.html",
+    "update/professor-gunalan-nadarajan-dean-of-university-of-michigan-visited-freak-lab/index.html",
+    "update/rocket-capacity-testing/index.html",
+    "update/sgac-and-iac2018-participant/index.html",
+    "update/smallsat-workshop-nus/index.html",
+    "update/space-cherprang/index.html",
+    "update/space-zab-team-present-at-national-space-exploration/index.html",
+    "update/spacetech-asia-thailands-payload-in-detail/index.html",
+    "update/spacezab-member-meet-with-an-investor/index.html",
+    "update/tale2018/index.html",
+    "update/thailand-to-send-smelly-durian-into-space-because-future-astronauts-should-be-able-to-enjoy-thai-food/index.html",
+    "update/the-5th-asia-pacific-space-generation-workshop-ap-sgw-2018/index.html",
+    "update/the-first-space-research-experiment-and-exploration-seminar-between-china-and-thailand/index.html",
+    "update/the-iaf-emerging-space-leaders-2018/index.html",
+    "update/the-matter-emoti-khon-%e0%b8%99%e0%b8%a7%e0%b8%b1%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%ad%e0%b8%b2%e0%b8%a3%e0%b8%a1%e0%b8%93%e0%b9%8c%e0%b9%83%e0%b8%99%e0%b8%aa%e0%b8%b1%e0%b8%87/index.html",
+    "update/the-matter-emoti-khon-นวัตกรรมอารมณ์ในสัง/index.html",
+    "update/the-momentum-freak-lab-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%a0%e0%b8%b2%e0%b8%a3%e0%b8%81%e0%b8%b4%e0%b8%88%e0%b8%9e%e0%b8%b2%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%97%e0%b8%94%e0%b8%a5%e0%b8%ad%e0%b8%87/index.html",
+    "update/the-momentum-freak-lab-กับภารกิจพาการทดลอง/index.html",
+    "update/นักประดิษฐ์อนาคต-พัทน์/index.html"
+  ],
+  "issues": []
+}

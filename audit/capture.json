@@ -1,0 +1,1337 @@
+[
+  {
+    "path": "index.html",
+    "status": 200,
+    "url": "https://freaklab.org/"
+  },
+  {
+    "path": "elementor-3713/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/elementor-3713/"
+  },
+  {
+    "path": "hologram-festival/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/hologram-festival/"
+  },
+  {
+    "path": "award/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/award/"
+  },
+  {
+    "path": "machine-mononoke/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/machine-mononoke/"
+  },
+  {
+    "path": "the-development-of-ethical-guideline-and-social-practice-for-robot-and-artificial-intelligence/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/the-development-of-ethical-guideline-and-social-practice-for-robot-and-artificial-intelligence/"
+  },
+  {
+    "path": "rashomon-universe/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/rashomon-universe/"
+  },
+  {
+    "path": "publications/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/publications/"
+  },
+  {
+    "path": "hq/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/hq/"
+  },
+  {
+    "path": "join-us/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/join-us/"
+  },
+  {
+    "path": "research/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/research/"
+  },
+  {
+    "path": "press/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/press/"
+  },
+  {
+    "path": "the-computational-aesthetics-of-kojiki/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/the-computational-aesthetics-of-kojiki/"
+  },
+  {
+    "path": "computational-kwaidan/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/computational-kwaidan/"
+  },
+  {
+    "path": "updates/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/updates/"
+  },
+  {
+    "path": "silkie-robot-alien/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/silkie-robot-alien/"
+  },
+  {
+    "path": "courses/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/courses/"
+  },
+  {
+    "path": "residency-program/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/residency-program/"
+  },
+  {
+    "path": "on-my-godzillas-mind/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/on-my-godzillas-mind/"
+  },
+  {
+    "path": "symposium/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/symposium/"
+  },
+  {
+    "path": "spinoff/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/spinoff/"
+  },
+  {
+    "path": "people/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/people/"
+  },
+  {
+    "path": "prototyping-the-future-society-through-theatre-for-social-change/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/prototyping-the-future-society-through-theatre-for-social-change/"
+  },
+  {
+    "path": "application/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/application/"
+  },
+  {
+    "path": "events/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/events/"
+  },
+  {
+    "path": "monsterization-and-society/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/monsterization-and-society/"
+  },
+  {
+    "path": "talk/science-colloquium-ii-freak-out-standing/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/science-colloquium-ii-freak-out-standing/"
+  },
+  {
+    "path": "policy-advise-on-zombie-apocalypse/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/policy-advise-on-zombie-apocalypse/"
+  },
+  {
+    "path": "talk/biodigital-seminar2/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/biodigital-seminar2/"
+  },
+  {
+    "path": "talk/freak-lab-presentation-at-mit-biosummit/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/freak-lab-presentation-at-mit-biosummit/"
+  },
+  {
+    "path": "talk/national-space-exploration-nse-roadshow/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/national-space-exploration-nse-roadshow/"
+  },
+  {
+    "path": "projects/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/"
+  },
+  {
+    "path": "talk/presentation-of-vivoarts-aesthetics-beings-and-factories/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/presentation-of-vivoarts-aesthetics-beings-and-factories/"
+  },
+  {
+    "path": "talk/tedx-series/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/tedx-series/"
+  },
+  {
+    "path": "talk/the-future-of-everyday-things/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/the-future-of-everyday-things/"
+  },
+  {
+    "path": "talk/event-training-qualitatively-alter-neural-mechanism-that-support-selective-attension/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/event-training-qualitatively-alter-neural-mechanism-that-support-selective-attension/"
+  },
+  {
+    "path": "talk/bio-hci-wearing-bio-data-printing-food-with-mind-and-modifying-lifeform-through-voice/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/bio-hci-wearing-bio-data-printing-food-with-mind-and-modifying-lifeform-through-voice/"
+  },
+  {
+    "path": "blog/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/blog/"
+  },
+  {
+    "path": "talk/public-discussion-on-vivo-arts-and-society/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/talk/public-discussion-on-vivo-arts-and-society/"
+  },
+  {
+    "path": "tag/advisor/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/advisor/"
+  },
+  {
+    "path": "tag/director/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/director/"
+  },
+  {
+    "path": "tag/affiliated/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/affiliated/"
+  },
+  {
+    "path": "tag/admin/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/admin/"
+  },
+  {
+    "path": "tag/member/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/member/"
+  },
+  {
+    "path": "tag/pi/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/pi/"
+  },
+  {
+    "path": "tag/manager/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/manager/"
+  },
+  {
+    "path": "tag/affiliate/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/affiliate/"
+  },
+  {
+    "path": "tag/co-founder/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/co-founder/"
+  },
+  {
+    "path": "tag/collaborator/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/collaborator/"
+  },
+  {
+    "path": "tag/researcher/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/researcher/"
+  },
+  {
+    "path": "event/ap-sgw-participant-of-gender-diversity/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/ap-sgw-participant-of-gender-diversity/"
+  },
+  {
+    "path": "tag/past-member/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/past-member/"
+  },
+  {
+    "path": "event/freak-to-the-futures-exhibition-2/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/freak-to-the-futures-exhibition-2/"
+  },
+  {
+    "path": "tag/%e0%b8%84%e0%b8%99%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%83%e0%b8%8a%e0%b9%89/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/tag/%e0%b8%84%e0%b8%99%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b9%83%e0%b8%8a%e0%b9%89/"
+  },
+  {
+    "path": "event/freak-to-the-futures-exhibition/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/freak-to-the-futures-exhibition/"
+  },
+  {
+    "path": "event/uncertainty-fashion-show-2018/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/uncertainty-fashion-show-2018/"
+  },
+  {
+    "path": "event/hyperloop-lecture-at-kmutt-by-dr-andrea/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/hyperloop-lecture-at-kmutt-by-dr-andrea/"
+  },
+  {
+    "path": "event/machine-learning-on-eeg-data-workshop-by-dr-sirawaj-itthipuripat/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/machine-learning-on-eeg-data-workshop-by-dr-sirawaj-itthipuripat/"
+  },
+  {
+    "path": "event/biofab/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/biofab/"
+  },
+  {
+    "path": "event/mini-symposium-on-space-exploration-biotechnology-asian-culture/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/mini-symposium-on-space-exploration-biotechnology-asian-culture/"
+  },
+  {
+    "path": "event/hyperloop-technical-discussion-first-time-in-thailand/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/hyperloop-technical-discussion-first-time-in-thailand/"
+  },
+  {
+    "path": "event/co-founder-of-hyperloop-pod-challenge-thailand-team/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/co-founder-of-hyperloop-pod-challenge-thailand-team/"
+  },
+  {
+    "path": "event/preliminary-workshop-bioarthistory/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/preliminary-workshop-bioarthistory/"
+  },
+  {
+    "path": "event/ieee-tale-2017/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/ieee-tale-2017/"
+  },
+  {
+    "path": "event/adm-symposium-2017/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/adm-symposium-2017/"
+  },
+  {
+    "path": "event/mrs-2018/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/mrs-2018/"
+  },
+  {
+    "path": "type/video/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/type/video/"
+  },
+  {
+    "path": "event/food-fiction-futures-fabrication-casual-workshop/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/food-fiction-futures-fabrication-casual-workshop/"
+  },
+  {
+    "path": "event/immersea-subversive-submersibles-is-water-adapted-augmented-reality-ar/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/event/immersea-subversive-submersibles-is-water-adapted-augmented-reality-ar/"
+  },
+  {
+    "path": "blog/wearable-research-at-ntu/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/blog/wearable-research-at-ntu/"
+  },
+  {
+    "path": "blog/what-is-freak-lab/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/blog/what-is-freak-lab/"
+  },
+  {
+    "path": "author/admin_pp/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/author/admin_pp/"
+  },
+  {
+    "path": "projects/holographic-food/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/holographic-food/"
+  },
+  {
+    "path": "projects/graffiti-play-ground/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/graffiti-play-ground/"
+  },
+  {
+    "path": "projects/reinventing-a-new-currency-globeyoud/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/reinventing-a-new-currency-globeyoud/"
+  },
+  {
+    "path": "projects/bioprinting-workshop/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/bioprinting-workshop/"
+  },
+  {
+    "path": "projects/wearable-biofab/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/wearable-biofab/"
+  },
+  {
+    "path": "projects/space-nego-card-game/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/space-nego-card-game/"
+  },
+  {
+    "path": "projects/vr-space-by-gifa-team/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/vr-space-by-gifa-team/"
+  },
+  {
+    "path": "projects/neurotechnology-in-the-merger-of-biological-and-machine-intelligence/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/neurotechnology-in-the-merger-of-biological-and-machine-intelligence/"
+  },
+  {
+    "path": "projects/museum-of-capitalism/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/museum-of-capitalism/"
+  },
+  {
+    "path": "projects/zodulars/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/zodulars/"
+  },
+  {
+    "path": "projects/immersive-ayutthaya/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/immersive-ayutthaya/"
+  },
+  {
+    "path": "projects/emoti-khon/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/emoti-khon/"
+  },
+  {
+    "path": "projects/hack-biodesign/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/hack-biodesign/"
+  },
+  {
+    "path": "projects/3d-food-fabrication/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/3d-food-fabrication/"
+  },
+  {
+    "path": "projects/space-food/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/space-food/"
+  },
+  {
+    "path": "author/admin_ninyawee/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/author/admin_ninyawee/"
+  },
+  {
+    "path": "projects/making-food-with-the-mind/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/making-food-with-the-mind/"
+  },
+  {
+    "path": "author/admin_golf/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/author/admin_golf/"
+  },
+  {
+    "path": "author/golfyjstp/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/author/golfyjstp/"
+  },
+  {
+    "path": "author/freaklab_editor/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/author/freaklab_editor/"
+  },
+  {
+    "path": "projects/tele-creativity-digital-constructivism-in-stem-jstp-planet/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/tele-creativity-digital-constructivism-in-stem-jstp-planet/"
+  },
+  {
+    "path": "projects/talung-app/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/talung-app/"
+  },
+  {
+    "path": "projects/isnail-environmental-sensor-via-bio-digital-interfaces/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/isnail-environmental-sensor-via-bio-digital-interfaces/"
+  },
+  {
+    "path": "projects/ai-in-agriculture/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/ai-in-agriculture/"
+  },
+  {
+    "path": "projects/space-debris-computer-vision-research-space-biobot-project/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/space-debris-computer-vision-research-space-biobot-project/"
+  },
+  {
+    "path": "projects/functional-mri-and-eeg-index-complementary-attentional-modulations/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/functional-mri-and-eeg-index-complementary-attentional-modulations/"
+  },
+  {
+    "path": "projects/messe/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/messe/"
+  },
+  {
+    "path": "projects/bang-fai-festival-visit-for-space-project/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/bang-fai-festival-visit-for-space-project/"
+  },
+  {
+    "path": "projects/biofab/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/biofab/"
+  },
+  {
+    "path": "projects/electrical-stimulation-over-human-posterior-parietal-cortex-selectively-enhances-the-capacity-of-visual-short-term-memory/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/electrical-stimulation-over-human-posterior-parietal-cortex-selectively-enhances-the-capacity-of-visual-short-term-memory/"
+  },
+  {
+    "path": "projects/genomix-mask/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/genomix-mask/"
+  },
+  {
+    "path": "projects/augmented-history-ar-archeology-and-the-maker-approach-for-the-future-history-class/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/augmented-history-ar-archeology-and-the-maker-approach-for-the-future-history-class/"
+  },
+  {
+    "path": "projects/ihoy/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/ihoy/"
+  },
+  {
+    "path": "projects/hackbiodesign-x-jstp/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/hackbiodesign-x-jstp/"
+  },
+  {
+    "path": "projects/passive-payload-for-microgravity-research-in-space/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/passive-payload-for-microgravity-research-in-space/"
+  },
+  {
+    "path": "projects/covid-bot/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/covid-bot/"
+  },
+  {
+    "path": "projects/jaundice-app/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/jaundice-app/"
+  },
+  {
+    "path": "projects/jstp-app/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/jstp-app/"
+  },
+  {
+    "path": "projects/jstp-space-camp/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/jstp-space-camp/"
+  },
+  {
+    "path": "projects/bio-e/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/bio-e/"
+  },
+  {
+    "path": "projects/pearl-of-lunar/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/pearl-of-lunar/"
+  },
+  {
+    "path": "projects/upski/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/upski/"
+  },
+  {
+    "path": "projects/unboxing-passive-payload-blue-origin-mission-9/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/unboxing-passive-payload-blue-origin-mission-9/"
+  },
+  {
+    "path": "projects/speculating-the-futures-of-human-robot-marriage-scenario-construction-and-couple-recommendation/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/speculating-the-futures-of-human-robot-marriage-scenario-construction-and-couple-recommendation/"
+  },
+  {
+    "path": "projects/value-driven-attentional-capture-enhances-distractor-representations-in-early-visual-cortex/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/value-driven-attentional-capture-enhances-distractor-representations-in-early-visual-cortex/"
+  },
+  {
+    "path": "projects/astrobiotechnology/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/astrobiotechnology/"
+  },
+  {
+    "path": "projects/freak-food-novel/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/freak-food-novel/"
+  },
+  {
+    "path": "projects/igem-thailand-team/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/igem-thailand-team/"
+  },
+  {
+    "path": "projects/buddha-bot/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/buddha-bot/"
+  },
+  {
+    "path": "projects/spacezab/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/spacezab/"
+  },
+  {
+    "path": "projects/growable-robot/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/growable-robot/"
+  },
+  {
+    "path": "projects/reinterpreting-3d-food-printing-as-neo-print-capitalism-fabrication-food-and-futures/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/reinterpreting-3d-food-printing-as-neo-print-capitalism-fabrication-food-and-futures/"
+  },
+  {
+    "path": "projects/food-fiction-futures-fabrication-workshop/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/food-fiction-futures-fabrication-workshop/"
+  },
+  {
+    "path": "projects/space-biobot/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/space-biobot/"
+  },
+  {
+    "path": "projects/plaiy/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/plaiy/"
+  },
+  {
+    "path": "projects/voice2gene/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/voice2gene/"
+  },
+  {
+    "path": "projects/social-robot-design-and-steam-education/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/social-robot-design-and-steam-education/"
+  },
+  {
+    "path": "projects/the-national-cansat-competition-reflection-on-the-compulsory-education-strategy-of-science-and-technology-in-thailand/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/the-national-cansat-competition-reflection-on-the-compulsory-education-strategy-of-science-and-technology-in-thailand/"
+  },
+  {
+    "path": "projects/hormone-couture/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/hormone-couture/"
+  },
+  {
+    "path": "projects/robot-design-preliminary-study/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/robot-design-preliminary-study/"
+  },
+  {
+    "path": "projects/solid-propellant-rocket-test/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/solid-propellant-rocket-test/"
+  },
+  {
+    "path": "projects/toward-human-magic-interaction/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/toward-human-magic-interaction/"
+  },
+  {
+    "path": "projects/first-thai-space-mission/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/first-thai-space-mission/"
+  },
+  {
+    "path": "projects/deforestation-detection-by-deep-learning-using-satellite-image/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/deforestation-detection-by-deep-learning-using-satellite-image/"
+  },
+  {
+    "path": "projects/when-conflict-cannot-be-avoided-relative-contributions-of-early-selection-and-frontal-executive-control-in-mitigating-stroop-conflict/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/when-conflict-cannot-be-avoided-relative-contributions-of-early-selection-and-frontal-executive-control-in-mitigating-stroop-conflict/"
+  },
+  {
+    "path": "projects/jube/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/jube/"
+  },
+  {
+    "path": "sig/mmm/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/sig/mmm/"
+  },
+  {
+    "path": "projects/saku/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/projects/saku/"
+  },
+  {
+    "path": "sig/freakfab/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/sig/freakfab/"
+  },
+  {
+    "path": "peoples/tanadet-pipatpolkai/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/tanadet-pipatpolkai/"
+  },
+  {
+    "path": "sig/agriculture-of-the-future/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/sig/agriculture-of-the-future/"
+  },
+  {
+    "path": "peoples/patcharapol-sankaew/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/patcharapol-sankaew/"
+  },
+  {
+    "path": "peoples/pondet-ananchai/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/pondet-ananchai/"
+  },
+  {
+    "path": "peoples/suphannalak-chaiklahan/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/suphannalak-chaiklahan/"
+  },
+  {
+    "path": "peoples/galina-mihaleva/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/galina-mihaleva/"
+  },
+  {
+    "path": "peoples/bank-ngamarunchot/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/bank-ngamarunchot/"
+  },
+  {
+    "path": "peoples/thakdanai-sirisombat/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/thakdanai-sirisombat/"
+  },
+  {
+    "path": "peoples/naronggorn-booncharoen/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/naronggorn-booncharoen/"
+  },
+  {
+    "path": "peoples/piyapat-saranrittichai/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/piyapat-saranrittichai/"
+  },
+  {
+    "path": "peoples/saran-seehanam/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/saran-seehanam/"
+  },
+  {
+    "path": "peoples/chakrapipat-assawaboonyalert/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/chakrapipat-assawaboonyalert/"
+  },
+  {
+    "path": "peoples/sornchai-chatwiriyachai/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/sornchai-chatwiriyachai/"
+  },
+  {
+    "path": "peoples/pat-pataranutaporn/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/pat-pataranutaporn/"
+  },
+  {
+    "path": "peoples/smitt-loha-unchit/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/smitt-loha-unchit/"
+  },
+  {
+    "path": "peoples/weerawit-horinouchi/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/weerawit-horinouchi/"
+  },
+  {
+    "path": "peoples/wares-chancharoen/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/wares-chancharoen/"
+  },
+  {
+    "path": "peoples/nitipoom-unrrom/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/nitipoom-unrrom/"
+  },
+  {
+    "path": "peoples/tawan-thintawornkul/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/tawan-thintawornkul/"
+  },
+  {
+    "path": "peoples/winai-phu-numphon/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/winai-phu-numphon/"
+  },
+  {
+    "path": "peoples/kansuda-panprom/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/kansuda-panprom/"
+  },
+  {
+    "path": "peoples/jayanat-harinrojsobhon/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/jayanat-harinrojsobhon/"
+  },
+  {
+    "path": "peoples/chatchaphon-kang/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/chatchaphon-kang/"
+  },
+  {
+    "path": "peoples/prompt-suathim/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/prompt-suathim/"
+  },
+  {
+    "path": "peoples/nitipon-puttaraksa/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/nitipon-puttaraksa/"
+  },
+  {
+    "path": "peoples/werasak-surareungchai/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/werasak-surareungchai/"
+  },
+  {
+    "path": "peoples/warinthorn-detpisuttitham/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/warinthorn-detpisuttitham/"
+  },
+  {
+    "path": "peoples/vasunun-chumchua/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/vasunun-chumchua/"
+  },
+  {
+    "path": "peoples/siyada-witoon/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/siyada-witoon/"
+  },
+  {
+    "path": "peoples/wachira-chaiworn/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/wachira-chaiworn/"
+  },
+  {
+    "path": "peoples/prapanpong/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/prapanpong/"
+  },
+  {
+    "path": "peoples/alan-archapiraj/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/alan-archapiraj/"
+  },
+  {
+    "path": "peoples/bawornsak-sakulkueakulsuk/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/bawornsak-sakulkueakulsuk/"
+  },
+  {
+    "path": "peoples/tanis-phongphisantham/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/tanis-phongphisantham/"
+  },
+  {
+    "path": "peoples/tara-suwinyattichaiporn/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/tara-suwinyattichaiporn/"
+  },
+  {
+    "path": "peoples/nutchanon/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/nutchanon/"
+  },
+  {
+    "path": "peoples/weeratouch-pongruengkiat/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/weeratouch-pongruengkiat/"
+  },
+  {
+    "path": "peoples/paitoon-mueanpetch/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/paitoon-mueanpetch/"
+  },
+  {
+    "path": "peoples/katon-thammavijitdej/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/katon-thammavijitdej/"
+  },
+  {
+    "path": "peoples/sonskuln-thaomohr/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/sonskuln-thaomohr/"
+  },
+  {
+    "path": "peoples/joe-teerawat/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/joe-teerawat/"
+  },
+  {
+    "path": "peoples/henry-tan/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/henry-tan/"
+  },
+  {
+    "path": "peoples/siwaphan-luksanayeam/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/siwaphan-luksanayeam/"
+  },
+  {
+    "path": "peoples/sirada-sirijindaphan/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/sirada-sirijindaphan/"
+  },
+  {
+    "path": "peoples/korakot-chaovavanich/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/korakot-chaovavanich/"
+  },
+  {
+    "path": "peoples/puey-ounjai/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/puey-ounjai/"
+  },
+  {
+    "path": "peoples/sirawaj-sean-itthipuripat/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/sirawaj-sean-itthipuripat/"
+  },
+  {
+    "path": "peoples/potiwat-ngamkajornwiwat/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/potiwat-ngamkajornwiwat/"
+  },
+  {
+    "path": "peoples/pansavuth/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/pansavuth/"
+  },
+  {
+    "path": "peoples/tone-anusorn-tipayanon/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/tone-anusorn-tipayanon/"
+  },
+  {
+    "path": "category/neuromedia/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/category/neuromedia/"
+  },
+  {
+    "path": "peoples/chan-la-o-vorakiat/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/chan-la-o-vorakiat/"
+  },
+  {
+    "path": "peoples/theerawit-wilaiprasitporn/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/theerawit-wilaiprasitporn/"
+  },
+  {
+    "path": "peoples/vipatsaya-u-poon/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/vipatsaya-u-poon/"
+  },
+  {
+    "path": "peoples/peerapong-torteeka/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/peerapong-torteeka/"
+  },
+  {
+    "path": "category/magic-monsters-machines/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/category/magic-monsters-machines/"
+  },
+  {
+    "path": "peoples/pakpoom-subsoontorn/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/pakpoom-subsoontorn/"
+  },
+  {
+    "path": "peoples/opas-tantithakul/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/peoples/opas-tantithakul/"
+  },
+  {
+    "path": "category/news/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/category/news/"
+  },
+  {
+    "path": "category/biodigital/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/category/biodigital/"
+  },
+  {
+    "path": "category/blog/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/category/blog/"
+  },
+  {
+    "path": "category/event/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/category/event/"
+  },
+  {
+    "path": "update/the-matter-emoti-khon-%e0%b8%99%e0%b8%a7%e0%b8%b1%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%ad%e0%b8%b2%e0%b8%a3%e0%b8%a1%e0%b8%93%e0%b9%8c%e0%b9%83%e0%b8%99%e0%b8%aa%e0%b8%b1%e0%b8%87/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/the-matter-emoti-khon-%e0%b8%99%e0%b8%a7%e0%b8%b1%e0%b8%95%e0%b8%81%e0%b8%a3%e0%b8%a3%e0%b8%a1%e0%b8%ad%e0%b8%b2%e0%b8%a3%e0%b8%a1%e0%b8%93%e0%b9%8c%e0%b9%83%e0%b8%99%e0%b8%aa%e0%b8%b1%e0%b8%87/"
+  },
+  {
+    "path": "update/dr-galina-and-tentacle-gallery-visited-freak-lab/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/dr-galina-and-tentacle-gallery-visited-freak-lab/"
+  },
+  {
+    "path": "update/the-iaf-emerging-space-leaders-2018/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/the-iaf-emerging-space-leaders-2018/"
+  },
+  {
+    "path": "update/tale2018/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/tale2018/"
+  },
+  {
+    "path": "update/the-matter-emoti-khon-\u0e19\u0e27\u0e31\u0e15\u0e01\u0e23\u0e23\u0e21\u0e2d\u0e32\u0e23\u0e21\u0e13\u0e4c\u0e43\u0e19\u0e2a\u0e31\u0e07/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/the-matter-emoti-khon-\u0e19\u0e27\u0e31\u0e15\u0e01\u0e23\u0e23\u0e21\u0e2d\u0e32\u0e23\u0e21\u0e13\u0e4c\u0e43\u0e19\u0e2a\u0e31\u0e07/"
+  },
+  {
+    "path": "update/freak-lab-member-to-join-the-international-space-exploration-forum-isef2/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freak-lab-member-to-join-the-international-space-exploration-forum-isef2/"
+  },
+  {
+    "path": "update/thailand-to-send-smelly-durian-into-space-because-future-astronauts-should-be-able-to-enjoy-thai-food/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/thailand-to-send-smelly-durian-into-space-because-future-astronauts-should-be-able-to-enjoy-thai-food/"
+  },
+  {
+    "path": "update/emoti-khon-team-at-creative-district-bangkok-town-hall-meeting/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/emoti-khon-team-at-creative-district-bangkok-town-hall-meeting/"
+  },
+  {
+    "path": "update/freakar-won-award/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freakar-won-award/"
+  },
+  {
+    "path": "update/new-farming-model-2030/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/new-farming-model-2030/"
+  },
+  {
+    "path": "update/freak-lab-member-to-join-7th-space-generation-congress/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freak-lab-member-to-join-7th-space-generation-congress/"
+  },
+  {
+    "path": "update/3d-printing-in-space-progress-update-at-gistda/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/3d-printing-in-space-progress-update-at-gistda/"
+  },
+  {
+    "path": "update/professor-gunalan-nadarajan-dean-of-university-of-michigan-visited-freak-lab/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/professor-gunalan-nadarajan-dean-of-university-of-michigan-visited-freak-lab/"
+  },
+  {
+    "path": "update/the-momentum-freak-lab-\u0e01\u0e31\u0e1a\u0e20\u0e32\u0e23\u0e01\u0e34\u0e08\u0e1e\u0e32\u0e01\u0e32\u0e23\u0e17\u0e14\u0e25\u0e2d\u0e07/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/the-momentum-freak-lab-\u0e01\u0e31\u0e1a\u0e20\u0e32\u0e23\u0e01\u0e34\u0e08\u0e1e\u0e32\u0e01\u0e32\u0e23\u0e17\u0e14\u0e25\u0e2d\u0e07/"
+  },
+  {
+    "path": "update/passive-payload-for-microgravity-research-in-space/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/passive-payload-for-microgravity-research-in-space/"
+  },
+  {
+    "path": "update/sgac-and-iac2018-participant/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/sgac-and-iac2018-participant/"
+  },
+  {
+    "path": "update/inspired-talk-by-prompt-suathim-space-boy/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/inspired-talk-by-prompt-suathim-space-boy/"
+  },
+  {
+    "path": "update/freak-lab-at-urban-media-art-academy-bangkok/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freak-lab-at-urban-media-art-academy-bangkok/"
+  },
+  {
+    "path": "update/freak-lab-members-met-minister-of-science-and-technology-of-thailand/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freak-lab-members-met-minister-of-science-and-technology-of-thailand/"
+  },
+  {
+    "path": "update/3d-pioneers-2018/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/3d-pioneers-2018/"
+  },
+  {
+    "path": "update/artssciences-meeting-at-bacc/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/artssciences-meeting-at-bacc/"
+  },
+  {
+    "path": "update/space-cherprang/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/space-cherprang/"
+  },
+  {
+    "path": "update/space-zab-team-present-at-national-space-exploration/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/space-zab-team-present-at-national-space-exploration/"
+  },
+  {
+    "path": "update/y-sef/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/y-sef/"
+  },
+  {
+    "path": "update/freak-members-at-techsauce-2018/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freak-members-at-techsauce-2018/"
+  },
+  {
+    "path": "update/cansat-design-workshop-for-student/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/cansat-design-workshop-for-student/"
+  },
+  {
+    "path": "update/spacetech-asia-thailands-payload-in-detail/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/spacetech-asia-thailands-payload-in-detail/"
+  },
+  {
+    "path": "update/freak-lab-support-mu-for-nse-2018-project/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freak-lab-support-mu-for-nse-2018-project/"
+  },
+  {
+    "path": "update/core77-design-awards-2018/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/core77-design-awards-2018/"
+  },
+  {
+    "path": "update/smallsat-workshop-nus/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/smallsat-workshop-nus/"
+  },
+  {
+    "path": "update/freak-lab-retreat/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freak-lab-retreat/"
+  },
+  {
+    "path": "update/bacc-x-freak-lab-reachout-program/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/bacc-x-freak-lab-reachout-program/"
+  },
+  {
+    "path": "update/the-5th-asia-pacific-space-generation-workshop-ap-sgw-2018/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/the-5th-asia-pacific-space-generation-workshop-ap-sgw-2018/"
+  },
+  {
+    "path": "update/spacezab-member-meet-with-an-investor/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/spacezab-member-meet-with-an-investor/"
+  },
+  {
+    "path": "update/panel-discussion-its-complicated-book/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/panel-discussion-its-complicated-book/"
+  },
+  {
+    "path": "update/freak-lab-researcher-presented-at-isef/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freak-lab-researcher-presented-at-isef/"
+  },
+  {
+    "path": "update/\u0e19\u0e31\u0e01\u0e1b\u0e23\u0e30\u0e14\u0e34\u0e29\u0e10\u0e4c\u0e2d\u0e19\u0e32\u0e04\u0e15-\u0e1e\u0e31\u0e17\u0e19\u0e4c/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/\u0e19\u0e31\u0e01\u0e1b\u0e23\u0e30\u0e14\u0e34\u0e29\u0e10\u0e4c\u0e2d\u0e19\u0e32\u0e04\u0e15-\u0e1e\u0e31\u0e17\u0e19\u0e4c/"
+  },
+  {
+    "path": "update/rocket-capacity-testing/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/rocket-capacity-testing/"
+  },
+  {
+    "path": "update/the-first-space-research-experiment-and-exploration-seminar-between-china-and-thailand/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/the-first-space-research-experiment-and-exploration-seminar-between-china-and-thailand/"
+  },
+  {
+    "path": "update/astropreneur-panelist-at-iac2018-conference/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/astropreneur-panelist-at-iac2018-conference/"
+  },
+  {
+    "path": "update/%e0%b8%99%e0%b8%b1%e0%b8%81%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%94%e0%b8%b4%e0%b8%a9%e0%b8%90%e0%b9%8c%e0%b8%ad%e0%b8%99%e0%b8%b2%e0%b8%84%e0%b8%95-%e0%b8%9e%e0%b8%b1%e0%b8%97%e0%b8%99%e0%b9%8c/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/%e0%b8%99%e0%b8%b1%e0%b8%81%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%94%e0%b8%b4%e0%b8%a9%e0%b8%90%e0%b9%8c%e0%b8%ad%e0%b8%99%e0%b8%b2%e0%b8%84%e0%b8%95-%e0%b8%9e%e0%b8%b1%e0%b8%97%e0%b8%99%e0%b9%8c/"
+  },
+  {
+    "path": "update/freak-and-fringe/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/freak-and-fringe/"
+  },
+  {
+    "path": "update/the-momentum-freak-lab-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%a0%e0%b8%b2%e0%b8%a3%e0%b8%81%e0%b8%b4%e0%b8%88%e0%b8%9e%e0%b8%b2%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%97%e0%b8%94%e0%b8%a5%e0%b8%ad%e0%b8%87/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/the-momentum-freak-lab-%e0%b8%81%e0%b8%b1%e0%b8%9a%e0%b8%a0%e0%b8%b2%e0%b8%a3%e0%b8%81%e0%b8%b4%e0%b8%88%e0%b8%9e%e0%b8%b2%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%97%e0%b8%94%e0%b8%a5%e0%b8%ad%e0%b8%87/"
+  },
+  {
+    "path": "update/forbes-asia/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/update/forbes-asia/"
+  },
+  {
+    "path": "group-category/special-project/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/special-project/"
+  },
+  {
+    "path": "group-category/courses/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/courses/"
+  },
+  {
+    "path": "group-category/award-recognition/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/award-recognition/"
+  },
+  {
+    "path": "group-category/press/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/press/"
+  },
+  {
+    "path": "group-category/experimental-society/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/experimental-society/"
+  },
+  {
+    "path": "group-category/functional-aesthetics/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/functional-aesthetics/"
+  },
+  {
+    "path": "group-category/learningfutures/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/learningfutures/"
+  },
+  {
+    "path": "group-category/space-zab/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/space-zab/"
+  },
+  {
+    "path": "group-category/neuro-media/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/neuro-media/"
+  },
+  {
+    "path": "research/functional-aesthetics/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/research/functional-aesthetics/"
+  },
+  {
+    "path": "research/neuro-media/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/research/neuro-media/"
+  },
+  {
+    "path": "group-category/fab-taste/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/fab-taste/"
+  },
+  {
+    "path": "research/experimental-society/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/research/experimental-society/"
+  },
+  {
+    "path": "research/learningfutures/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/research/learningfutures/"
+  },
+  {
+    "path": "research/fab-taste/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/research/fab-taste/"
+  },
+  {
+    "path": "group-category/biodigital/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/biodigital/"
+  },
+  {
+    "path": "research/biodigital/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/research/biodigital/"
+  },
+  {
+    "path": "research/cat-space/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/research/cat-space/"
+  },
+  {
+    "path": "group-category/cat-space/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/cat-space/"
+  },
+  {
+    "path": "group-category/spin-off/index.html",
+    "status": 200,
+    "url": "https://freaklab.org/group-category/spin-off/"
+  }
+]
