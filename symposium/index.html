@@ -20,14 +20,53 @@
     --mono:"SF Mono",Menlo,Consolas,monospace;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  html,body{height:100%;background:var(--ink);color:var(--bone);font-family:var(--sans);overflow:hidden}
+  html{scroll-behavior:smooth}body{background:var(--ink);color:var(--bone);font-family:var(--sans);padding-top:100px;margin:0}
 
-  /* ---------- stage & scaling ---------- */
-  #stage{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
-  #deck{width:1920px;height:1080px;position:relative;transform-origin:center center}
-  .slide{position:absolute;inset:0;padding:90px 110px;display:none;flex-direction:column;
-    background:var(--ink);overflow:hidden}
-  .slide.active{display:flex}
+  /* ---------- top menu bar — matches Flatsome site header ---------- */
+  #topnav{position:fixed;top:0;left:0;right:0;z-index:1001;background:rgba(0,0,0,.9);
+    font-family:Lato,sans-serif;box-shadow:0 1px 0 rgba(255,255,255,.06)}
+  #topnav .nav-inner{max-width:1250px;margin:0 auto;height:100px;display:flex;align-items:center;
+    justify-content:space-between;padding:0 20px;position:relative}
+  #topnav .brand{display:flex;align-items:center;color:#fff;text-decoration:none;flex-shrink:0}
+  #topnav .brand img{height:48px;width:200px;object-fit:contain;display:block}
+  #topnav .navlinks{display:flex;gap:14px;align-items:center;list-style:none}
+  #topnav .navlinks li{position:relative}
+  #topnav .navlinks>li>a{display:inline-flex;align-items:center;color:#fff;text-decoration:none;
+    font-weight:700;font-size:12.8px;letter-spacing:.02em;text-transform:uppercase;white-space:nowrap;
+    padding:10px 0;transition:color .2s}
+  #topnav .navlinks>li>a:hover,#topnav .navlinks>li.active>a{color:rgba(255,255,255,.74)}
+  #topnav .navlinks>li.active>a{box-shadow:0 2px 0 rgba(255,255,255,.74) inset;padding-bottom:8px}
+  #topnav .caret{display:inline-block;width:0;height:0;margin-left:5px;vertical-align:middle;
+    border:4px solid transparent;border-top-color:currentColor}
+  #topnav .dropdown{position:absolute;top:100%;left:-20px;min-width:200px;background:rgba(0,0,0,.95);
+    list-style:none;padding:20px;margin:0;display:none;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+  #topnav li:hover>.dropdown,#topnav li:focus-within>.dropdown{display:block}
+  #topnav .dropdown li+li{margin-top:10px}
+  #topnav .dropdown a{color:rgba(255,255,255,.85);text-decoration:none;font-weight:400;
+    font-size:12.5px;letter-spacing:.02em;white-space:nowrap}
+  #topnav .dropdown a:hover{color:#fff}
+  #topnav .top-divider{height:1px;background:rgba(255,255,255,.06);max-width:1250px;margin:0 auto}
+  @media (max-width:1023px){#topnav .navlinks{display:none}
+    #topnav .burger{display:inline-flex}}
+  #topnav .burger{display:none;align-items:center;justify-content:center;width:44px;height:44px;
+    color:#fff;text-decoration:none;font-size:22px;flex-shrink:0}
+  #topnav .mobile-menu{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(0,0,0,.97);
+    border-top:1px solid rgba(255,255,255,.06);padding:12px 24px 20px;z-index:1002}
+  #topnav .mobile-menu li{padding:11px 0;border-bottom:1px solid rgba(255,255,255,.06)}
+  #topnav .mobile-menu li.parent{padding-bottom:0;border-bottom:none}
+  #topnav .mobile-menu li.parent>a{font-weight:700}
+  #topnav .mobile-menu a{color:#fff;text-decoration:none;font-weight:400;font-size:13px;
+    text-transform:uppercase;letter-spacing:.02em;display:block;padding:4px 0}
+  #topnav .mobile-menu ul{list-style:none;margin:4px 0 10px;padding-left:14px}
+  #topnav .mobile-menu ul a{color:rgba(255,255,255,.75);font-size:12px}
+
+  #stage{padding-top:100px}
+  /* ---------- stage & scaling: vertical scroll ---------- */
+  #stage{position:relative;display:block;width:100%}
+  #deck{width:100%;position:relative}
+  .vw{position:relative;width:100%;overflow:hidden;background:var(--ink)}
+  .slide{position:absolute;top:0;left:0;width:1920px;height:1080px;padding:90px 110px;
+    display:flex;flex-direction:column;background:var(--ink);overflow:hidden;transform-origin:top left}
   .slide::before{content:"";position:absolute;inset:0;pointer-events:none;
     background:radial-gradient(1200px 700px at 82% -10%,rgba(157,196,85,.10),transparent 60%),
                radial-gradient(900px 600px at -10% 110%,rgba(95,122,51,.12),transparent 55%)}
@@ -105,15 +144,8 @@
   .full-bleed img{width:100%;height:100%;object-fit:cover;opacity:.5;filter:saturate(.9)}
   .on-dark{background:linear-gradient(90deg,rgba(14,18,12,.96) 0%,rgba(14,18,12,.82) 45%,rgba(14,18,12,.35) 100%)}
 
-  /* ---------- controls ---------- */
-  #hud{position:fixed;bottom:22px;right:28px;z-index:50;display:flex;gap:14px;align-items:center;
-    font-family:var(--mono);font-size:15px;color:rgba(236,231,218,.55)}
-  #hud button{background:rgba(29,36,23,.8);border:1px solid var(--line);color:var(--bone);
-    font-family:var(--mono);font-size:15px;padding:8px 16px;cursor:pointer;border-radius:4px}
-  #hud button:hover{border-color:var(--moss);color:var(--moss)}
-  #dots{position:fixed;bottom:26px;left:50%;transform:translateX(-50%);z-index:50;display:flex;gap:8px}
-  #dots i{width:8px;height:8px;border-radius:50%;background:rgba(236,231,218,.2);cursor:pointer}
-  #dots i.on{background:var(--moss)}
+  /* guards for wpautop artifacts */
+  #stage>p,#deck>p,#deck>p:empty{display:none!important;margin:0!important;padding:0!important}
   @media print{
     html,body{overflow:visible;background:#fff}
     #stage{position:static;display:block}
@@ -124,10 +156,11 @@
 
   /* ---------- tablet & mobile: reflow to stacked scroll ---------- */
   @media (max-width:880px){
-    html,body{overflow:auto!important;height:auto!important}
     #stage{position:static!important;display:block!important}
-    #deck{width:100%!important;height:auto!important;transform:none!important}
-    .slide{display:flex!important;position:relative!important;inset:auto;height:auto;min-height:0;
+    #deck{width:100%!important;height:auto!important}
+    .vw{height:auto!important;overflow:visible!important}
+    .slide{display:flex!important;position:relative!important;inset:auto;width:100%!important;height:auto!important;
+      min-height:0;transform:none!important;
       padding:54px 26px 34px!important;overflow:visible!important}
     .slide+.slide{border-top:1px solid var(--line)}
     .slide.divider{min-height:72vh;justify-content:center}
@@ -169,9 +202,6 @@
     div[style*="1.55fr"]{grid-template-columns:1fr!important;gap:34px 0!important}
     img[style*="width:158px"]{width:86px!important;height:86px!important;margin-bottom:8px!important}
     .full-bleed{opacity:.4}
-    #dots{display:none!important}
-    #hud button,#hud #counter{display:none}
-    #hud{bottom:12px;right:12px}
   }
   @media (max-width:480px){
     .slide{padding:42px 18px 28px!important}
@@ -182,10 +212,69 @@
 </style>
 </head>
 <body>
+<nav id="topnav"><div class="nav-inner">
+  <a class="brand" href="https://freaklab.org/" title="FREAK lab - Futuristic Research in Enigmatic + Aesthetic Knowledges"><img src="https://freaklab.org/wp-content/uploads/2018/11/FL-logo-w-1024x247.png" alt="FREAK lab"></a>
+  <ul class="navlinks">
+    <li><a href="https://freaklab.org/">Home <span class="caret"></span></a>
+      <ul class="dropdown"><li><a href="https://freaklab.org/wp-admin">Login</a></li></ul></li>
+    <li><a href="https://freaklab.org/research/">Research <span class="caret"></span></a>
+      <ul class="dropdown">
+        <li><a href="https://freaklab.org/research/">Research Group</a></li>
+        <li><a href="https://sites.google.com/site/freaklabx/">Knowledge</a></li>
+        <li><a href="https://freaklab.org/publications/">Publications</a></li>
+        <li><a href="https://freaklab.org/courses/">Courses</a></li>
+      </ul></li>
+    <li><a href="https://freaklab.org/residency-program/">Residency</a></li>
+    <li class="active"><a href="https://freaklab.org/symposium/">Symposium</a></li>
+    <li><a href="https://freaklab.org/people/">People <span class="caret"></span></a>
+      <ul class="dropdown">
+        <li><a href="https://freaklab.org/people/">People</a></li>
+        <li><a href="https://www.facebook.com/FreakLaboratory/">Connect</a></li>
+        <li><a href="https://freaklab.org/join-us/">Join Us</a></li>
+      </ul></li>
+    <li><a href="https://freaklab.org/updates/">Updates <span class="caret"></span></a>
+      <ul class="dropdown">
+        <li><a href="https://freaklab.org/events/">Events</a></li>
+        <li><a href="https://freaklab.org/press/">Press</a></li>
+        <li><a href="https://freaklab.org/spinoff/">Spin Off</a></li>
+      </ul></li>
+    <li><a href="https://freaklab.org/hq/">HQ</a></li>
+  </ul>
+  <a class="burger" href="#" id="burgerBtn" aria-label="Menu">&#9776;</a>
+</div>
+<div class="top-divider"></div>
+<ul class="mobile-menu" id="mobileMenu">
+  <li class="parent"><a href="https://freaklab.org/">Home</a>
+    <ul><li><a href="https://freaklab.org/wp-admin">Login</a></li></ul></li>
+  <li class="parent"><a href="https://freaklab.org/research/">Research</a>
+    <ul>
+      <li><a href="https://freaklab.org/research/">Research Group</a></li>
+      <li><a href="https://sites.google.com/site/freaklabx/">Knowledge</a></li>
+      <li><a href="https://freaklab.org/publications/">Publications</a></li>
+      <li><a href="https://freaklab.org/courses/">Courses</a></li>
+    </ul></li>
+  <li><a href="https://freaklab.org/residency-program/">Residency</a></li>
+  <li><a href="https://freaklab.org/symposium/">Symposium</a></li>
+  <li class="parent"><a href="https://freaklab.org/people/">People</a>
+    <ul>
+      <li><a href="https://freaklab.org/people/">People</a></li>
+      <li><a href="https://www.facebook.com/FreakLaboratory/">Connect</a></li>
+      <li><a href="https://freaklab.org/join-us/">Join Us</a></li>
+    </ul></li>
+  <li class="parent"><a href="https://freaklab.org/updates/">Updates</a>
+    <ul>
+      <li><a href="https://freaklab.org/events/">Events</a></li>
+      <li><a href="https://freaklab.org/press/">Press</a></li>
+      <li><a href="https://freaklab.org/spinoff/">Spin Off</a></li>
+    </ul></li>
+  <li><a href="https://freaklab.org/hq/">HQ</a></li>
+</ul>
+<script>(function(){var b=document.getElementById('burgerBtn'),m=document.getElementById('mobileMenu');b.addEventListener('click',function(e){e.preventDefault();m.style.display=m.style.display==='block'?'none':'block';});})();</script>
+</nav>
 <div id="stage"><div id="deck">
 
 <!-- 01 · TITLE -->
-<section class="slide" id="s1">
+<div class="vw"><section class="slide" id="s1">
   <div class="full-bleed"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s23_2.jpg" alt=""></div>
   <div style="position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(14,18,12,.97) 0%,rgba(14,18,12,.88) 42%,rgba(14,18,12,.30) 100%)"></div>
   <div style="flex:1;display:flex;flex-direction:column;justify-content:center;max-width:1150px">
@@ -198,10 +287,10 @@
     <p class="sub" style="margin-top:40px;font-size:25px">The third phase of a journey that began in a rice-farm laboratory in Phitsanulok and grew through the workshops of Singapore — asking what biotechnology means for the natural world, and what art can see that science alone cannot.</p>
   </div>
   <div class="footer"><span>Intimacy with Nature</span><span>2022 → 2027</span></div>
-</section>
+</section></div>
 
 <!-- 02 · THE QUESTION -->
-<section class="slide" id="s2">
+<div class="vw"><section class="slide" id="s2">
   <div class="two-col">
     <div>
       <div class="kicker"><span class="num">02</span>The Question</div>
@@ -215,10 +304,10 @@
     </div>
   </div>
   <div class="footer"><span>The Question</span><span>02 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 03 · FREAK LAB -->
-<section class="slide" id="s3">
+<div class="vw"><section class="slide" id="s3">
   <div class="two-col">
     <div class="img-col">
       <div class="frame" style="height:680px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s18_2.png" alt="FREAK Lab HQ"></div>
@@ -233,10 +322,10 @@
     </div>
   </div>
   <div class="footer"><span>FREAK Lab</span><span>03 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 04 · TIMELINE -->
-<section class="slide" id="s4">
+<div class="vw"><section class="slide" id="s4">
   <div class="kicker"><span class="num">04</span>The Journey</div>
   <h2>Three phases of intimacy</h2>
   <div class="timeline">
@@ -262,11 +351,11 @@
     <div class="frame" style="height:230px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/nhm_hero.webp" alt="Natural History Museum, Chulalongkorn University"></div>
   </div>
   <div class="footer"><span>The Journey</span><span>04 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 05 · PHASE 1 DIVIDER -->
-<section class="slide divider" id="s5">
-  <div class="full-bleed"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s20_1.jpg" alt=""></div>
+<div class="vw"><section class="slide divider" id="s5">
+  <div class="full-bleed"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_lab_divider.jpg" alt=""></div>
   <div style="position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(14,18,12,.97) 0%,rgba(14,18,12,.88) 45%,rgba(14,18,12,.35) 100%)"></div>
   <div class="phase-tag">Phase One · 17–23 July 2022</div>
   <h1>Going inside <em>the laboratory</em></h1>
@@ -274,10 +363,10 @@
   <hr class="rule">
   <p class="sub">Co-hosted by Prof. Pakpoom Subsoontorn and the Bangkok International Performing Arts Meeting (BIPAM), the first iteration of Intimacy with Nature brought seven artists in residence into a working research university — with a one-week public workshop alongside.</p>
   <div class="footer"><span>Phase 1 · Thailand 2022</span><span>05 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 06 · PHASE 1 ACTIVITIES I -->
-<section class="slide" id="s6">
+<div class="vw"><section class="slide" id="s6">
   <div class="kicker"><span class="num">06</span>Phase 1 · In the Lab</div>
   <h2>Learning the instruments of life</h2>
   <div class="two-col" style="align-items:start">
@@ -292,10 +381,10 @@
     </div>
   </div>
   <div class="footer"><span>Phase 1 · Thailand 2022</span><span>06 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 07 · PHASE 1 ACTIVITIES II -->
-<section class="slide" id="s7">
+<div class="vw"><section class="slide" id="s7">
   <div class="kicker"><span class="num">07</span>Phase 1 · Beyond the Bench</div>
   <h2>Biology as it lives in the province</h2>
   <div class="trio" style="flex:1;align-items:center">
@@ -314,10 +403,10 @@
   </div>
   <p class="sub" style="font-size:27px;max-width:100%">From fungal dyes to research rice fields to village fermentation — <span style="color:var(--moss)">what was learned: biotechnology already lives in farms, kitchens and local crafts.</span></p>
   <div class="footer"><span>Phase 1 · Thailand 2022</span><span>07 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 08 · PHASE 1 CLOSE -->
-<section class="slide" id="s8">
+<div class="vw"><section class="slide" id="s8">
   <div class="two-col">
     <div>
       <div class="kicker"><span class="num">08</span>Phase 1 · Residue</div>
@@ -336,20 +425,20 @@
     </div>
   </div>
   <div class="footer"><span>Phase 1 · Thailand 2022</span><span>08 / 21</span></div>
-</section>
+</section></div>
 
 
 <!-- 09 · PHASE 1 GALLERY -->
-<section class="slide" id="s8g">
+<div class="vw"><section class="slide" id="s8g">
   <div class="kicker"><span class="num">09</span>Phase 1 · Phitsanulok 2022</div>
   <h2 style="margin-bottom:24px">Inside the week — a photo wall</h2>
   <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:18px;flex:1;align-content:center">
-      <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_01.jpg" alt=""></div>
+      <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_wall_08.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_02.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_03.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_04.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_05.jpg" alt=""></div>
-      <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_06.jpg" alt=""></div>
+      <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_wall_16.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_07.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_08.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_09.jpg" alt=""></div>
@@ -357,14 +446,14 @@
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_11.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_12.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_13.jpg" alt=""></div>
-      <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_14.jpg" alt=""></div>
+      <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_wall_14.jpg" alt=""></div>
       <div class="frame" style="height:296px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/phits_15.jpg" alt=""></div>
   </div>
   <p class="cap" style="margin-top:18px">BioArt Residency Phitsanulok 2022 — Naresuan University · 17–23 July 2022</p>
   <div class="footer"><span>Phase 1 · Phitsanulok 2022</span><span>09 / 21</span></div>
-</section>
+</section></div>
 <!-- 09 · PHASE 2 DIVIDER -->
-<section class="slide divider" id="s9">
+<div class="vw"><section class="slide divider" id="s9">
   <div class="full-bleed"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s24_5.jpg" alt=""></div>
   <div style="position:absolute;inset:0;z-index:0;background:linear-gradient(90deg,rgba(14,18,12,.97) 0%,rgba(14,18,12,.88) 45%,rgba(14,18,12,.35) 100%)"></div>
   <div class="phase-tag">Phase Two · 15–19 March 2023</div>
@@ -373,10 +462,10 @@
   <hr class="rule">
   <p class="sub">A five-day BioArt workshop, open to the public, hosted by SAM Residencies as part of FREAK Lab's EX-SITU residency — lectures, hands-on seminars and off-site tours, connecting participants with local Singaporean practitioners and initiatives.</p>
   <div class="footer"><span>Phase 2 · Singapore 2023</span><span>10 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 10 · PHASE 2 ACTIVITIES I -->
-<section class="slide" id="s10">
+<div class="vw"><section class="slide" id="s10">
   <div class="kicker"><span class="num">11</span>Phase 2 · Gardens &amp; Kitchens</div>
   <h2>Edible ecology of the urban tropics</h2>
   <div class="two-col" style="align-items:start">
@@ -394,10 +483,10 @@
   </div>
   <p class="sub" style="font-size:27px;max-width:100%;margin-top:20px"><span style="color:var(--moss)">What was learned: genetic transformation on a salad plate — and the herbal knowledge woven through the modern city.</span></p>
   <div class="footer"><span>Phase 2 · Singapore 2023</span><span>11 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 11 · PHASE 2 ACTIVITIES II -->
-<section class="slide" id="s11">
+<div class="vw"><section class="slide" id="s11">
   <div class="kicker"><span class="num">12</span>Phase 2 · Soil, Farms &amp; Protein</div>
   <h2>Biotech from the ground up</h2>
   <div class="trio" style="flex:1;align-items:center">
@@ -416,11 +505,11 @@
   </div>
   <p class="sub" style="font-size:27px;max-width:100%"><span style="color:var(--moss)">What was learned: a community lab movement across Southeast Asia — biotechnology democratized, in farms, kitchens and maker spaces.</span></p>
   <div class="footer"><span>Phase 2 · Singapore 2023</span><span>12 / 21</span></div>
-</section>
+</section></div>
 
 
 <!-- 13 · PHASE 2 GALLERY -->
-<section class="slide" id="s11g">
+<div class="vw"><section class="slide" id="s11g">
   <div class="kicker"><span class="num">13</span>Phase 2 · Singapore 2023</div>
   <h2 style="margin-bottom:24px">Five days in the city-lab — a photo wall</h2>
   <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:18px;flex:1;align-content:center">
@@ -442,9 +531,9 @@
       </div>
   <p class="cap" style="margin-top:18px">BioArt Workshop Singapore 2023 — Singapore Art Museum · 15–19 March 2023</p>
   <div class="footer"><span>Phase 2 · Singapore 2023</span><span>13 / 21</span></div>
-</section>
+</section></div>
 <!-- 12 · THE THREAD -->
-<section class="slide" id="s12">
+<div class="vw"><section class="slide" id="s12">
   <div class="two-col">
     <div class="img-col">
       <div class="frame" style="height:640px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/s28_4.jpg" alt="Soil battery workshop"></div>
@@ -459,10 +548,10 @@
     </div>
   </div>
   <div class="footer"><span>The Thread</span><span>14 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 13 · PHASE 3 DIVIDER -->
-<section class="slide divider" id="s13">
+<div class="vw"><section class="slide divider" id="s13">
   <div style="max-width:1050px">
     <div class="phase-tag">Phase Three · 4–7 March 2027</div>
     <h1>The <em style="color:var(--amber)">Symposium</em></h1>
@@ -472,10 +561,10 @@
     <p class="sub" style="margin-top:26px;color:var(--bone-dim)">Organized by FREAK Lab Thailand × BACC</p>
   </div>
   <div class="footer"><span>Phase 3 · Bangkok 2027</span><span>15 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 14 · DAY 1 -->
-<section class="slide" id="s14">
+<div class="vw"><section class="slide" id="s14">
   <div class="kicker"><span class="num">16</span>Program v2.2 · Day 1 — March 5</div>
   <h2>Arrival &amp; Foundations</h2>
   <div class="prog">
@@ -488,10 +577,10 @@
     </table>
   </div>
   <div class="footer"><span>Phase 3 · Program v2.2 · BACC or Chulalongkorn University</span><span>16 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 15 · DAY 2 -->
-<section class="slide" id="s15">
+<div class="vw"><section class="slide" id="s15">
   <div class="kicker"><span class="num">17</span>Program v2.2 · Day 2 — March 6</div>
   <h2>Human &amp; Non-Human</h2>
   <div class="prog">
@@ -508,10 +597,10 @@
     </table>
   </div>
   <div class="footer"><span>Phase 3 · Program v2.2 · Afternoon at Chulalongkorn Natural History Museum</span><span>17 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 16 · DAY 3 -->
-<section class="slide" id="s16">
+<div class="vw"><section class="slide" id="s16">
   <div class="kicker"><span class="num">18</span>Program v2.2 · Day 3 — March 7</div>
   <h2>Curating in the Technological Drift</h2>
   <div class="prog">
@@ -527,10 +616,10 @@
     </table>
   </div>
   <div class="footer"><span>Phase 3 · Program v2.2 · BACC or Chulalongkorn University</span><span>18 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 19 · SPEAKERS -->
-<section class="slide" id="s17">
+<div class="vw"><section class="slide" id="s17">
   <div class="kicker"><span class="num">19</span>Voices · Program v2.2</div>
   <h2 style="margin-bottom:20px">Speakers</h2>
   <div style="display:grid;grid-template-columns:1.55fr 1fr;gap:0 56px;flex:1;min-height:0">
@@ -595,10 +684,10 @@
     </div>
   </div>
   <div class="footer"><span>Join us in Bangkok — March 4–7, 2027 · freaklab.org</span><span>19 / 21</span></div>
-</section>
+</section></div>
 
 <!-- 20 · LIVE FOREVER? -->
-<section class="slide" id="s19">
+<div class="vw"><section class="slide" id="s19">
   <div class="two-col" style="align-items:center">
     <div>
       <div class="kicker"><span class="num">20</span>Beyond the Symposium · FREAK Lab Thailand</div>
@@ -621,9 +710,9 @@
     </div>
   </div>
   <div class="footer"><span>Live Forever? · Spiritual Drug Discovery</span><span>20 / 21</span></div>
-</section>
+</section></div>
 <!-- 21 · BOTANICAL GARDEN RESIDENCY -->
-<section class="slide" id="s20">
+<div class="vw"><section class="slide" id="s20">
   <div class="two-col">
     <div class="img-col">
       <div class="frame" style="height:640px"><img src="https://pub-6509346c2fdc47328b748c024f30f006.r2.dev/symposium/assets/rayong_3.jpg" alt="Rayong Botanical Garden"></div>
@@ -643,43 +732,25 @@
     </div>
   </div>
   <div class="footer"><span>Botanical Garden Network Residency · Rayong</span><span>21 / 21</span></div>
-</section>
+</section></div>
 
 </div></div>
 
-<div id="dots"></div>
-<div id="hud">
-  <a href="../" style="color:rgba(236,231,218,.55);text-decoration:none;border:1px solid rgba(236,231,218,.18);padding:8px 14px;border-radius:4px">← FREAK Lab</a>
-  <button onclick="nav(-1)">←</button>
-  <span id="counter">1 / 21</span>
-  <button onclick="nav(1)">→</button>
-</div>
-
 <script>
-const slides=[...document.querySelectorAll('.slide')];
-let cur=0;
-try{cur=Math.min(parseInt(localStorage.getItem('iwn-deck')||'0'),slides.length-1)||0}catch(e){}
-const dots=document.getElementById('dots');
-slides.forEach((s,i)=>{const d=document.createElement('i');d.onclick=()=>go(i);dots.appendChild(d)});
-function go(i){
-  cur=(i+slides.length)%slides.length;
-  slides.forEach((s,j)=>s.classList.toggle('active',j===cur));
-  [...dots.children].forEach((d,j)=>d.classList.toggle('on',j===cur));
-  document.getElementById('counter').textContent=(cur+1)+' / '+slides.length;
-  try{localStorage.setItem('iwn-deck',cur)}catch(e){}
+// fit each 1920x1080 slide into its .vw container (desktop/tablet); mobile uses CSS reflow
+const vws=[...document.querySelectorAll('.vw')];
+function fitAll(){
+  const mobile=matchMedia('(max-width:880px)').matches;
+  vws.forEach(vw=>{
+    const s=vw.querySelector('.slide'); if(!s)return;
+    if(mobile){s.style.transform='';vw.style.height='';return;}
+    const k=vw.clientWidth/1920;
+    s.style.transform='scale('+k+')';
+    vw.style.height=(k*1080)+'px';
+  });
 }
-function nav(d){go(cur+d)}
-document.addEventListener('keydown',e=>{
-  if(['ArrowRight','ArrowDown',' ','PageDown'].includes(e.key)){e.preventDefault();nav(1)}
-  if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();nav(-1)}
-  if(e.key==='Home')go(0); if(e.key==='End')go(slides.length-1);
-});
-function fit(){
-  const d=document.getElementById('deck');
-  const s=Math.min(innerWidth/1920,innerHeight/1080);
-  d.style.transform='scale('+s+')';
-}
-addEventListener('resize',fit);fit();go(cur);
+addEventListener('resize',fitAll);
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fitAll);else fitAll();
 </script>
 </body>
 </html>
