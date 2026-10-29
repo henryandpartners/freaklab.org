@@ -1,0 +1,67 @@
+{
+  "desktop_width": 1587,
+  "mobile_width": 393,
+  "homepage_filters": [
+    {
+      "label": "All Group",
+      "visible": 63
+    },
+    {
+      "label": "Cat Space",
+      "visible": 15
+    },
+    {
+      "label": "Experimental Society",
+      "visible": 12
+    },
+    {
+      "label": "Fab Taste",
+      "visible": 4
+    },
+    {
+      "label": "Functional Aesthetics",
+      "visible": 7
+    },
+    {
+      "label": "Special Project",
+      "visible": 6
+    },
+    {
+      "label": "Learning Futures",
+      "visible": 7
+    },
+    {
+      "label": "Neuro Media",
+      "visible": 6
+    },
+    {
+      "label": "Spin Off",
+      "visible": 2
+    },
+    {
+      "label": "Biodigital",
+      "visible": 19
+    },
+    {
+      "label": "Space Zab",
+      "visible": 4
+    }
+  ],
+  "update_next_page": "9\u201316 of 69",
+  "gallery_original_width": 1600,
+  "gallery_open_and_close": true,
+  "member_profile": "/peoples/pat-pataranutaporn/",
+  "search": "/search/?s=isnail",
+  "symposium_next_slide": "02 THE QUESTION",
+  "mobile_drawer_and_nested_research_menu": true,
+  "mobile_search_and_residency_no_horizontal_overflow": true,
+  "scope": "Representative browser interaction checks through CUA; full static route/resource/text coverage is in verification.json.",
+  "jube_archived_images": {
+    "loaded": 12,
+    "broken": 0,
+    "original_widths": [
+      519,
+      706
+    ]
+  }
+}

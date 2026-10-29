@@ -1,0 +1,23 @@
+DirectoryIndex index.html
+Options -Indexes
+ErrorDocument 404 /404.html
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule (^|/)\.(?!well-known/) - [R=404,L]
+RewriteRule ^(?:wp-admin|wp-json|wp-includes|wp-content)(?:/|$) - [R=404,L]
+RewriteRule \.(?:php[0-9]?|phtml|phar|py|sh|sql|toml|env)(?:/|$) - [R=404,L,NC]
+RewriteRule ^(?:tools|audit|content)(?:/|$) - [R=404,L]
+</IfModule>
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set Content-Security-Policy "base-uri 'self'; object-src 'none'; frame-ancestors 'self'"
+</IfModule>
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/webp "access plus 1 month"
+ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
